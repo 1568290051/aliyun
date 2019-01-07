@@ -34,6 +34,7 @@ a:hover{
   width: 100%;
   font-family: '微软雅黑';
   font-size: 14px !important;
+  z-index: 10;
 }
 .syh-top-nav:hover{
   background-color: #1c2327;
