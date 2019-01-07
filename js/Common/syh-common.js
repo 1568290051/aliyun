@@ -1,4 +1,4 @@
-window.onload = function(){
+$(function(){
   // 获得元素
 var oSouSuo = document.querySelector('.syh-sousuo');
 // 给元素添加点击事件
@@ -96,4 +96,4 @@ oSouSuo.onblur = function(){
       $('.syh-right-fixd-list').stop().fadeOut(300);
     });
     
-}
+})
