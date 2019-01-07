@@ -417,6 +417,7 @@ a:hover{
   bottom: 280px;
   right: 15px;
   cursor: pointer;
+  z-index: 10;
 }
 .syh-right-fixd>span{
   width: 14px;
@@ -448,6 +449,7 @@ a:hover{
   padding: 20px;
   font-family: '微软雅黑' !important;
   display: none;
+  background-color: #ffffff;
 }
 .syh-right-fixd-list li{
   width: 280px;
