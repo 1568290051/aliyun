@@ -1,0 +1,82 @@
+/* 顶部页面 */
+.zbx-nav{
+    width: 100%;
+    height: 202px;
+    border:2px solid blueviolet;
+    background: url("../../images/Zbx/beijng1.png") no-repeat 0px 0px; 
+    background-size: 100% 100%;
+}
+/* 公共部分 */
+.common{
+    margin: 0px auto;
+    width: 1200px;
+    font-family: '微软雅黑';
+    font-weight: normal;
+    overflow: hidden;
+}
+/* 顶部页面左边 */
+.zbx-nav .left{
+    width: 700px;
+    height: 202px;
+    float: left;
+}
+
+.zbx-nav .left h3{
+ margin:61px 0px;
+ font-size: 36px;
+ color: #fff;
+ font-family: '微软雅黑';
+ font-weight: normal;
+}
+.zbx-nav .left p{
+    width: 690px;
+    height: 50px;
+    font-size: 15px;
+    color: #fff;
+    margin: -48px 0px;
+   }
+/* 右边 */
+.zbx-nav .right{
+    width: 500px;
+    height: 86px;
+    float: right;
+    margin-top: 20px;
+}
+.zbx-nav .right ul>li{
+    position: relative;
+    float: right;
+    width: 155px;
+    height: 155px;
+    background-position: 35px 30px;
+    background-size: 80px 80px;
+    background-repeat: no-repeat;
+    box-sizing: border-box;
+    padding-top: 130px;
+    text-align: center;
+    transition: margin 0.3s;
+    cursor: pointer;
+    opacity: 0.6;
+}
+.zbx-nav .right ul>li a{
+    color: #fff;
+}
+.zbx-nav .right ul>li:nth-child(1){
+    background-image: url("../../images/Zbx/left-3.png");
+}
+
+.zbx-nav .right ul>li:nth-child(2){
+    background-image: url("../../images/Zbx/left-2.png");
+}
+.zbx-nav .right ul>li:nth-child(3){
+    background-image: url("../../images/Zbx/left-1.png");
+}
+.zbx-li-xuanz{
+    margin-top: -20px;
+    transform: scale(1.2);
+    opacity: 1 !important;
+}
+.zbx-nav .right ul>li:hover{
+    margin-top: -20px;
+    transform: scale(1.2);
+    opacity: 1;
+}
