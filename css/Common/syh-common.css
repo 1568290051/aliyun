@@ -38,6 +38,7 @@ a:hover{
 }
 .syh-top-nav:hover{
   background-color: #1c2327;
+  border-bottom: none;
 }
 .syh-nav-top{
   height: 50px;
