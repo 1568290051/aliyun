@@ -84,4 +84,16 @@ oSouSuo.onblur = function(){
         }
       },10);
     }
+    // 获取元素
+    // var syhRightFix = document.querySelector('.syh-right-fixd');
+    // var syhRightBlock = document.querySelector('.syh-right-fixd-list');
+    $('.syh-right-fixd').mouseout(function(){
+      $('.syh-right-fixd-list').stop().fadeOut(300);
+    }).mouseover(function(){
+      $('.syh-right-fixd-list').stop().fadeIn(300);
+    })
+    $('.xiaocha').click(function(){
+      $('.syh-right-fixd-list').stop().fadeOut(300);
+    });
+    
 }
