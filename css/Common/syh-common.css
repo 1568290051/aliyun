@@ -18,13 +18,13 @@ a{
   transition: color 0.2s;
   color: white;
 }
-a:hover{
+.syh-top-nav a:hover,.syh-bottom-out a{
   color: #00c1de;
 }
 /* 顶部高度 宽度自动 */
 .syh-top-nav{
   height: 100px;
-  border-bottom: 1px solid #2b2f33;
+  border-bottom: 1px solid hsla(0,0%,100%,.15);
   box-sizing: border-box;
   transition: background-color 0.5s;
   /* background-color: #1c2327; */
@@ -42,7 +42,7 @@ a:hover{
 }
 .syh-nav-top{
   height: 50px;
-  border-bottom: 1px solid #2b2f33;
+  border-bottom: 1px solid hsla(0,0%,100%,.15);
   box-sizing: border-box;
 }
 .syh-left{

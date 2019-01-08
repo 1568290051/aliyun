@@ -1,10 +1,110 @@
 /* 默认字体微软雅黑 */
-a,p,span,div,h1,h2,h3{
+a,p,span,div,h1,h2,h3,.common{
   font-family: '微软雅黑' !important;
 }
-.top-lunbotu{
+/* 公共的盒子 版心 */
+.common{
+  width: 1200px;
+  margin: 0px auto;
+  height: auto;
+}
+.syh-lunbotu-changkou{
   width: 1903px;
+  position: relative;
+  /* overflow: hidden; */
+}
+.top-lunbotu{
+  width: calc(1903px * 3);
   height: 380px;
   padding-top: 100px;
   background-color: #24133d;
+  position: relative;
+  left: 0px;
+}
+.top-lunbotu>div{
+  float: left;
+  width:1903px;
+  height: 380px;
+  box-sizing: border-box;
+  background-size: cover;
+}
+.lunbotu-1{
+  background-image: url("../../images/Syh/syh-top-lb-img1.png");
+}
+.lunbotu-2{
+  background-image: url("../../images/Syh/syh-top-lb-img2.png");
+}
+.lunbotu-3{
+  background-image: url("../../images/Syh/syh-top-lb-img3.jpg");
+}
+/* 图片上面的文字 */
+.top-lunbotu .common{
+  padding-top: 103px;
+}
+.top-lunbotu .one-p{
+  font-size: 40px;
+  line-height: 50px;
+  height: 50px;
+  color: #fff;
+}
+.top-lunbotu .two-p{
+  margin-top: 15px;
+  font-size: 18px;
+  line-height: 26px;
+  color: #fff;
+}
+.top-lunbotu .three-a{
+  display: inline-block;
+  width: 120px;
+  height: 36px;
+  font-size: 16px;
+  line-height: 36px;
+  color: #fff;
+  border: 1px solid #fff;
+  text-align: center;
+  text-decoration: none;
+  margin-top: 41px;
+  transition: 0.3s;
+}
+.top-lunbotu .three-a:hover{
+  background-color: #fff;
+  color: #000;
+  transition: all .3s;
+}
+/* 小点导航 */
+.xiaodian-nav{
+  position: absolute;
+  bottom: 25px;
+  left: 0px;
+  width: 100%;
+  text-align: center;
+}
+.xiaodian-nav>i{
+  display: inline-block;
+  width: 26px;
+  height: 4px;
+  background-color: #a1a1a3;
+  margin: 0px 3px;
+  cursor: pointer;
+}
+/* 小点点击类名 */
+.xiaodian-iClick{
+  background: white !important;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+/* 轮播图文字区块 */
+.senzi-qukuai{
+  height: 80px;
+  background-color: #0f1d3d;
 }
