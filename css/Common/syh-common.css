@@ -18,6 +18,9 @@ a{
   transition: color 0.2s;
   color: white;
 }
+body{
+  height: 4000px;
+}
 a:hover{
   color: #00c1de;
 }
@@ -642,7 +645,7 @@ i.three{
 
 /* 底部 */
 .syh-bottom-bottom{
-  height: 227px;
+  height: 164px;
   padding-bottom: 30px !important;
 }
 .syh-bottom-center .syh-bottom-center-ul1>li>h3{

@@ -109,6 +109,7 @@ $(function () {
     var syhMaoDian = document.querySelector('.syh-maoDian');
     // 获得距离顶部的距离
     var topHeight = getScroll('top');
+    console.log(topHeight);
     // 判断距离上面的距离
     if (topHeight >= 700) {
       syhMaoDian.style.display = 'block';
@@ -116,7 +117,7 @@ $(function () {
         // window.document.documentElement.scrollTop = 0 + 'px';
         $(window.document.documentElement).animate({
           'scrollTop' : 0,
-        },200);
+        },400);
       }
     } else {
       syhMaoDian.style.display = 'none';
