@@ -1,0 +1,10 @@
+/* 默认字体微软雅黑 */
+a,p,span,div,h1,h2,h3{
+  font-family: '微软雅黑' !important;
+}
+.top-lunbotu{
+  width: 1903px;
+  height: 380px;
+  padding-top: 100px;
+  background-color: #24133d;
+}
