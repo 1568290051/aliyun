@@ -34,7 +34,7 @@ body{
   position: absolute;
   top: 0px;
   left: 0px;
-  width: 100%;
+  width: 1903px;
   font-family: '微软雅黑';
   font-size: 14px !important;
   z-index: 10;
@@ -421,6 +421,7 @@ body{
   right: 15px;
   cursor: pointer;
   z-index: 10;
+  display: none;
 }
 .syh-right-fixd>span{
   width: 14px;
@@ -519,4 +520,150 @@ i.three{
   cursor: pointer;
   background-color: white;
   box-shadow: 0px 2px 5px 0px #cccccc;
+  display: none;
 }
+/* 底部结束 */
+.syh-bottom-out{
+  width: 1903px;
+  height: 690px;
+  background-color: #373d41;
+  position: absolute;
+  bottom: -800px;
+}
+.syh-bottom-out h3{
+  font-size: 12px;
+  color: #d7d8d9;
+  font-weight: bolder;
+}
+.syh-bottom-out *{
+  color: #9b9ea0;
+  font-family: '微软雅黑';
+}
+.syh-bottom-out>div{
+  padding: 30px 20px 0px;
+  box-sizing: border-box;
+}
+.syh-bottom-top{
+  height: 345px;
+}
+.syh-bottom-top-left{
+  width: 280px;
+  height: 196px;
+  box-sizing: border-box;
+  padding-left: 80px;
+  float: left;
+}
+.syh-bottom-top-left>ul>li{
+  width: 200px;
+  height: 30px;
+  line-height: 30px;
+}
+.syh-bottom-top-left>h2{
+  font-size: 16px;
+  margin-top: -41px;
+  color: #d7d8d9;
+  margin-bottom: 8px;
+  font-weight: normal;
+}
+.syh-bottom-top-left>h1{
+  color: white;
+  font-weight: normal;
+  font-size: 20px;
+}
+.syh-bottom-top-left>i{
+  display: block;
+  width: 50px;
+  height: 41px;
+  margin-left: -80px;
+  background: url("../../images/Common/syh-toux2.png") no-repeat 0px 0px;
+  background-size: 50px 41px;
+}
+.syh-bottom-top-right{
+  width: 900px;
+  height: 300px;
+  float: left;
+  border-left: 1px solid #4b5054;
+  padding-left: 130px;
+  box-sizing: border-box;
+  margin-bottom: 30px;
+}
+.syh-bottom-top-right>li{
+  width: 169px;
+  height: auto;
+  float: left;
+}
+.syh-bottom-top-right-lastLi{
+  width: 92px !important;
+}
+.syh-bottom-top-right-lastLi li{
+  height: auto !important;
+}
+.syh-bottom-top-right-lastLi div{
+  width: 80px;
+  height: 80px;
+  margin-top: 16px;
+  background: skyblue;
+  background-size: 80px 80px;
+  background-repeat: no-repeat;
+  background-position: 0px 0px;
+  display: none;
+}
+.syh-bottom-top-right-lastLi .one{
+  background-image: url("../../images/Common/syh-bottom-erwm1.png");
+}
+.syh-bottom-top-right-lastLi .two{
+  background-image: url("../../images/Common/syh-bottom-erwm2.png");
+}
+.syh-bottom-top-right-lastLi .three{
+  background-image: url("../../images/Common/syh-bottom-erwm3.png");
+}
+.syh-bottom-top-right-lastLi .four{
+  background-image: url("../../images/Common/syh-bottom-erwm4.png");
+}
+.syh-bottom-top-right-lastLi .five{
+  background-image: url("../../images/Common/syh-bottom-erwm5.png");
+}
+.syh-bottom-top-right>li li{
+  margin-top: 8px;
+  height: 18px;
+}
+.syh-bottom-top-right>li>h3{
+  padding-bottom: 20px;
+}
+.syh-bottom-top-right-lastLi-active{
+ display: block !important;
+}
+
+
+/* 中间 */
+.syh-bottom-center{
+  height: 119px;
+}
+
+/* 底部 */
+.syh-bottom-bottom{
+  height: 227px;
+  padding-bottom: 30px !important;
+}
+/* 版心 */
+.syh-bottom-out-common{
+  width: 1200px;
+  overflow: hidden;
+  margin: 0px auto;
+  border-bottom: 1px solid #4b5054;
+}
+/* 
+
+
+
+one 
+two
+three
+four
+five
+six
+
+
+
+ 
+*/
