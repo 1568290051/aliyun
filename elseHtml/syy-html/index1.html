@@ -30,7 +30,7 @@
     line-height: 32px;
     margin-bottom: 32px;
 }
-.content p{
+.content>p{
   color: #73777a;
     line-height: 24px;
     text-align: center;
@@ -39,11 +39,84 @@
 }
 .box1{
   float: left;
-    width: 25%;
-    box-sizing: border-box;
+  width: 300px;
 }
-.content ul{
-  padding: 32px 0;
+.logo{
+  float: left;
+  width: 300px;
+}
+.name{
+  font-size: 16px;
+    color: #333;
+    line-height: 24px;
+    text-align: center;
+    margin-bottom: 12px;
+    font-weight: 700;
+}
+.intro{
+  font-size: 14px;
+    color: #999;
+    line-height: 24px;
+    text-align: center;
+    min-width: 72px;
+}
+.module-wrap{
+  min-width: 1200px;
+    max-width: 1200px;
+    height: 100%;
+    box-sizing: border-box;
+    margin: 0 auto;
+}
+.module-wrap h3{
+  font-size: 24px;
+    color: #373d41;
+    text-align: center;
+    line-height: 32px;
+    margin-bottom: 32px;
+}
+.module-wrap ul{
+  display: inline-block;
+  padding: 10px 55px;
+    position: relative;
+    z-index: 2;
+}
+.module-wrap li{
+  float: left;
+    width: 20%;
+}
+.box2{
+  float: left;
+  width: 214px;
+  height: 136px;
+  background-color: aqua;
+  box-sizing: inherit;
+}
+.box2 .pic{
+  position: relative;
+  left: 78px;
+}
+.box2 .pic img{
+  width: 68px;
+    height: 68px;
+    border-radius: 50%;
+    background: #eeeff1;
+    margin: 0 auto;
+}
+.step{
+  font-size: 14px;
+    color: #666;
+    line-height: 20px;
+    text-align: center;
+    box-sizing: inherit;
+}
+.circle{
+  position: relative;
+  top: 0px;
+  left: 0px;
+  width: 8px;
+  height: 8px;
+  border-radius:50%; 
+  border: 4px solid rgba(86,86,86,.4);
 }
 </style>
 <body>
@@ -1474,36 +1547,98 @@
     <li>
      <div class="box1">
        <div class="pic">
-         <img src="../../images/Syy/nav-1.jpg" alt="">
+         <img src="../../images/Syy/nav-1.jpg" alt="" class="logo">
        </div>
-       <div class="txts"></div>
+       <div class="txts1">
+        <p class="name">业务支持</p>
+        <p class="intro">专属合作伙伴拓展经理提供业务支持和商务<br>支持，帮助您在云计算领域取得成功。</p>
+       </div>
      </div>
     </li>
     <li>
       <div class="box1">
         <div class="pic">
-          <img src="../../images/Syy/nav-2.jpg" alt="">
+          <img src="../../images/Syy/nav-2.jpg" alt="" class="logo">
         </div>
-        <div class="txts"></div>
+        <div class="txts2">
+          <p class="name">市场与营销支持</p>
+         <p class="intro">客户沙龙、研讨会，行业展会，云栖大会等丰富<br>的市场和营销机会。</p>
+        </div>
       </div>
     </li>
     <li>
       <div class="box1">
         <div class="pic">
-          <img src="../../images/Syy/nav-3.jpg" alt="">
+          <img src="../../images/Syy/nav-3.jpg" alt="" class="logo">
         </div>
-        <div class="txts"></div>
+        <div class="txts3">
+          <p class="name">培训赋能支持</p>
+          <p class="intro">大量的技术培训赋能机会，快速提升合作伙<br>伴云产品应用和技术服务能力。</p>
+        </div>
       </div>
     </li>
     <li>
       <div class="box1">
-        <div class="pic">
-          <img src="../../images/Syy/nav-4.jpg" alt="">
+   
+          <img src="../../images/Syy/nav-4.jpg" alt="" class="logo">
+        
+        <div class="txts4">
+          <p class="name">专业技术支持</p>
+          <p class="intro">专项技术领域获得阿里云专业架构师团队的<br>技术支持，在垂直市场获得领先优势。</p>
         </div>
-        <div class="txts"></div>
       </div>
     </li>
   </ul>
+</div>
+<div class="module-wrap">
+<h3>立刻申请成为阿里云伙伴</h3>
+<ul>
+  <li>
+    <div class="box2">
+      <div class="pic">
+        <img src="../../images/Syy/11.png" alt="">
+      </div>
+      <div class="circle"></div>
+      <div class="step">1.注册阿里云账号</div>
+    </div>
+  </li>
+  <li>
+    <div class="box2">
+      <div class="pic">
+        <img src="../../images/Syy/11.png" alt="">
+      </div>
+      <div class="circle"></div>
+      <div class="step">1.注册阿里云账号</div>
+    </div>
+  </li>
+  <li>
+    <div class="box2">
+      <div class="pic">
+        <img src="../../images/Syy/11.png" alt="">
+      </div>
+      <div class="circle"></div>
+      <div class="step">1.注册阿里云账号</div>
+    </div>
+  </li>
+  <li>
+    <div class="box2">
+      <div class="pic">
+        <img src="../../images/Syy/11.png" alt="">
+      </div>
+      <div class="circle"></div>
+      <div class="step">1.注册阿里云账号</div>
+    </div>
+  </li>
+  <li>
+    <div class="box2">
+      <div class="pic">
+        <img src="../../images/Syy/11.png" alt="">
+      </div>
+      <div class="circle"></div>
+      <div class="step">1.注册阿里云账号</div>
+    </div>
+  </li>
+</ul>
 </div>
 </div>
 </body>
