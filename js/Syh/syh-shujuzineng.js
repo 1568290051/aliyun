@@ -15,9 +15,15 @@ function lunbotu(){
       $(this).siblings().removeClass('xiaodian-iClick');
       // 让自己本身添加class类名
       $(this).addClass('xiaodian-iClick');
+      // 获得元素对应的index
+      var iIndex = this.getAttribute('data-index');
       // 调用动画函数
-      
+      $(oyidong).animate({'left': -iIndex * oWidth});
     })
+  }
+  // 给窗口鼠标移动添加事件
+  chuangkou.onmousemove = function(){
+    
   }
   
 }lunbotu();
