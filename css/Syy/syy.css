@@ -1,4 +1,5 @@
 .beijing{
+  position: relative;
   width: 100%;
   height: 499px;
   background: url(../../images/Syy/beijing-1000.jpg) center center / 1920px no-repeat rgb(35, 31, 34);
@@ -27,7 +28,7 @@ a{
   transition: color 0.2s;
   color: white;
 }
-a:hover{
+.syh-top-nav a:hover{
   color: #00c1de;
 }
 /* 顶部高度 宽度自动 */
@@ -414,3 +415,125 @@ a:hover{
   display: block !important;
 }
 /* 右侧的固定栏 */
+  *{
+    font-family: "微软雅黑";
+  }
+.beijing>h1{
+  padding-top: 172px;
+    font-size: 48px;
+    color: #fff;
+    line-height: 48px;
+    text-shadow: 0 0 12px rgba(0,0,0,.5);
+    text-align: center;
+    margin-bottom: 10px;
+}
+.beijing h1 strong{
+  font-weight: 700;
+}
+.beijing .desc{
+  font-size: 18px;
+    color: #fff;
+    text-shadow: 0 0 12px rgba(0,0,0,.5);
+    text-align: center;
+    line-height: 24px;
+}
+.wrap{
+    text-align: center;
+    padding: 16px 0;
+}
+.wrap-left{
+  background: #00c1de;
+    border: 1px solid #00c1de;
+    display: inline-block;
+    margin: 0 5px;
+    width: 138px;
+    line-height: 36px;
+    height: 34px;
+    font-size: 14px;
+    color: #fff;
+    text-align: center;
+    transition: all .5s ease;
+}
+.wrap-right{
+    border: 1px solid #fff;
+    color: #fff;
+    display: inline-block;
+    margin: 0 5px;
+    width: 138px;
+    line-height: 36px;
+    height: 34px;
+    font-size: 14px;
+    color: #fff;
+    text-align: center;
+    transition: all .5s ease;
+}
+.wrap-right:hover{
+  background-color: white;
+  color: black;
+}
+.srh-box{
+  position: absolute;
+    top: 364px;
+    left: 50%;
+    margin-left: -480px;
+    width: 960px;
+    height: 48px;
+}
+.input-text{
+  float: left;
+    padding: 0 2%;
+    width: 786px;
+    height: 48px;
+    line-height: 48px;
+    font-size: 12px;
+    background-color: #fff;
+}
+.submit-btn{
+  width: 124px;
+    height: 51px;
+    font-size: 16px;
+    color: #fff;
+    line-height: 48px;
+    text-align: center;
+    cursor: pointer;
+    background: none;
+    border: none;
+    outline: none;
+    background: #00c1de;
+    transition: all .5s ease;
+}
+.subnav{
+  background: #373d41;
+    box-shadow: 0 2px 4px 0 rgba(0,0,0,.1);
+    height: 60px;
+}
+.subnav-cont{
+  min-width: 1200px;
+  max-width: 1200px;
+}
+.subnav-cont li{
+  width: 50%;
+  float: left;
+    text-align: center;
+}
+.subnav-cont a{
+  display: inline-block;
+    font-size: 14px;
+    color: #fff;
+    line-height: 60px;
+}
+.subnav-cont spna{
+  display: inline-block;
+}
+.subnav-cont a:hover{
+  color: #3787c0;
+}
+.subnav-cont img{
+  display: inline-block;
+  width: 18px;
+  vertical-align:text-top;
+  margin-left: 12px;
+}
+.subnav-cont a:hover img{
+  background-color: #3787c0;
+}

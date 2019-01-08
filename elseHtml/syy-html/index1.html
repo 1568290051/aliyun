@@ -12,27 +12,38 @@
   <script src="../../js/Common/jQuery.js"></script>
 </head>
 <style>
-  *{
-    font-family: "微软雅黑";
-  }
-.beijing>h1{
-  padding-top: 172px;
-    font-size: 48px;
-    color: #fff;
-    line-height: 48px;
-    text-shadow: 0 0 12px rgba(0,0,0,.5);
-    text-align: center;
-    margin-bottom: 10px;
+.container{
+  width: 100%;
+  background-color: #F5F5F6;
+  padding-top: 56px;
+  box-sizing: inherit;
 }
-.beijing h1 strong{
-  font-weight: 700;
+.content{
+ width: 1200px;
+ height: 410px;
+ margin: 0 auto;
 }
-.beijing .desc{
-  font-size: 18px;
-    color: #fff;
-    text-shadow: 0 0 12px rgba(0,0,0,.5);
+.content h3{
+  font-size: 24px;
+    color: #373d41;
     text-align: center;
+    line-height: 32px;
+    margin-bottom: 32px;
+}
+.content p{
+  color: #73777a;
     line-height: 24px;
+    text-align: center;
+    font-size: 14px;
+    font-weight: 400;
+}
+.box1{
+  float: left;
+    width: 25%;
+    box-sizing: border-box;
+}
+.content ul{
+  padding: 32px 0;
 }
 </style>
 <body>
@@ -1429,8 +1440,72 @@
     <strong>阿里云生态合作伙伴</strong>
   </h1>
   <p class="desc">致力于帮助合作伙伴构建基于阿里云的业务实践和解决方案</p>
+  <div class="wrap">
+   <a href="" class="wrap-left">加入合作伙伴</a>
+   <a href="" class="wrap-right">登陆管理平台</a>
+  </div>
+  <div class="srh-box">
+   <input type="text" class = input-text placeholder = "请输入公司全称，查询阿里云合作伙伴资质及信息。支持名称自动补全。">
+   <input type="submit" class="submit-btn" value="搜索">
+  </div>
+</div>
+<div class="subnav">
+<div class="subnav-cont">
+  <ul>
+    <li><a href="">查看合作伙伴</a>
+        <span>
+          <img src="../../images/Syy/TB1KeY.h_vI8KJjSspjXXcgjXXa-36-36.png" alt="">
+        </span>
+    </li>
+    <li><a href="">合作伙伴赋能平台</a>
+        <span>
+          <img src="../../images/Syy/TB1KeY.h_vI8KJjSspjXXcgjXXa-36-36.png" alt="">
+        </span>
+    </li>
+  </ul>
+</div>
 </div>
 <script src="../../js/Syy/syy-j1.js"></script>
+<div class="container">
+<div class="content">
+  <h3>为什么要成为阿里云合作伙伴</h3>
+  <p>阿里云合作伙伴生态提供全方位的合作与支持，致力于帮助合作伙伴构建基于阿里云的业务实践和解决方案。</p>
+  <ul>
+    <li>
+     <div class="box1">
+       <div class="pic">
+         <img src="../../images/Syy/nav-1.jpg" alt="">
+       </div>
+       <div class="txts"></div>
+     </div>
+    </li>
+    <li>
+      <div class="box1">
+        <div class="pic">
+          <img src="../../images/Syy/nav-2.jpg" alt="">
+        </div>
+        <div class="txts"></div>
+      </div>
+    </li>
+    <li>
+      <div class="box1">
+        <div class="pic">
+          <img src="../../images/Syy/nav-3.jpg" alt="">
+        </div>
+        <div class="txts"></div>
+      </div>
+    </li>
+    <li>
+      <div class="box1">
+        <div class="pic">
+          <img src="../../images/Syy/nav-4.jpg" alt="">
+        </div>
+        <div class="txts"></div>
+      </div>
+    </li>
+  </ul>
+</div>
+</div>
 </body>
 
 </html>
