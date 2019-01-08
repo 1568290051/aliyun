@@ -96,7 +96,7 @@ $(function () {
     $('.syh-right-fixd-list').stop().fadeIn(300);
   })
   $('.xiaocha').click(function () {
-    $('.syh-right-fixd-list').stop().fadeOut(300);
+    $('.syh-right-fixd-list').stop().fadeOut(200);
   });
   // 获取兼容
   function getScroll(topLeft) {

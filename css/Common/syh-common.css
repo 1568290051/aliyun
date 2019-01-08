@@ -21,9 +21,6 @@ a{
 a:hover{
   color: #00c1de;
 }
-body{
-  height: 4000px;
-}
 /* 顶部高度 宽度自动 */
 .syh-top-nav{
   height: 100px;
