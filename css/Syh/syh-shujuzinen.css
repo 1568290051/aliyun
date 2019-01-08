@@ -11,15 +11,15 @@ a,p,span,div,h1,h2,h3,.common{
 .syh-lunbotu-changkou{
   width: 1903px;
   position: relative;
-  /* overflow: hidden; */
+  overflow: hidden;
+  background-color: #24133d;
 }
 .top-lunbotu{
-  width: calc(1903px * 3);
+  width: calc(1903px * 5);
   height: 380px;
   padding-top: 100px;
-  background-color: #24133d;
   position: relative;
-  left: 0px;
+  left: -1903px;
 }
 .top-lunbotu>div{
   float: left;
@@ -92,16 +92,6 @@ a,p,span,div,h1,h2,h3,.common{
 .xiaodian-iClick{
   background: white !important;
 }
-
-
-
-
-
-
-
-
-
-
 
 
 /* 轮播图文字区块 */
