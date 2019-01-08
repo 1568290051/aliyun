@@ -18,9 +18,6 @@ a{
   transition: color 0.2s;
   color: white;
 }
-body{
-  height: 4000px;
-}
 a:hover{
   color: #00c1de;
 }
