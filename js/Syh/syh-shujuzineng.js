@@ -92,6 +92,8 @@ function jltYd(){
   var oJlt = document.querySelectorAll('.common.jlt>div');
   // 循环遍历给每个元素添加事件
   for(var i = 0; i < oJlt.length; i++){
+    // 给元素添加一个索引值
+    oJlt[i].setAttribute('data-index',i);
     // 给每个元素添加鼠标移入事件
     oJlt[i].onmouseenter = function(e){
       // 获得本元素子第一个子元素
@@ -109,18 +111,37 @@ function jltYd(){
   }
   // 基础位置切换函数
   function lbtPositionY(positionVal,ele){
-    $(ele).stop();
+    clearInterval(ele.timer);
     var oVal = parseInt(window.getComputedStyle(ele,null)['backgroundPositionY']);
     // 步进值
-    var step = oVal < 0 ? 100 : -100 ;
-    var timer = setInterval(function(){
+    var step = positionVal < 0 ? -100 : 100 ;
+    ele.timer = setInterval(function(){
       var aa = oVal += step ;
+      if(aa >= 0){
+        aa = 0;
+      }else if(aa <= -1400){
+        aa = -1400;
+      }
       ele.style.backgroundPositionY = aa +'px';
       // 判断是否到达目标值
-      if(aa == positionVal){
+      if(parseInt(aa) == positionVal){
         // 清除清除定时器
-        clearInterval(timer);
+        clearInterval(ele.timer);
       }
     },55);
   }
 }jltYd();
+// 精灵图下面的tab切换区域
+function jltTab(){
+  // 给元素添加点击事件
+  $('.common.jlt>div').click(function(){
+    // 给所有元素清除类名 jltClick 给自己添加上 jltClick
+    $(this).siblings().removeClass('jltClick') ;
+    $(this).addClass('jltClick');
+    // 获得自定义属性
+    var oIndex = this.getAttribute('data-index');
+    // 获取切换项 让对应的切换项显示
+    $($('.jltTab>div')[oIndex]).siblings().removeClass('jltTab-block');
+    $('.jltTab>div')[oIndex].classList.add('jltTab-block');
+  });
+}jltTab();
