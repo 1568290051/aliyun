@@ -12,44 +12,100 @@
   <script src="../../js/common/jQuery.js"></script>
 </head>
 <style>
-.classify{
-  width: 100%;
-  margin-top: 50px;
+.current{
+  background-color: #fff;
+  padding: 56px 0 26px;
 }
-.classify h1{
-  font-size: 24px;
-    font-weight: 700;
-    color: #373d41;
-    text-align: center;
-    line-height: 32px;
-}
-.classify p{
-  margin-top: 20px;
-    font-size: 14px;
-    color: #9a9ea0;
-    text-align: center;
-    line-height: 20px;
-}
-.list{
-  width: 100%;
-  height: 350px;
-  margin-top: 40px;
-    background: #373d41;
-    overflow: hidden;
-}
-.classify-list{
+.con{
   box-sizing: border-box;
   width: 1200px;
   margin: 0 auto;
 }
-.classify-list-li{
-  width: 25%;
-    float: left;
-    height: 350px;
+.con{
+  font-size: 24px;
+    color: #373d41;
+    text-align: center;
+    line-height: 32px;
+    margin-bottom: 32px;
+}
+.con p{
+  color: #73777a;
+    line-height: 24px;
+    text-align: center;
+    font-size: 14px;
+    font-weight: 400;
+}
+.filter-nav{
+  padding-top: 12px;
+  text-align: center;
+    font-size: 14px;
+    line-height: 24px;
+    box-sizing: inherit;
+}
+.filter-nav>a{
+  margin: 0 10px;
+    font-size: 14px;
+    color: #19001d;
+    text-decoration: none;
+    color: #00b7d3;
+}
+.plan-cenner li{
+  box-sizing: border-box;
+  float: left;
+    width: 50%;
+
+}
+.plan-cenner{
+  margin: 0 auto;
+    max-width: 1200px;
+    margin-top: 20px;
+    background-color: aqua;
+}
+.plan-cenner-box1{
+  padding: 24px;
+    border: 1px solid #f0f0f0;
+    margin-bottom: 20px;
+    transition: all .3s ease;
+}
+.plan-cenner-box1 h5{
+  margin-bottom: 8px;
+    font-size: 18px;
+    line-height: 24px;
+    color: #373d41;
+    text-align: left;
     overflow: hidden;
-    position: relative;
-    background-image: url(../../images/Syy/beijing1.png);
-    background-size: cover;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+.plan-cenner-box1 p{
+  text-align: left;
+  font-size: 14px;
+    color: #373d41;
+    line-height: 20px;
+    overflow: hidden;
+    white-space: nowrap;
+}
+.ability{
+  margin-bottom: 20px;
+    line-height: 20px;
+    font-size: 14px;
+    overflow: hidden;
+    white-space: nowrap;
+    text-align: left;
+}
+.btn-wrap a{
+  margin-right: 10px;
+    min-width: 68px;
+    display: inline-block;
+    height: 33px;
+    padding: 0 30px 1px;
+    line-height: 33px;
+    font-size: 14px;
+    text-align: center;
+    border-radius: 0;
+    color: #fff;
+    border: 1px solid #00c1de;
+    transition: all .3s ease;
 }
 </style>
 <body>
@@ -1542,7 +1598,7 @@
         <img src="../../images/Syy/22.png" alt="">
       </div>
       <div class="circle"></div>
-      <div class="step">1.注册阿里云账号</div>
+      <div class="step">2.完成企业实名认证</div>
     </div>
   </li>
   <li>
@@ -1551,7 +1607,7 @@
         <img src="../../images/Syy/33.png" alt="">
       </div>
       <div class="circle"></div>
-      <div class="step">1.注册阿里云账号</div>
+      <div class="step">3.加入合作伙伴</div>
     </div>
   </li>
   <li>
@@ -1560,7 +1616,7 @@
         <img src="../../images/Syy/44.png" alt="">
       </div>
       <div class="circle"></div>
-      <div class="step">1.注册阿里云账号</div>
+      <div class="step">4.选择合作伙伴分类</div>
     </div>
   </li>
   <li>
@@ -1569,7 +1625,7 @@
         <img src="../../images/Syy/55.png" alt="">
       </div>
       <div class="circle"></div>
-      <div class="step">1.注册阿里云账号</div>
+      <div class="step">5.展开业务合作</div>
     </div>
   </li>
 </ul>
@@ -1580,9 +1636,93 @@
   <p>合作伙伴基本分类，有助于伙伴获得符合自身能力特点的权益和激励，与阿里云实现共赢，和合共生</p>
   <div class="list">
     <div class="classify-list">
-      <div class="classify-list-li"></div>
+      <div class="classify-list-li">
+        <img src="../../images/Syy/clone1.png" alt="">
+        <p class="blueline"></p><br>
+        <span class="tit">分销合作伙伴</span>
+      </div>
+      <div class="classify-list-li-clone">
+        <img src="../../images/Syy/clone1.png" alt="">
+        <p class="titx">分销合作伙伴</p>
+        <p class="explain">为区域内用户提供阿里云全线产品的销售咨询服务及解决方案等服务的企业</p>
+        <a href="">查看详情 > ></a>
+        <a href="" id="join-btn">立刻加入</a>
+      </div>
+
+      <div class="classify-list-li2">
+        <img src="../../images/Syy/clone2.png" alt="">
+        <p class="blueline"></p><br>
+        <span class="tit">SI合作伙伴</span>
+      </div>
+     
+
+      <div class="classify-list-li3">
+        <img src="../../images/Syy/clone3.png" alt="">
+        <p class="blueline"></p><br>
+        <span class="tit">ISV合作伙伴</span>
+      </div>
+     
+
+      <div class="classify-list-li4">
+        <img src="../../images/Syy/clone4.png" alt="">
+        <p class="blueline"></p><br>
+        <span class="tit">咨询合作伙伴</span>
+      </div>
+     
     </div>
   </div>
+</div>
+<div class="current">
+<div class="con">
+<h3>合作伙伴计划</h3>
+<p>基于不同的合作伙伴分类，阿里云生态为伙伴提供不同的合作计划选择加入，满足特定的合作模式，或者特定产品的售卖及服务等业务</p>
+<div class="filter-nav">
+  <a href="javascript:;">分销合作伙伴 </a>
+  <a href="javascript:;">SI合作伙伴 </a>
+  <a href="javascript:;">ISV合作伙伴 </a>
+  <a href="javascript:;">咨询合作伙伴 </a>
+  <div class="plan-cenner">
+    <ul >
+      <li>
+      <div class="plan-cenner-box1">
+        <h5>云市场计划</h5>
+        <p>通过云市场实现软件及服务的交易与一体化交付</p>
+        <div class="ability">
+            平台能力：
+        <span>
+          <a href="">培训平台</a>&nbsp;|
+          <a href="">云市场服务商平台</a>&nbsp;|
+          <a href="">工单平台</a>&nbsp;|
+          <a href="">服务监管平台</a>
+        </span>                
+        </div>
+        <div class="btn-wrap">
+          <a href=""></a>
+          <a href=""></a>
+        </div>
+      </div></li>
+      <li></li>
+      <li></li>
+      <li></li>
+      <li></li>
+      <li></li>
+      <li></li>
+      <li></li>
+      <li></li>
+      <li></li>
+      <li></li>
+      <li></li>
+      <li></li>
+      <li></li>
+      <li></li>
+      <li></li>
+      <li></li>
+      <li></li>
+      <li></li>
+    </ul>
+  </div>
+</div>
+</div>
 </div>
 </body>
 
