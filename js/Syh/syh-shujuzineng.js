@@ -145,3 +145,25 @@ function jltTab(){
     $('.jltTab>div')[oIndex].classList.add('jltTab-block');
   });
 }jltTab();
+// 跟多行业轮播图区域
+function gdhyLbt(){
+  // 给元素添加鼠标移入事件
+  $('.gdhy-chuagnkou').mouseenter(function(){
+    $('.gdhy-lutanniu').css('display','block');
+  }).mouseleave(function(){
+    $('.gdhy-lutanniu').css('display','none');
+  })
+  $('.gdhy-lutanniu').mouseenter(function(){
+    $('.gdhy-lutanniu').css('display','block');
+  }).mouseleave(function(){
+    $('.gdhy-lutanniu').css('display','none');
+  })
+
+
+  // 给元素添加鼠标移入事件
+  $('.gdhy-position').mouseenter(function(){
+    $(this.children[2]).animate({'bottom':0},300);
+  }).mouseleave(function(){
+    $(this.children[2]).css('bottom','-150px');
+  })
+}gdhyLbt();
