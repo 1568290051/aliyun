@@ -537,3 +537,123 @@ a{
 .subnav-cont a:hover img{
   background-color: #3787c0;
 }
+.container{
+  width: 100%;
+  background-color: #F5F5F6;
+  padding-top: 56px;
+  box-sizing: inherit;
+  padding-bottom: 60px;
+}
+.content{
+ width: 1200px;
+ height: 410px;
+ margin: 0 auto;
+}
+.content h3{
+  font-size: 24px;
+    color: #373d41;
+    text-align: center;
+    line-height: 32px;
+    margin-bottom: 32px;
+}
+.content>p{
+  color: #73777a;
+    line-height: 24px;
+    text-align: center;
+    font-size: 14px;
+    font-weight: 400;
+    margin-bottom: 30px;
+}
+.box1{
+  float: left;
+  width: 300px;
+}
+.logo{
+  float: left;
+  width: 300px;
+  margin-bottom: 25px;
+}
+.name{
+  font-size: 16px;
+    color: #333;
+    line-height: 24px;
+    text-align: center;
+    margin-bottom: 12px;
+    font-weight: 700;
+}
+.intro{
+  font-size: 14px;
+    color: #999;
+    line-height: 24px;
+    text-align: center;
+    min-width: 72px;
+}
+.module-wrap{
+  min-width: 1200px;
+    max-width: 1200px;
+    height: 100%;
+    box-sizing: border-box;
+    margin: 0 auto;
+}
+.module-wrap h3{
+  font-size: 24px;
+    color: #373d41;
+    text-align: center;
+    line-height: 32px;
+    margin-bottom: 32px;
+    margin-top: 70px;
+}
+.module-wrap ul{
+  display: inline-block;
+  padding: 10px 55px;
+    position: relative;
+    z-index: 2;
+}
+.module-wrap li{
+  float: left;
+    width: 20%;
+}
+.box2{
+  float: left;
+  width: 214px;
+  height: 136px;
+  box-sizing: inherit;
+}
+.box2 .pic{
+  position: relative;
+  left: 78px;
+}
+.box2 .pic img{
+  width: 68px;
+    height: 68px;
+    border-radius: 50%;
+    background: #eeeff1;
+    margin: 0 auto;
+}
+.step{
+  font-size: 14px;
+    color: #666;
+    line-height: 20px;
+    text-align: center;
+    box-sizing: inherit;
+}
+.circle{
+  position: relative;
+  top: 0px;
+  left: 0px;
+  width: 8px;
+  height: 8px;
+  border-radius:50%; 
+  border: 4px solid rgba(86,86,86,.4);
+  margin: 16px 0px 15px 104px;
+  background-color: white;
+  z-index: 2;
+}
+.line{
+  position: relative;
+    left: 0;
+    right: 0;
+    top: 104px;
+    border-bottom: 1px dashed #737373;
+    z-index: 1;
+}
