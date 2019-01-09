@@ -187,13 +187,23 @@ margin-bottom: 12px;
         /* font-family: inherit!important; */
     }
     /* 给body添加字体样式 */
-    body{
+    /* body{
         font: 12px/1.5 tahoma,arial,'Hiragino Sans GB',\5b8b\4f53,sans-serif;
 
-    }
+    } */
 /* 清除浮动 */
 .clearfix::after{
     content: "";
     display: block;
     clear: both;
+}
+
+.common{
+    width: 1200px;
+    margin: 0 auto;
+}
+
+.index-product-image{
+margin: 0 auto;
+
 }
