@@ -187,13 +187,213 @@ function  startMoveFive(iTarget,ffn){
 // 获取所有的轮播图内小点索引
 var lunboLi=document.querySelectorAll('.index-lunbo-click li');
 var lunboDiv = document.querySelectorAll('.index-lunbo div');
+var lunboA =  document.querySelectorAll('.toptidong')
+// console.log(lunboA)
+// var sum = 0;
+// var timerLunbo =setInterval(function(){
+// if(sum>4){
+//     sum=0;
+// }
+// for(var a=0;a < lunboDiv.length;a++){
+//     lunboDiv[a].style.display = "none"
+//     lunboDiv[a].style.top = "97px";
+//     console.log(a)
+// }
+// lunboDiv[sum].style.display = "block"
+// // console.log(sum)
+// setTimeout(function(){
+//     lunboDiv[sum].style.top = "0px";
+// },1000)
+// // console.log(lunboA[sum].style.top)
+// sum++
+// },4000)
+// 每隔一分钟运行函数自动播放
+var sum = 1;
+var timerL = setInterval(function(){
+    lunboLi[sum].onclick();
+    sum++
+    if(sum>4){
+        sum = 0;
+    }
+    $('.zhezhao').fadeIn('1',function(){
+        $('.zhezhao').fadeOut('1');
+      });
+},10000)
+// 给每个轮播图底部指数添加点击事件
 for(var i=0;i<lunboLi.length;i++){
-    lunboLi[i].onclick = function(){
+    lunboLi[i].onclick = function f1(){
         for(var j=0;j<lunboLi.length;j++){
             lunboDiv[j].style.display="none";
+            lunboDiv[j].style.top ="97px";
         }
-       var index = this.getAttribute('data-index');
-       lunboDiv[index].style.display="block";
+        var index = this.getAttribute('data-index');
+        lunboDiv[index].style.display="block";
+        setTimeout(function(){
+            lunboDiv[index].style.top ="0px";
+        },500)
+        sum = index;
     }
-    
 }
+// 灰色遮盖
+$('.index-lunbo-click li').click(function(){
+    $('.zhezhao').fadeIn('1',function(){
+      $('.zhezhao').fadeOut('1');
+    });
+  })
+  console.log($('.index-lunbo-click li'))
+
+
+  var timerLunbo2 = setInterval(yujisz,50000)
+
+
+
+function yujisz(){
+    var timerlun = setInterval(function(){
+        var spanOne = document.querySelector('.index-lunbo-click-one span');
+        var num = 1;
+        var spanLeft = spanOne.offsetWidth;
+        console.log(spanLeft)
+          spanOne.style.width = spanLeft+num +'px';
+          if(spanLeft == 40){
+              spanOne.style.width = 0 +"px";
+              num = 0;
+              clearInterval(timerlun);
+          }
+      },250)
+    
+      setTimeout(function(){
+       var timerlun2 =  setInterval(function(){
+            var spantwo = document.querySelector('.index-lunbo-click-two span');
+            var num2 = 1;
+            var spantwoLeft = spantwo.offsetWidth;
+            console.log(spantwoLeft )
+              spantwo.style.width = spantwoLeft +num2 +'px';
+              if(spantwoLeft  == 40){
+                spantwo.style.width = 0 +"px";
+                  num2 = 0;
+                  clearInterval(timerlun2);
+              }
+          },250)
+      },10000)
+    
+    setTimeout(function(){
+       var timerlun3 =  setInterval(function(){
+            var spanthree = document.querySelector('.index-lunbo-click-three span');
+            var num3= 1;
+            var spanthreeLeft = spanthree.offsetWidth;
+            console.log(spanthreeLeft )
+            spanthree.style.width = spanthreeLeft +num3 +'px';
+              if(spanthreeLeft  == 40){
+                spanthree.style.width = 0 +"px";
+                  num3 = 0;
+                  clearInterval(timerlun3);
+              }
+          },250)
+      },20000)
+    
+      setTimeout(function(){
+        var timerlun4 =  setInterval(function(){
+             var spanfour = document.querySelector('.index-lunbo-click-four span');
+             var num4 = 1;
+             var spanfourLeft = spanfour.offsetWidth;
+             console.log(spanfourLeft )
+             spanfour.style.width = spanfourLeft +num4 +'px';
+               if(spanfourLeft  == 40){
+                spanfour.style.width = 0 +"px";
+                   num4 = 0;
+                   clearInterval(timerlun4);
+               }
+           },250)
+       },30000)
+     
+       setTimeout(function(){
+        var timerlun5 =  setInterval(function(){
+             var spanfive = document.querySelector('.index-lunbo-click-five span');
+             var num5 = 1;
+             var spanfiveLeft = spanfive.offsetWidth;
+             console.log(spanfiveLeft )
+             spanfive.style.width = spanfiveLeft +num5 +'px';
+               if(spanfiveLeft  == 40){
+                spanfive.style.width = 0 +"px";
+                   num5 = 0;
+                   clearInterval(timerlun5);
+               }
+           },250)
+       },40000)
+}yujisz();
+
+
+
+//   var timerlun = setInterval(function(){
+//     var spanOne = document.querySelector('.index-lunbo-click-one span');
+//     var num = 1;
+//     var spanLeft = spanOne.offsetWidth;
+//     console.log(spanLeft)
+//       spanOne.style.width = spanLeft+num +'px';
+//       if(spanLeft == 40){
+//           spanOne.style.width = 0 +"px";
+//           num = 0;
+//           clearInterval(timerlun);
+//       }
+//   },250)
+
+//   setTimeout(function(){
+//    var timerlun2 =  setInterval(function(){
+//         var spantwo = document.querySelector('.index-lunbo-click-two span');
+//         var num2 = 1;
+//         var spantwoLeft = spantwo.offsetWidth;
+//         console.log(spantwoLeft )
+//           spantwo.style.width = spantwoLeft +num2 +'px';
+//           if(spantwoLeft  == 40){
+//             spantwo.style.width = 0 +"px";
+//               num2 = 0;
+//               clearInterval(timerlun2);
+//           }
+//       },250)
+//   },10000)
+
+// setTimeout(function(){
+//    var timerlun3 =  setInterval(function(){
+//         var spanthree = document.querySelector('.index-lunbo-click-three span');
+//         var num3= 1;
+//         var spanthreeLeft = spanthree.offsetWidth;
+//         console.log(spanthreeLeft )
+//         spanthree.style.width = spanthreeLeft +num3 +'px';
+//           if(spanthreeLeft  == 40){
+//             spanthree.style.width = 0 +"px";
+//               num3 = 0;
+//               clearInterval(timerlun3);
+//           }
+//       },250)
+//   },20000)
+
+//   setTimeout(function(){
+//     var timerlun4 =  setInterval(function(){
+//          var spanfour = document.querySelector('.index-lunbo-click-four span');
+//          var num4 = 1;
+//          var spanfourLeft = spanfour.offsetWidth;
+//          console.log(spanfourLeft )
+//          spanfour.style.width = spanfourLeft +num4 +'px';
+//            if(spanfourLeft  == 40){
+//             spanfour.style.width = 0 +"px";
+//                num4 = 0;
+//                clearInterval(timerlun4);
+//            }
+//        },250)
+//    },30000)
+ 
+//    setTimeout(function(){
+//     var timerlun5 =  setInterval(function(){
+//          var spanfive = document.querySelector('.index-lunbo-click-five span');
+//          var num5 = 1;
+//          var spanfiveLeft = spanfive.offsetWidth;
+//          console.log(spanfiveLeft )
+//          spanfive.style.width = spanfiveLeft +num5 +'px';
+//            if(spanfiveLeft  == 40){
+//             spanfive.style.width = 0 +"px";
+//                num5 = 0;
+//                clearInterval(timerlun5);
+//            }
+//        },250)
+//    },40000)
+ 

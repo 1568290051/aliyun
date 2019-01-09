@@ -1,15 +1,53 @@
+
+/* 轮播图 */
+.lunbotu{
+    position: relative;
+    width: 100%;
+    height: 640px;
+    background: #494b52;
+    overflow: hidden;
+}
+/* 轮播图公共区域 */
 .index-lunbo{
     position: relative;
-    height: 634px;
-    width: 100%;
+    height: 640px;
+    width: 1920px;
+    background: #494b52;
+    margin: 0 auto;
 }
+/* 给五个图片添加样式 */
 .index-lunbo>div{
     display: none;
+     position: absolute;
+    top: 97px;
+    left: 0px;
+    transition: top 1s;
+}
+/* 切换图片时的遮罩效果 */
+.zhezhao{
+    height: 510px;
+    width: 100%;
+    background: #494b52;
+    position: absolute;
+    z-index: 20;
+    opacity: 0.8;
+    top: 0px;
 }
 /* 轮播图第一部分 */
-.index-lunbo-centent-one{
-    position: relative;
+.index-lunbo .index-lunbo-centent-one{
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    transition: top 1s;
 }
+
+/* .index-lunbo-centent-one a {
+    display: block;
+    position: absolute;
+    top: 97px;
+    transition: top 1s;
+} */
+
 .index-lunbo-centent-one a{
     display: block;
 }
@@ -24,23 +62,138 @@
     top: 0px;
     opacity: 1;
 }
+/* 轮播图底部指示器总体 */
 .index-lunbo-click{
     width: 250px;
     height: 4px;
     position: absolute;
-    bottom: 15px;
+    bottom: 144px;
     left: 822px;
+    cursor: pointer;
 }
+/* 包含轮播图底部指示器 */
 .index-lunbo-click li{
     float: left;
     width: 40px;
     height: 4px;
     background: #46494e;
-    margin-left: 10px;
+    margin-right: 10px;
+  
 }
+/* 各个轮播图底部指示器设置样式 */
 .index-lunbo-click li span{
     display: block;
     background-color:#ffffff;
-    width: 50%;
+    width: 0px;
     height: 100%;
+}
+
+/* 轮播图左侧导航 */
+.index-lunbo-left-header{
+    font-weight:bold;
+    height: 310px;
+    /* background: red; */
+    position: absolute;
+    top: 196px;
+    left: 352px;
+}
+/* 轮播图左侧导航  标题部分*/
+.index-lunbo-left-header h1{
+margin-bottom: 12px;
+    font-size: 40px;
+}
+/* 轮播图左侧导航  p标签部分 */
+.index-lunbo-left-header p{
+
+    font-size: 20px;
+    line-height: 36px;
+}
+/* 轮播图左侧导航  跳转按钮部分*/
+.index-lunbo-left-btn{
+    float: left;
+    font-weight: bold;
+    color: #f3f4f4;
+    margin-top: 40px;
+    height: 36px;
+    line-height: 20px;
+    font-size: 20px;
+     background: transparent;
+     border: none;
+     border-bottom: 3px solid #00c1de;
+}
+/* 轮播图左侧导航  跳转按钮内的箭头部分*/
+.index-lunbo-left-btn-image{
+    margin-left: 6px;
+    display: block;
+    float: right;
+    width: 22px;
+    height: 22px;
+    border: none;
+    background-size: 22px 22px;
+    background-image: url(../../images/Xzs/arrow-right-white.png);
+    background-repeat: no-repeat;
+    background-position: 0px 0px;
+}
+/* 轮播图底部导航 */
+.index-lunbo-lianjie{
+    width: 100%;
+    position: absolute;
+    bottom: 0px;
+    z-index: 1;
+    background: #393b43;
+    /* background: yellowgreen; */
+}
+/* 公共区域 */
+.index-lunbo-lianjie-ul{
+     width: 1200px;
+     height: 136px;
+     margin: 0 auto;
+}
+/* 底部导航的各个部分 */
+.index-lunbo-lianjie-ul li{
+    width: 240px;
+    height: 136px;
+    float: left;
+    border-left: 1px solid #45474d;
+    box-sizing: border-box;
+    padding: 30px 26px 24px;
+    transition: all .3s;
+    } 
+/* 鼠标移入改变背景颜色 */
+    .index-lunbo-lianjie-ul li:hover{
+        background: #42454c;
+    }
+    .index-lunbo-lianjie-ul li a{
+        display: block;
+    }
+    /* 给最后一个加右边框 */
+.index-lunbo-lianjie-ul li:last-child{
+        border-right: 1px solid #45474d;
+    }
+/* 给底部导航标题添加属性 */
+.index-lunbo-lianjie-ul li h2{
+        font-size: 16px;
+        margin-bottom: 8px;
+        height: 18px;
+        font-weight: bolder;
+    }
+/* 给底部导航内容添加属性 */
+.index-lunbo-lianjie-ul li p{
+        width:187px;
+        color: #abacaf;
+        font-size: 14px;
+        line-height: 24px;
+        font-weight: bold;
+        /* font-family: inherit!important; */
+    }
+    /* 给body添加字体样式 */
+    body{
+        font: 12px/1.5 tahoma,arial,'Hiragino Sans GB',\5b8b\4f53,sans-serif;
+
+    }
+/* 清除浮动 */
+.clearfix::after{
+    content: "";
+    display: block;
+    clear: both;
 }
