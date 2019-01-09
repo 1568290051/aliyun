@@ -8,18 +8,30 @@ a,p,span,div,h1,h2,h3,.common{
   margin: 0px auto;
   height: auto;
 }
+/* 清除浮动 */
+.common::after{
+  content: '';
+  display: block;
+  clear: both;
+}
+.clearfix::after{
+  content: '';
+  display: block;
+  clear: both;
+}
+/* 清除浮动结束 */
 .syh-lunbotu-changkou{
   width: 1903px;
   position: relative;
-  /* overflow: hidden; */
+  overflow: hidden;
+  background-color: #24133d;
 }
 .top-lunbotu{
-  width: calc(1903px * 3);
+  width: calc(1903px * 5);
   height: 380px;
   padding-top: 100px;
-  background-color: #24133d;
   position: relative;
-  left: 0px;
+  left: -1903px;
 }
 .top-lunbotu>div{
   float: left;
@@ -29,13 +41,13 @@ a,p,span,div,h1,h2,h3,.common{
   background-size: cover;
 }
 .lunbotu-1{
-  background-image: url("../../images/Syh/syh-top-lb-img1.png");
+  background-image: url("../../images/syh/syh-top-lb-img1.png");
 }
 .lunbotu-2{
-  background-image: url("../../images/Syh/syh-top-lb-img2.png");
+  background-image: url("../../images/syh/syh-top-lb-img2.png");
 }
 .lunbotu-3{
-  background-image: url("../../images/Syh/syh-top-lb-img3.jpg");
+  background-image: url("../../images/syh/syh-top-lb-img3.jpg");
 }
 /* 图片上面的文字 */
 .top-lunbotu .common{
@@ -78,6 +90,7 @@ a,p,span,div,h1,h2,h3,.common{
   left: 0px;
   width: 100%;
   text-align: center;
+  font-size: 0px;
 }
 .xiaodian-nav>i{
   display: inline-block;
@@ -91,20 +104,96 @@ a,p,span,div,h1,h2,h3,.common{
 .xiaodian-iClick{
   background: white !important;
 }
-
-
-
-
-
-
-
-
-
-
-
-
 /* 轮播图文字区块 */
 .senzi-qukuai{
   height: 80px;
   background-color: #0f1d3d;
+}
+.senzi-qukuai>div>div{
+  float: left;
+  padding: 0px 10px;
+  width: 300px;
+  height: 60px;
+  box-sizing: border-box;
+}
+.senzi-qukuai a{
+  display: block;
+  margin-top: 20px;
+  width: 280px;
+  height: 40px;
+  box-sizing: border-box;
+  border-left: 1px solid #3f4a63;
+  padding-left: 36px;
+}
+.senzi-qukuai-last-a{
+  border-right: 1px solid #3f4a63;
+}
+/* 文字 */
+.list-t{
+  height: 17px;
+  line-height: 17px;
+  font-size: 16px;
+  color: #d6d9de;
+}
+.list-b{
+  height: 15px;
+  line-height: 15px;
+  font-size: 14px;
+  margin-top: 9px;
+  color: #7c8395;
+}
+/* 数据智能区块 */
+.shujvGengZhineng{
+  background-color: white;
+
+}
+.sjzn-biaoti{
+  font-size: 36px;
+  color: #565656;
+  text-align: center;
+  letter-spacing: .77px;
+  line-height: 72px;
+  margin: 0;
+  padding: 70px 0 60px;
+  min-width: 800px;
+}
+/* 动态精灵图区域 */
+.common.jlt>div{
+  width:33.33333%;
+  float: left;
+  height: 203px;
+  line-height: 30px;
+  cursor: pointer;
+}
+.common.jlt>div>p{
+  color: #565656;
+  font-size: 22px;
+  padding-top: 17px;
+  padding-bottom: 16px;
+  margin: 0;
+  font-weight: 400;
+  line-height: 24px;
+  text-align: center;
+}
+.common.jlt>.jltClick>p{
+  color: #347dff;
+}
+.common.jlt .jlt-img{
+  width: 100px;
+  height: 100px;
+  margin: 0 auto 14px;
+  overflow: hidden;
+}
+.common.jlt>div>div{
+  background-repeat: no-repeat;
+  background-position-x: 0px;
+}
+.jlt1>.jlt-img{
+  background-image: url("../../images/syh/syh-liandong-jlt1.png");
+}
+.jlt2>.jlt-img{
+  background-image: url("../../images/syh/syh-liandong-jlt2.png");
+}
+.jlt3>.jlt-img{
+  background-image: url("../../images/syh/syh-liandong-jlt3.png");
 }
