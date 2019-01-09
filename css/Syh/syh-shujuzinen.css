@@ -353,6 +353,11 @@ a,p,span,div,h1,h2,h3,.common{
 .aliy-slt-img{
   width: 22px;
   height: 22px;
+  vertical-align: middle;
+}
+.aliy-slt-img1.no{
+  width: 22px;
+  height: 22px;
 }
 
 
