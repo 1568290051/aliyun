@@ -174,6 +174,7 @@
         margin: 18px;
         margin-left:570px; 
         font-size: 15px;
+        margin-bottom: 25px;
     }
     .zbx-zhuanjiafuwu .zbx-box1{
         width: 285px;
@@ -268,8 +269,8 @@
         line-height: 24px;
         color: #95989a;
    }
-   .zbx-box2 .zbx-aaimg img{
-       width: 15px;
+   .zbx-box2 .zbx-aaimg>img{
+       width: 15px; 
        height: 15px;
        position: absolute;
        top:-9px;
@@ -279,3 +280,57 @@
        margin: 0px 82px;
    }
 /* 新浪的js的css部分 */
+.zbx-box2 .zbx-change{
+    float: left;
+    margin-left: 20px;
+}
+.zbx-change .zbx-aaimg .zbx-hover{
+    width: 380px;
+    height: 215px;
+   background-color:white;
+   position: absolute;
+   top: -15px;
+   left: 0px;
+   text-align: center;
+   border: 1px solid #ebecec;
+   box-shadow: 0 0 6px 0 rgba(0,0,0,.1);
+   display: none;
+}
+.zbx-change .zbx-aaimg .zbx-hover>p{
+    color: #070809;
+}
+.zbx-change .zbx-aaimg .zbx-hover .zbx-ding>p{
+    color: #070809;
+}
+.zbx-change .zbx-aaimg .zbx-hover .zbx-ding>p a{
+    color: #070809;
+}
+.zbx-change .zbx-aaimg .zbx-hover .zbx-ding>p img{
+    width: 17px;
+    height: 17px;
+    position: relative;
+    /* margin-top: 0px; */
+    top: 3px;
+}
+.zbx-change .zbx-aaimg .zbx-hover .zbx-ding>p a:hover{
+    color:  #00c5e5;
+}
+.zbx-change .zbx-aaimg .zbx-hover>p:nth-of-type(1){
+    margin: 20px auto;
+    font-size: 20px;
+}
+.zbx-change .zbx-aaimg .zbx-hover .zbx-chankan{
+    border: #00c5e5 1px solid;
+    width: 97px;
+    height: 33px;
+    background-color:#00c1de;
+    margin: 25px auto; 
+}
+.zbx-change .zbx-aaimg .zbx-hover .zbx-chankan:hover{
+    background-color: #33cde5;
+}
+.zbx-change .zbx-aaimg .zbx-hover .zbx-chankan a{
+    text-align: center;
+    line-height: 30px;
+    font-size: 14px;
+}
