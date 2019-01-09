@@ -1,0 +1,45 @@
+/* 顶部导航 */
+.zbx-alinav{
+    width: 100%;
+    height: 70px;
+    border:1px solid #b6b4b6;
+}
+/* 公共部分 */
+.common{
+    margin: 0px auto;
+    width: 1200px;
+    font-family: '微软雅黑';
+    font-weight: normal;
+    /* overflow: hidden; */
+}
+.zbx-alinav .zbx-leftzhu{
+   float: left;
+   width: 100px;
+   height: 100px;
+}
+.zbx-alinav .zbx-leftzhu img{
+    width: 101px;
+    height: 23px;
+    margin:20px 20px;
+}
+.zbx-rightzhu{
+    float: right;
+    margin: 25px 35px 0px 0px;
+    /* text-align: center; */
+} 
+.zbx-rightzhu>span{
+    font-size: 15px;
+    position: relative;
+    padding-right: 30px;
+    background: url("../../images/Zbx/向下箭头.png") no-repeat 50px 0px;
+}
+.zbx-rightzhu>span img{
+    position: absolute;
+    top:0px;
+    left:-20px;
+}
+.zbx-rightzhu>a{
+    font-size: 15px;
+    color: black;
+    margin-left:35px; 
+}
