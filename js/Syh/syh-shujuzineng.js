@@ -44,24 +44,7 @@ function lunbotu() {
       jiada = aa - dianj;
       oyidong.style.left = oLeft + jiada +'px';
     }
-  }
-  // 按钮对应函数
-  function anniuDuiying(){
-    // 判断计数变量
-    if(num == 0){
-      num = 3;
-      oyidong.style.left = -num * oWidth +'px';
-    }else if(num == 4){
-      num = 1;
-      oyidong.style.left = -num * oWidth +'px';
-    }
-      // 让其兄弟元素移除class类名
-    $(xiaodianAnniu[num-1]).siblings().removeClass('xiaodian-iClick');
-    // 让自己本身添加class类名
-    $(xiaodianAnniu[num-1]).addClass('xiaodian-iClick');
-  }
-  // 给鼠标添加弹起事件
-  chuangkou.onmouseup = function(){
+    chuangkou.onmouseup = function(){
     // 给鼠标移动解绑
     this.onmousemove = null;
     // 判断加大的值的绝对值大于500吗
@@ -86,4 +69,58 @@ function lunbotu() {
   // 加大的值
   jiada = null;
   }
+  }
+  // 按钮对应函数
+  function anniuDuiying(){
+    // 判断计数变量
+    if(num == 0){
+      num = 3;
+      oyidong.style.left = -num * oWidth +'px';
+    }else if(num == 4){
+      num = 1;
+      oyidong.style.left = -num * oWidth +'px';
+    }
+      // 让其兄弟元素移除class类名
+    $(xiaodianAnniu[num-1]).siblings().removeClass('xiaodian-iClick');
+    // 让自己本身添加class类名
+    $(xiaodianAnniu[num-1]).addClass('xiaodian-iClick');
+  }
 }lunbotu();
+// 精灵图部分
+function jltYd(){
+  // 获得元素
+  var oJlt = document.querySelectorAll('.common.jlt>div');
+  // 循环遍历给每个元素添加事件
+  for(var i = 0; i < oJlt.length; i++){
+    // 给每个元素添加鼠标移入事件
+    oJlt[i].onmouseenter = function(e){
+      // 获得本元素子第一个子元素
+      var firstEle = this.children[0];
+      // 调用基础动画
+      lbtPositionY(-1400,firstEle);
+    }
+    // 给每个元素添加鼠标移出事件
+    oJlt[i].onmouseleave = function(){
+      // 获得本元素子第一个子元素
+      var firstEle = this.children[0];
+      // 调用基础动画
+      lbtPositionY(0,firstEle);
+    }
+  }
+  // 基础位置切换函数
+  function lbtPositionY(positionVal,ele){
+    $(ele).stop();
+    var oVal = parseInt(window.getComputedStyle(ele,null)['backgroundPositionY']);
+    // 步进值
+    var step = oVal < 0 ? 100 : -100 ;
+    var timer = setInterval(function(){
+      var aa = oVal += step ;
+      ele.style.backgroundPositionY = aa +'px';
+      // 判断是否到达目标值
+      if(aa == positionVal){
+        // 清除清除定时器
+        clearInterval(timer);
+      }
+    },55);
+  }
+}jltYd();
