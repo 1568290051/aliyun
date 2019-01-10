@@ -12,124 +12,100 @@
   <script src="../../js/common/jQuery.js"></script>
 </head>
 <style>
-.current{
-  background-color: #fff;
-  padding: 56px 0 26px;
+.menu{
+  background-color: #F5F5F6;
+  padding: 48px 0;   
+  box-sizing: inherit;
+  height: 730px;
 }
-.con{
+.menu-container{
   box-sizing: border-box;
   width: 1200px;
   margin: 0 auto;
 }
-.con{
+.menu-container>h3{
   font-size: 24px;
     color: #373d41;
     text-align: center;
     line-height: 32px;
-    margin-bottom: 32px;
+    margin-bottom: 20px;
+    font-weight: 700;
 }
-.con p{
+.menu-container>p{
   color: #73777a;
-    line-height: 24px;
+    line-height: 20px;
     text-align: center;
     font-size: 14px;
     font-weight: 400;
 }
-.filter-nav{
-  padding-top: 12px;
-  text-align: center;
-    font-size: 14px;
-    line-height: 24px;
-    box-sizing: inherit;
+.menu-container-list{
+  margin-top: 60px;
 }
-.filter-nav>a{
-  margin: 0 10px;
-    font-size: 14px;
-    color: #19001d;
-    text-decoration: none;
-    color: #00b7d3;
-}
-.plan-cenner li{
+.menu-container-list-col{
   box-sizing: border-box;
   float: left;
-    width: 50%;
-
+    width: 33.33333%;
 }
-.plan-cenner{
-  margin: 0 auto;
-    max-width: 1200px;
-    margin-top: 20px;
-    background-color: aqua;
-}
-.plan-cenner-box1{
-  padding: 24px;
-    border: 1px solid #f0f0f0;
+.box01{
+  transition: all .3s ease;
+    position: relative;
+    margin-left: -10px;
+    margin-right: -10px;
+    height: 560px;
+    background: #fff;
     margin-bottom: 20px;
-    transition: all .3s ease;
-    margin-right: 20px;
+    overflow: hidden;
 }
-.plan-cenner-box1 h5{
-  margin-bottom: 8px;
+.box01-hd{
+  
+  background: #373d41;
+    padding: 32px 0;
+}
+.box01-hdd{
+  height: 45px;
+    margin-bottom: 20px;
+}
+.box01-hd img{
+  display: block;
+    height: 45px;
+    margin: 0 auto;
+}
+.box01-hd h6{
+  color: #fff;
     font-size: 18px;
-    line-height: 24px;
-    color: #373d41;
-    text-align: left;
-    overflow: hidden;
-    text-overflow: ellipsis;
-    white-space: nowrap;
+    line-height: 20px;
+    font-weight: 300;
+    text-align: center;
 }
-.plan-cenner-box1 p{
-  text-align: left;
+.box01-bd{
+  background: #fff;
+    padding: 12px 46px 24px;
+}
+.box01-bd .z2{
+  padding: 16px 0 4px;
+    border-bottom: 1px solid hsla(0,0%,59%,.4);
+}
+.box01-bd dt{
   font-size: 14px;
-    color: #373d41;
+    color: #00c1de;
+    line-height: 22px;
+    margin-bottom: 12px;
+}
+.box01-bd  a{
+  display: inline-block;
+  font-size: 14px;
+    color: #73777a;
     line-height: 20px;
-    overflow: hidden;
-    white-space: nowrap;
-    text-overflow:ellipsis;
+    margin-bottom: 12px;
 }
-.ability{
-  margin-bottom: 20px;
+.z1{
+  padding: 16px 0 4px;
+}
+.z1 dd a{
+  font-size: 14px;
+    color: #73777a;
     line-height: 20px;
-    font-size: 14px;
-    overflow: hidden;
-    white-space: nowrap;
-    text-align: left;
-}
-.ability a{
-  color: #a79eb5;
-}
-.btn-wrap>a{
-  margin-right: 10px;
-    min-width: 68px;
-    display: inline-block;
-    height: 33px;
-    padding: 0 30px 1px;
-    line-height: 33px;
-    font-size: 14px;
-    text-align: left;
-    border: 1px solid #00c1de;
-}
-.btn-wrap{
-  margin-left: -245px;
-}
-.a{
-  background-color: #00c1de;
-}
-.a1{
-  color: #00c1de;
-}
-.view-more-btn{
-  float: left;
-  width: 120px;
-        height: 36px;
-        line-height: 36px;
-        text-align: center;
-        font-size: 14px;
-        color: #373d41;
-        border: 1px solid #373d41;
-        cursor: pointer;
-        margin-left: 534px;
-        margin-top: 25px;
+    margin-bottom: 12px;
 }
 </style>
 <body>
@@ -1705,7 +1681,7 @@
   <a href="javascript:;">SI合作伙伴 </a>
   <a href="javascript:;">ISV合作伙伴 </a>
   <a href="javascript:;">咨询合作伙伴 </a>
-  <div class="plan-cenner">
+  <div class="plan-cenner clearfix">
     <ul >
       <li>
       <div class="plan-cenner-box1">
@@ -1925,6 +1901,67 @@
   </div>
 </div>
 </div>
+</div>
+<div class="menu">
+<div class="menu-container"> 
+  <h3>培训与认证</h3>
+  <p>合作伙伴培训课程可以帮助合作伙伴了解云产品知识、提高技能、让其业务脱颖而出并更好地服务客户</p>
+  <div class="menu-container-list">
+    <div class="menu-container-list-col"> 
+      <div class="box01">
+        <div class="box01-hd">
+          <div class="box01-hdd">
+            <img src="../../images/Syy/low1.png" alt="">
+          </div>
+          <h6>云计算产品课程</h6>
+        </div>
+        <div class="box01-bd">
+          <dl class="z2">
+            <dt>基础产品课程</dt>
+            <dd><a href="">云服务器 ECS ></a></dd>
+            <dd><a href="">云数据库 RDS ></a></dd>
+            <dd><a href="">负载均衡 SLB ></a></dd>
+            <dd><a href="">查看更多 ></a></dd>
+          </dl>
+          <dl class="z1">
+            <dt>高阶产品课程</dt>
+            <dd><a href="">机器学习 ></a></dd>
+            <dd><a href="">大数据产品体系介绍 ></a></dd>
+            <dd><a href="">企业级分布式应用服务EDAS ></a></dd>
+            <dd><a href="">查看更多 ></a></dd>
+          </dl>
+        </div>
+      </div>
+    </div>
+    <div class="menu-container-list-col"> 
+      <div class="box01">
+        <div class="box01-hd">
+          <div class="box01-hdd">
+            <img src="../../images/Syy/low1.png" alt="">
+          </div>
+          <h6>云计算产品课程</h6>
+        </div>
+        <div class="box01-bd">
+          <dl class="z2">
+            <dt>基础产品课程</dt>
+            <dd><a href="">云服务器 ECS ></a></dd>
+            <dd><a href="">云数据库 RDS ></a></dd>
+            <dd><a href="">负载均衡 SLB ></a></dd>
+            <dd><a href="">查看更多 ></a></dd>
+          </dl>
+          <dl class="z1">
+            <dt>高阶产品课程</dt>
+            <dd><a href="">机器学习 ></a></dd>
+            <dd><a href="">大数据产品体系介绍 ></a></dd>
+            <dd><a href="">企业级分布式应用服务EDAS ></a></dd>
+            <dd><a href="">查看更多 ></a></dd>
+          </dl>
+        </div>
+      </div>
+    </div>
+    <div></div>
+  </div>
+ </div>
 </div>
 </body>
 

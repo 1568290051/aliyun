@@ -882,7 +882,7 @@ margin-left: 95px;
   margin: 0 auto;
     max-width: 1200px;
     margin-top: 20px;
-    background-color: aqua;
+    /* overflow: hidden; */
 }
 .plan-cenner-box1{
   padding: 24px;
@@ -917,6 +917,11 @@ margin-left: 95px;
     overflow: hidden;
     white-space: nowrap;
     text-align: left;
+}
+.clearfix::after{
+  content: '';
+  display: block;
+  clear: both;
 }
 .ability a{
   color: #a79eb5;
@@ -954,5 +959,6 @@ margin-left: 95px;
         margin-left: 534px;
         margin-top: 25px;
 }
+
 
 /* 合作伙伴计划待添加 */
