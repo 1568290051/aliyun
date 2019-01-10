@@ -1,4 +1,7 @@
-﻿@font-face {
+﻿body{
+  font-family: Helvetica,Arial,Verdana,PingFang SC,Microsoft YaHei;
+}
+@font-face {
   font-family: 'iconfont';
   src: url('iconfont.eot');
   src: url('iconfont.eot?#iefix') format('embedded-opentype'),
@@ -55,7 +58,7 @@ a{
   height: 50px;
   background: url(../../images/Common/list-img.png) no-repeat 15px 18px;
   background-size: 18px;
-  border-right: 1px solid #2b2f33;
+  border-right: 1px solid hsla(0,0%,100%,.15);
   float: left;
   position: relative;
 }

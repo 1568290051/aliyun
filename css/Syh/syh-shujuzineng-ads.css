@@ -1,0 +1,90 @@
+.syh-top-nav{
+  background-color: #383d41;
+}
+/* 顶部图片 */
+.ads-top{
+  padding-top: 100px;
+  position: relative;
+  overflow: hidden;
+  width: 100%;
+  height: 380px;
+  color: #fff;
+  background: url("../../images/syh/syh-sjzn/ads-top-img.png") center 102px no-repeat;
+  background-size: 1920px 380px;
+  background-position-y:100px; 
+}
+.ads-top-title{
+  position: relative;
+  overflow: hidden;
+  height: 42px;
+  width: 100%;
+  font-size: 42px;
+  line-height: 42px;
+  margin-top: 115px;
+  text-align: center;
+  letter-spacing: 2px;
+}
+.ads-top-two{
+  position: relative;
+  width: 100%;
+  font-size: 16px;
+  line-height: 22px;
+  margin-top: 10px;
+  text-align: center;
+  letter-spacing: 1px;
+}
+.ads-top-cent{
+  position: relative;
+  overflow: hidden;
+  width: 305px;
+  height: 36px;
+  margin: auto;
+  margin-top: 50px;
+  text-align: center;
+}
+.ads-top-cent>.left{
+  position: relative;
+  overflow: hidden;
+  display: block;
+  float: left;
+  width: 143px;
+  height: 34px;
+  background: linear-gradient(90deg,#ffb82e,#ff831e);
+  font-size: 16px;
+  line-height: 34px;
+  color: #fff;
+}
+.ads-top-cent>.right{
+  position: relative;
+  overflow: hidden;
+  display: block;
+  float: right;
+  width: 143px;
+  height: 34px;
+  box-sizing: border-box;
+  border: 1px solid #fff;
+  font-size: 16px;
+  line-height: 34px;
+  color: #fff;
+}
+/* 文字区域 */
+.ads-wenz{
+  position: relative;
+  overflow: hidden;
+  width: 100%;
+  height: 93px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: url(https://img.alicdn.com/tfs/TB1dTUpsxjaK1RjSZFAXXbdLFXa-1920-93.png) top no-repeat;
+  background-size: 1920px 93px;
+}
+.ads-wenz>.content{
+  position: relative;
+  padding-left: 15px;
+  padding-right: 15px;
+  width: 1075px;
+  font-size: 16px;
+  line-height: 24px;
+  color: #fff;
+}
