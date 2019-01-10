@@ -16,7 +16,7 @@ function lunbotu() {
       // 获得元素对应的index
       num = this.getAttribute('data-index');
       // 调用动画函数
-      $(oyidong).animate({ 'left': -num * oWidth });
+      $(oyidong).stop().animate({ 'left': -num * oWidth });
       // 让其兄弟元素移除class类名
       $(this).siblings().removeClass('xiaodian-iClick');
       // 让自己本身添加class类名
@@ -134,7 +134,7 @@ function jltYd(){
 // 精灵图下面的tab切换区域
 function jltTab(){
   // 给元素添加点击事件
-  $('.common.jlt>div').click(function(){
+  $('.common.jlt>div').mouseenter(function(){
     // 给所有元素清除类名 jltClick 给自己添加上 jltClick
     $(this).siblings().removeClass('jltClick') ;
     $(this).addClass('jltClick');
@@ -145,3 +145,52 @@ function jltTab(){
     $('.jltTab>div')[oIndex].classList.add('jltTab-block');
   });
 }jltTab();
+// 跟多行业轮播图区域
+function gdhyLbt(){
+  // 给元素添加鼠标移入事件
+  $('.gdhy-chuagnkou').mouseenter(function(){
+    $('.gdhy-lutanniu').css('display','block');
+  }).mouseleave(function(){
+    $('.gdhy-lutanniu').css('display','none');
+  })
+  $('.gdhy-lutanniu').mouseenter(function(){
+    $('.gdhy-lutanniu').css('display','block');
+  }).mouseleave(function(){
+    $('.gdhy-lutanniu').css('display','none');
+  })
+
+
+  // 给元素添加鼠标移入事件
+  $('.gdhy-position').mouseenter(function(){
+    $(this.children[2]).stop().animate({'bottom':0},300);
+  }).mouseleave(function(){
+    $(this.children[2]).stop().css('bottom','-150px');
+  })
+  // 给两个按钮添加点击事件
+
+  var yidongEle = document.querySelector('.gdhy-lbt-yd');
+  // 计数变量
+  var num = 0;
+
+  $('.gdhy-lutanniu.left').click(function(){
+    if(num == 2){
+      num = 0;
+      yidongEle.style.left = 0 + 'px';
+    }
+    // 计数变量自增加
+    num++;
+    
+    // 调用函数
+    $(yidongEle).animate({'left':-num * 1440});
+  })
+  $('.gdhy-lutanniu.right').click(function(){
+    if(num == 0){
+      num = 2;
+      yidongEle.style.left = -num * 1440 + 'px';
+    }
+    num--;
+    // 调用函数
+    $(yidongEle).animate({'left':-num * 1440},500);
+  })
+  
+}gdhyLbt();
