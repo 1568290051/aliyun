@@ -382,6 +382,8 @@ a,p,span,div,h1,h2,h3,.common{
 }
 .gdhy-lbt-yd{
   width: calc(1440px * 3);
+  position: relative;
+  left: 0px;
 }
 .gdhy-img-box{
   float: left;
@@ -424,6 +426,7 @@ a,p,span,div,h1,h2,h3,.common{
   border: none;
   background-color: black;
   opacity: 0.3;
+  z-index: 10;
 }
 .gdhy-lutanniu.left{
   left: -24px;
@@ -460,4 +463,146 @@ p.gdhy-wenzi-title{
   padding-top: 8px;
   opacity: 0.9;
   font-weight: bold;
+}
+/* 机器学习平台区块 */
+.jiqixvexi-box{
+  height: 320px;
+  background: url("../../images/syh/syh-jiqi-bg.png") no-repeat 0px 0px;
+}
+.jqxx-title{
+  width: 75%;
+    height: auto;
+    line-height: 36px;
+    font-size: 36px;
+    color: #fff;
+    font-family: Microsoft YaHei;
+    padding: 60px 0 30px;
+}
+.jqxx-cont{
+  width: 43%;
+  line-height: 23px;
+  font-size: 14px;
+  color: #fff;
+  font-family: Microsoft YaHei;
+  margin-bottom: 25px;
+}
+.jqxx-anniu{
+  width: 130px;
+  height: 35px;
+  line-height: 35px;
+  font-size: 14px;
+  overflow: hidden;
+  color: #fff;
+  font-family: Microsoft YaHei;
+  margin: 0 auto;
+  text-align: center;
+  border: 1px solid #fff;
+  display: inline-block;
+  margin-right: 20px;
+}
+.jqxx-anniu:hover{
+  background: #00c1de;
+}
+/* 最新质询区块 */
+.zuixingzhixun-box{
+  width: 100%;
+  padding: 60px 0;
+  position: relative;
+  background: #fff;
+}
+.zxzx-title{
+  text-align: center;
+  line-height: 36px;
+  font-size: 24px;
+  color: #333;
+  font-weight: 400;
+  padding-bottom: 38px;
+}
+.zuixingzhixun-box .clearfix>li{
+  margin-right: 20px;
+  width: 380px;
+  float: left;
+  overflow: hidden;
+  position: relative;
+}
+/* 图片 */
+.zxzx-img{
+  width: 380px;
+  height: 240px;
+}
+.zx-cont-bottom{
+  width: 360px;
+    font-size: 14px;
+    text-align: left;
+    font-family: Microsoft YaHei;
+    overflow: hidden;
+    margin-top: 15px;
+    color: #333;
+    padding-left: 5px;
+}
+.xixi{
+  width: 340px;
+  height: 40px;
+  text-align: center;
+  line-height: 40px;
+  padding: 0 20px;
+  color: #fff;
+  font-size: 14px;
+  overflow: hidden;
+  position: absolute;
+  top: 200px;
+  background-color: rgba(0,0,0,.4);
+}
+/* 底部结束 */
+.middlo-out{
+  width: 100%;
+  overflow: hidden;
+  height: 495px;
+  background-color: #0f013c;
+  background-image: url("../../images/syh/syh-bottom-out-img.png");
+  background-size: 1920px 495px;
+}
+.middlo-one{
+  width: 100%;
+    height: 25px;
+    line-height: 25px;
+    font-size: 24px;
+    color: #fff;
+    font-family: Microsoft YaHei;
+    text-align: center;
+    margin-top: 90px;
+}
+.middlo-two{
+  width: 100%;
+  height: 25px;
+  line-height: 25px;
+  font-size: 24px;
+  color: #fff;
+  font-family: Microsoft YaHei;
+  text-align: center;
+  margin-top: 20px;
+  margin-bottom: 10px;
+}
+.middlo-out-ul{
+  margin-top: 50px;
+}
+.middlo-out-ul>li{
+  float: left;
+  width: 33.3%;
+}
+.middlo-out-ul>li .title-p{
+  height: 90px;
+  font-size: 60px;
+  color: #fff;
+  font-weight: 700;
+  text-align: center;
+  line-height: 90px;
+  margin-bottom: 10px;
+}
+.middlo-out-ul>li .cont-p{
+  height: 24px;
+  font-size: 14px;
+  color: #fff;
+  line-height: 24px;
+  text-align: center;
 }
