@@ -6,6 +6,29 @@
 //     // oDiv.onmouseout = function(){
 //     //     startMove(1);//透明度变为30
 //     // }
+/**
+ *　　　　　　　 ┏┓       ┏┓+ +
+ *　　　　　　　┏┛┻━━━━━━━┛┻┓ + +
+ *　　　　　　　┃　　　　　　 ┃
+ *　　　　　　　┃　　　━　　　┃ ++ + + +
+ *　　　　　　 █████━█████  ┃+
+ *　　　　　　　┃　　　　　　 ┃ +
+ *　　　　　　　┃　　　┻　　　┃
+ *　　　　　　　┃　　　　　　 ┃ + +
+ *　　　　　　　┗━━┓　　　 ┏━┛
+ *               ┃　　  ┃
+ *　　　　　　　　　┃　　  ┃ + + + +
+ *　　　　　　　　　┃　　　┃　Code is far away from     bug with the animal protecting
+ *　　　　　　　　　┃　　　┃ + 　　　　         神兽保佑,代码无bug
+ *　　　　　　　　　┃　　　┃
+ *　　　　　　　　　┃　　　┃　　+
+ *　　　　　　　　　┃　 　 ┗━━━┓ + +
+ *　　　　　　　　　┃ 　　　　　┣┓
+ *　　　　　　　　　┃ 　　　　　┏┛
+ *　　　　　　　　　┗┓┓┏━━━┳┓┏┛ + + + +
+ *　　　　　　　　　 ┃┫┫　 ┃┫┫
+ *　　　　　　　　　 ┗┻┛　 ┗┻┛+ + + +
+ */
 
 // 轮播图第一部分
 var jias = 1;
@@ -240,7 +263,7 @@ $('.index-lunbo-click li').click(function(){
       $('.zhezhao').fadeOut('1');
     });
   })
-  console.log($('.index-lunbo-click li'))
+//   console.log($('.index-lunbo-click li'))
 
 
   var timerLunbo2 = setInterval(yujisz,50000)
@@ -252,7 +275,7 @@ function yujisz(){
         var spanOne = document.querySelector('.index-lunbo-click-one span');
         var num = 1;
         var spanLeft = spanOne.offsetWidth;
-        console.log(spanLeft)
+        // console.log(spanLeft)
           spanOne.style.width = spanLeft+num +'px';
           if(spanLeft == 40){
               spanOne.style.width = 0 +"px";
@@ -266,7 +289,7 @@ function yujisz(){
             var spantwo = document.querySelector('.index-lunbo-click-two span');
             var num2 = 1;
             var spantwoLeft = spantwo.offsetWidth;
-            console.log(spantwoLeft )
+            // console.log(spantwoLeft )
               spantwo.style.width = spantwoLeft +num2 +'px';
               if(spantwoLeft  == 40){
                 spantwo.style.width = 0 +"px";
@@ -281,7 +304,7 @@ function yujisz(){
             var spanthree = document.querySelector('.index-lunbo-click-three span');
             var num3= 1;
             var spanthreeLeft = spanthree.offsetWidth;
-            console.log(spanthreeLeft )
+            // console.log(spanthreeLeft )
             spanthree.style.width = spanthreeLeft +num3 +'px';
               if(spanthreeLeft  == 40){
                 spanthree.style.width = 0 +"px";
@@ -296,7 +319,7 @@ function yujisz(){
              var spanfour = document.querySelector('.index-lunbo-click-four span');
              var num4 = 1;
              var spanfourLeft = spanfour.offsetWidth;
-             console.log(spanfourLeft )
+            //  console.log(spanfourLeft )
              spanfour.style.width = spanfourLeft +num4 +'px';
                if(spanfourLeft  == 40){
                 spanfour.style.width = 0 +"px";
@@ -311,7 +334,7 @@ function yujisz(){
              var spanfive = document.querySelector('.index-lunbo-click-five span');
              var num5 = 1;
              var spanfiveLeft = spanfive.offsetWidth;
-             console.log(spanfiveLeft )
+            //  console.log(spanfiveLeft )
              spanfive.style.width = spanfiveLeft +num5 +'px';
                if(spanfiveLeft  == 40){
                 spanfive.style.width = 0 +"px";
@@ -396,4 +419,36 @@ function yujisz(){
 //            }
 //        },250)
 //    },40000)
- 
+
+
+// $('.index-product-center-one-title-one-tanxing').click(function(){
+//     $(this).removeClass('index-product-center-one-title-one-tanxing');
+//     // $(this).toggleClass('index-product-center-one-title-one-tanxing');
+//     $(this).addClass('index-product-center-one-title-one-tanxing2')
+// })
+
+
+
+// 鼠标点击图片变换 字体变色
+var  indexProduct = document.querySelectorAll('.product');
+for(var e = 0;e<indexProduct.length;e++){
+    indexProduct[e].setAttribute('data-index',e)
+    
+    indexProduct[e].onclick = function(){
+        for(var j = 0; j < indexProduct.length; j++){
+            indexProduct[j].classList.remove('products');
+            $(indexProduct[j].parentElement.children[1]).css('color','#373d41');
+        }
+        var sum = this.getAttribute('data-index')
+        this.classList.add('products');
+        console.log( this.parentElement.children[1])
+        $(this.parentElement.children[1]).css('color','#00c1de')
+    }
+}
+// 鼠标移入字体变色
+$('.index-product-center-one-title>li>a').mouseover(function(){
+    $(this).css('color',"#00c1de");
+  })
+  $('.index-product-center-one-title>li>a').mouseout(function(){
+    $(this).css('color',"#373d41");
+  })

@@ -1,4 +1,47 @@
 
+
+/* $  $,     ,
+//                                        "ss.$ss. .s’
+//                                ,     .ss$$$$$$$$$$s,
+//                                $. s$$$$$$$$$$$$$$`$$Ss
+//                                "$$$$$$$$$$$$$$$$$$o$$$       ,
+//                               s$$$$$$$$$$$$$$$$$$$$$$$$s,  ,s
+//                              s$$$$$$$$$"$$$$$$""""$$$$$$"$$$$$,
+//                              s$$$$$$$$$$s""$$$$ssssss"$$$$$$$$”
+//                             s$$$$$$$$$$'         `"""ss"$"$s"”
+//                             s$$$$$$$$$$,              `"""""$  .s$$s
+//                             s$$$$$$$$$$$$s,...               `s$$'  `
+//                         `ssss$$$$$$$$$$$$$$$$$$$$####s.     .$$"$.   , s-
+//                           `""""$$$$$$$$$$$$$$$$$$$$#####$$$$$$"     $.$’
+//                                 "$$$$$$$$$$$$$$$$$$$$$####s""     .$$$|
+//                                  "$$$$$$$$$$$$$$$$$$$$$$$$##s    .$$" $
+//                                   $$""$$$$$$$$$$$$$$$$$$$$$$$$$$$$$"   `
+//                                  $$"  "$"$$$$$$$$$$$$$$$$$$$$S""""’
+//                             ,   ,"     '  $$$$$$$$$$$$$$$$####s
+//                             $.          .s$$$$$$$$$$$$$$$$$####”
+//                 ,           "$s.   ..ssS$$$$$$$$$$$$$$$$$$$####”
+//                 $           .$$$S$$$$$$$$$$$$$$$$$$$$$$$$#####”
+//                 Ss     ..sS$$$$$$$$$$$$$$$$$$$$$$$$$$$######"”
+//                  "$$sS$$$$$$$$$$$$$$$$$$$$$$$$$$$########”
+//           ,      s$$$$$$$$$$$$$$$$$$$$$$$$#########""’
+//           $    s$$$$$$$$$$$$$$$$$$$$$#######""'      s'         ,
+//           $$..$$$$$$$$$$$$$$$$$$######"'       ....,$$....    ,$
+//            "$$$$$$$$$$$$$$$######"' ,     .sS$$$$$$$$$$$$$$$$s$$
+//              $$$$$$$$$$$$#####"     $, .s$$$$$$$$$$$$$$$$$$$$$$$$s.
+//   )          $$$$$$$$$$$#####'        `$$$$$$$$$###########$$$$$$$$$$$.
+//  ((          $$$$$$$$$$$#####       $$$$$$$$###"       "####$$$$$$$$$$
+//  ) \         $$$$$$$$$$$$####.     $$$$$$###"             "###$$$$$$$$$   s’
+// (   )        $$$$$$$$$$$$$####.   $$$$$###"                ####$$$$$$$$s$$’
+// )  ( (       $$"$$$$$$$$$$$#####.$$$$$###'                .###$$$$$$$$$$”
+// (  )  )   _,$"   $$$$$$$$$$$$######.$$##'                .###$$$$$$$$$$
+// ) (  ( \.         "$$$$$$$$$$$$$#######,,,.          ..####$$$$$$$$$$$”
+//(   )$ )  )        ,$$$$$$$$$$$$$$$$$$####################$$$$$$$$$$$”
+//(   ($$  ( \     _sS"  `"$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$S$$,
+// )  )$$$s ) )  .      .   `$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$"'  `$$
+//  (   $$$Ss/  .$,    .$,,s$$$$$$##S$$$$$$$$$$$$$$$$$$$$$$$$S""        ‘
+//    \)_$$$$$$$$$$$$$$$$$$$$$$$##"  $$        `$$.        `$$.
+//        `"S$$$$$$$$$$$$$$$$$#"      $          `$          `$
+//            `"""""""""""""'         '           '           ' */
 /* 轮播图 */
 .lunbotu{
     position: relative;
@@ -202,8 +245,149 @@ margin-bottom: 12px;
     width: 1200px;
     margin: 0 auto;
 }
-
+/* 产品部分图片五环 */
 .index-product-image{
-margin: 0 auto;
+    display: block;
+    width: 130px;
+    margin: 32px auto 24px;
+}
+/* 产品部分主标题 */
+.index-product-title-top{
+font-size: 24px;
+text-align: center;
+line-height: 36px;
+color: #373d41;
+}
+/* 产品部分副标题 */
+.index-product-title-bottom{
+    text-align: center;
+    font-size: 16px;
+    margin: 8px 0 42px;
+    display: block;
+    color: #373d41;
+}
+/* 给产品部分副部分添加鼠标移入事件 */
+.index-product-title-bottom:hover{
+    color: #00c1de;
+}
+/* 产品内容 */
+.index-product-center{
+    width:1200px;
+    margin: 0 auto;
+}
+/* 产品内容第一行 */
+.index-product-center-one,.index-product-center-two,.index-product-center-three,.index-product-center-four,.index-product-center-five{
+    position: relative;
+    width: 1200px;
+    height: 131px;
+    margin:  0 auto;
+}
+/* 点击图标 */
+.index-product-center-one-title{
+    width: 1200px;
+    margin: 0 auto;
+    height: 131px;
+}
+.index-product-center-one-title-one,.index-product-center-one-title-two,.index-product-center-one-title-three,.index-product-center-one-title-four,.index-product-center-one-title-five{
+    width: 20%;
+    height: 100%;
+    box-sizing: border-box;
+    padding: 15px 39px;
+    float: left;
+}
+.index-product-center-one-title>li>a{
+    display: block;
+    color: #373d41;
+}
+.index-product-center-one-title-one .product{
+    width: 80px;
+    height: 80px;
+    margin: auto;
+    background-image: url(../../images/Xzs/TB1fk0RQVXXXXajXVXXXXXXXXXX-160-160.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+.index-product-center-one-title-one .products{
+    width: 80px;
+    height: 80px;
+    margin: auto;
+    background-image: url(../../images/Xzs/TB1XhNOQVXXXXXcaXXXXXXXXXXX-160-160.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+.index-product-center-one-title-two .product{
+    width: 80px;
+    height: 80px;
+    margin: auto;
+    background-image: url(../../images/Xzs/TB1oCR6QVXXXXXXXFXXXXXXXXXX-160-160.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+      box-sizing: border-box;
+}
+ .index-product-center-one-title-two .products{
+    width: 80px;
+    height: 80px;
+    margin: auto;
+    background-image: url(../../images/Xzs/TB1s_xUQVXXXXXiXVXXXXXXXXXX-160-160.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+}
 
+.index-product-center-one-title-three .product{
+    width: 80px;
+    height: 80px;
+    margin: auto;
+    background-image: url(../../images/Xzs/TB1kZRHQVXXXXX.aXXXXXXXXXXX-160-160.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+      box-sizing: border-box;
+}
+ .index-product-center-one-title-three .products{
+    width: 80px;
+    height: 80px;
+    margin: auto;
+    background-image: url(../../images/Xzs/TB1AO1pQVXXXXX6XXXXXXXXXXXX-160-160.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+.index-product-center-one-title-four .product{
+    width: 80px;
+    height: 80px;
+    margin: auto;
+    background-image: url(../../images/Xzs/TB1UeN.QVXXXXX1XFXXXXXXXXXX-160-160.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+      box-sizing: border-box;
+}
+ .index-product-center-one-title-four .products{
+    width: 80px;
+    height: 80px;
+    margin: auto;
+    background-image: url(../../images/Xzs/TB1hCRYQVXXXXa7XFXXXXXXXXXX-160-160.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+ }
+
+ .index-product-center-one-title-five .product{
+    width: 80px;
+    height: 80px;
+    margin: auto;
+    background-image: url(../../images/Xzs/TB1Qr4RQVXXXXbvXVXXXXXXXXXX-160-160.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+      box-sizing: border-box;
+}
+ .index-product-center-one-title-five .products{
+    width: 80px;
+    height: 80px;
+    margin: auto;
+    background-image: url(../../images/Xzs/TB1Y.p7QVXXXXXHXFXXXXXXXXXX-160-160.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+ }
+/* p标签属性 */
+.index-product-center-one-title>li>a>p{
+    text-align: center;
+    font-size: 14px;
 }
