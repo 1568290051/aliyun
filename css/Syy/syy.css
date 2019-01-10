@@ -8,7 +8,7 @@
     top: 0px;
     opacity: 1;
 }
-@font-face {
+/* @font-face {
   font-family: 'iconfont';
   src: url('iconfont.eot');
   src: url('iconfont.eot?#iefix') format('embedded-opentype'),
@@ -16,7 +16,7 @@
       url('iconfont.woff') format('woff'),
       url('iconfont.ttf') format('truetype'),
       url('iconfont.svg#iconfont') format('svg');
-}
+} */
 .iconfont {
   font-family: "iconfont" !important;
   font-size: 26px;
@@ -962,3 +962,108 @@ margin-left: 95px;
 
 
 /* 合作伙伴计划待添加 */
+.menu{
+  background-color: #F5F5F6;
+  padding: 48px 0;   
+  box-sizing: inherit;
+  height: 730px;
+}
+.menu-container{
+  box-sizing: border-box;
+  width: 1200px;
+  margin: 0 auto;
+}
+.menu-container>h3{
+  font-size: 24px;
+    color: #373d41;
+    text-align: center;
+    line-height: 32px;
+    margin-bottom: 20px;
+    font-weight: 700;
+}
+.menu-container>p{
+  color: #73777a;
+    line-height: 20px;
+    text-align: center;
+    font-size: 14px;
+    font-weight: 400;
+}
+.menu-container-list{
+  margin-top: 60px;
+}
+.menu-container-list-col{
+  box-sizing: border-box;
+  float: left;
+    width: 33.33333%;
+}
+.box01{
+  transition: all .3s ease;
+    position: relative;
+    margin-left: -10px;
+    margin-right: -10px;
+    height: 560px;
+    background: #fff;
+    margin-bottom: 20px;
+    overflow: hidden;
+}
+.box01-hd{
+  
+  background: #373d41;
+    padding: 32px 0;
+}
+.box01-hdd{
+  height: 45px;
+    margin-bottom: 20px;
+}
+.box01-hd img{
+  display: block;
+    height: 45px;
+    margin: 0 auto;
+}
+.box01-hd h6{
+  color: #fff;
+    font-size: 18px;
+    line-height: 20px;
+    font-weight: 300;
+    text-align: center;
+}
+.box01-bd{
+  background: #fff;
+    padding: 22px 46px 24px;
+}
+.box01-bd .z2{
+  padding: 16px 0 4px;
+    border-bottom: 1px solid hsla(0,0%,59%,.4);
+}
+.box01-bd dt{
+  font-size: 14px;
+    color: #00c1de;
+    line-height: 22px;
+    margin-bottom: 12px;
+}
+.box01-bd  a{
+  display: inline-block;
+  font-size: 14px;
+    color: #73777a;
+    line-height: 20px;
+    margin-bottom: 12px;
+}
+.z1{
+  padding: 16px 0 4px;
+}
+.z1 dd a{
+  font-size: 14px;
+    color: #73777a;
+    line-height: 20px;
+    margin-bottom: 12px;
+}
+#q{
+  transform: scale(1.07);
+  box-shadow: 1px 1px 5px 5px #c7c7c8;
+}
+#w{
+  background-color: #00c1de;
+}
+.box01 a:hover{
+  color: #00c1de;
+}

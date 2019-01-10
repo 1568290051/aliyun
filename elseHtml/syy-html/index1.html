@@ -8,104 +8,31 @@
   <title>Document</title>
   <link rel="stylesheet" href="../../css/common/reset.css">
   <link rel="stylesheet" href="../../css/Syy/syy.css">
-  <script src="../../js/common/syh-common.js"></script>
   <script src="../../js/common/jQuery.js"></script>
+  <script src="../../js/common/syh-common.js"></script>
 </head>
 <style>
-.menu{
-  background-color: #F5F5F6;
-  padding: 48px 0;   
-  box-sizing: inherit;
-  height: 730px;
+.col-main{
+  width: 100%;
+  background-color: #fff;
 }
-.menu-container{
-  box-sizing: border-box;
+.col-main-container{
   width: 1200px;
   margin: 0 auto;
 }
-.menu-container>h3{
+.col-main-container h3{
   font-size: 24px;
     color: #373d41;
     text-align: center;
     line-height: 32px;
-    margin-bottom: 20px;
-    font-weight: 700;
+    margin-bottom: 32px;
+    margin-top: 35px;
 }
-.menu-container>p{
-  color: #73777a;
-    line-height: 20px;
-    text-align: center;
-    font-size: 14px;
-    font-weight: 400;
-}
-.menu-container-list{
-  margin-top: 60px;
-}
-.menu-container-list-col{
-  box-sizing: border-box;
-  float: left;
-    width: 33.33333%;
-}
-.box01{
-  transition: all .3s ease;
+.col-main-container-slick{
+  width: 100%;
     position: relative;
-    margin-left: -10px;
-    margin-right: -10px;
-    height: 560px;
-    background: #fff;
-    margin-bottom: 20px;
     overflow: hidden;
-}
-.box01-hd{
-  
-  background: #373d41;
-    padding: 32px 0;
-}
-.box01-hdd{
-  height: 45px;
-    margin-bottom: 20px;
-}
-.box01-hd img{
-  display: block;
-    height: 45px;
-    margin: 0 auto;
-}
-.box01-hd h6{
-  color: #fff;
-    font-size: 18px;
-    line-height: 20px;
-    font-weight: 300;
-    text-align: center;
-}
-.box01-bd{
-  background: #fff;
-    padding: 12px 46px 24px;
-}
-.box01-bd .z2{
-  padding: 16px 0 4px;
-    border-bottom: 1px solid hsla(0,0%,59%,.4);
-}
-.box01-bd dt{
-  font-size: 14px;
-    color: #00c1de;
-    line-height: 22px;
-    margin-bottom: 12px;
-}
-.box01-bd  a{
-  display: inline-block;
-  font-size: 14px;
-    color: #73777a;
-    line-height: 20px;
-    margin-bottom: 12px;
-}
-.z1{
-  padding: 16px 0 4px;
-}
-.z1 dd a{
-  font-size: 14px;
-    color: #73777a;
-    line-height: 20px;
-    margin-bottom: 12px;
+
 }
 </style>
 <body>
@@ -1908,8 +1835,8 @@
   <p>合作伙伴培训课程可以帮助合作伙伴了解云产品知识、提高技能、让其业务脱颖而出并更好地服务客户</p>
   <div class="menu-container-list">
     <div class="menu-container-list-col"> 
-      <div class="box01">
-        <div class="box01-hd">
+      <div class="box01" id="q">
+        <div class="box01-hd box02" id="w">
           <div class="box01-hdd">
             <img src="../../images/Syy/low1.png" alt="">
           </div>
@@ -1935,34 +1862,66 @@
     </div>
     <div class="menu-container-list-col"> 
       <div class="box01">
-        <div class="box01-hd">
+        <div class="box01-hd box02">
           <div class="box01-hdd">
-            <img src="../../images/Syy/low1.png" alt="">
+            <img src="../../images/Syy/low2.png" alt="">
           </div>
-          <h6>云计算产品课程</h6>
+          <h6>解决方案课程</h6>
         </div>
         <div class="box01-bd">
           <dl class="z2">
-            <dt>基础产品课程</dt>
-            <dd><a href="">云服务器 ECS ></a></dd>
-            <dd><a href="">云数据库 RDS ></a></dd>
-            <dd><a href="">负载均衡 SLB ></a></dd>
+            <dt>行业解决方案</dt>
+            <dd><a href="">电商行业解决方案 ></a></dd>
+            <dd><a href="">金融行业解决方案 ></a></dd>
+            <dd><a href="">大视频解决方案 ></a></dd>
             <dd><a href="">查看更多 ></a></dd>
           </dl>
           <dl class="z1">
-            <dt>高阶产品课程</dt>
-            <dd><a href="">机器学习 ></a></dd>
-            <dd><a href="">大数据产品体系介绍 ></a></dd>
-            <dd><a href="">企业级分布式应用服务EDAS ></a></dd>
+            <dt>通用解决方案</dt>
+            <dd><a href="">企业级互联网架构综述 ></a></dd>
+            <dd><a href="">阿里云混合云网络架构实践 ></a></dd>
+            <dd><a href="">容灾解决方案 ></a></dd>
             <dd><a href="">查看更多 ></a></dd>
           </dl>
         </div>
       </div>
     </div>
-    <div></div>
+    <div class="menu-container-list-col"> 
+      <div class="box01">
+        <div class="box01-hd box02">
+          <div class="box01-hdd">
+            <img src="../../images/Syy/low1.png" alt="">
+          </div>
+          <h6>岗位与认证培训</h6>
+        </div>
+        <div class="box01-bd">
+          <dl class="z2">
+            <dt>销售与架构师</dt>
+            <dd><a href="">销售类--第一通电话 ></a></dd>
+            <dd><a href="">架构师—行业画像 ></a></dd>
+            <dd><a href="">顾问式销售 ></a></dd>
+            <dd><a href="">查看更多 ></a></dd>
+          </dl>
+          <dl class="z1">
+            <dt>认证课程包</dt>
+            <dd><a href="">ACP级弹性计算认证课程 ></a></dd>
+            <dd><a href="">ACP级安全认证课程 ></a></dd>
+            <dd><a href="">ACP级企业互联网架构课程 ></a></dd>
+            <dd><a href="">查看更多 ></a></dd>
+          </dl>
+        </div>
+      </div>
+    </div>
   </div>
  </div>
 </div>
+<div class="col-main"></div>
+<div class="col-main-container">
+  <h3>核心合作伙伴</h3>
+  <div class="col-main-container-slick">
+    
+  </div>
+</div>
 </body>
-
+<script src="../../js/Syy/syy-j2.js"></script>
 </html>
