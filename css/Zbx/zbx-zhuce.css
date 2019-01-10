@@ -3,6 +3,7 @@
     width: 100%;
     height: 70px;
     border:1px solid #b6b4b6;
+    background-color: #f5f5f6;
 }
 /* 公共部分 */
 .common{
@@ -32,6 +33,7 @@
     position: relative;
     padding-right: 30px;
     background: url("../../images/Zbx/向下箭头.png") no-repeat 50px 0px;
+    background-color: #00c1de;
 }
 .zbx-rightzhu>span img{
     position: absolute;
@@ -42,4 +44,29 @@
     font-size: 15px;
     color: black;
     margin-left:35px; 
+}
+
+.zbx-china {
+    position: absolute;
+    top:45px;
+    left:-30px;
+    width: 130px;
+    height: 76px;
+    background-color: #f5f5f6;
+    color: #eaeaeb;
+    box-shadow: 0px 0px 3px 0px;
+   border:#eaeaeb;
+   display: none;
+}
+.zbx-china li {
+   
+    height: 38px;
+    line-height: 38px;
+    padding-left: 12px;
+}
+.zbx-china li>a{
+    color:black;
+}
+.zbx-china li>a:hover{
+    color: #00c1de;
 }
