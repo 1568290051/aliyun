@@ -172,7 +172,7 @@ function gdhyLbt(){
   // 计数变量
   var num = 0;
 
-  $('.gdhy-lutanniu.left').click(function(){
+  $('.gdhy-lutanniu.right').click(function(){
     if(num == 2){
       num = 0;
       yidongEle.style.left = 0 + 'px';
@@ -183,7 +183,7 @@ function gdhyLbt(){
     // 调用函数
     $(yidongEle).animate({'left':-num * 1440});
   })
-  $('.gdhy-lutanniu.right').click(function(){
+  $('.gdhy-lutanniu.left').click(function(){
     if(num == 0){
       num = 2;
       yidongEle.style.left = -num * 1440 + 'px';
