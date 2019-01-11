@@ -431,24 +431,33 @@ function yujisz(){
 
 // 鼠标点击图片变换 字体变色
 var  indexProduct = document.querySelectorAll('.product');
+console.log
+var productCenter = document.querySelectorAll('.product-center')
+console.log(productCenter)
 for(var e = 0;e<indexProduct.length;e++){
     indexProduct[e].setAttribute('data-index',e)
-    
     indexProduct[e].onclick = function(){
         for(var j = 0; j < indexProduct.length; j++){
             indexProduct[j].classList.remove('products');
-            $(indexProduct[j].parentElement.children[1]).css('color','#373d41');
+            productCenter[j].classList.remove('products-center');
+            // $(indexProduct[j].parentElement.children[1]).css('color','#373d41');
         }
         var sum = this.getAttribute('data-index')
         this.classList.add('products');
-        console.log( this.parentElement.children[1])
-        $(this.parentElement.children[1]).css('color','#00c1de')
+         productCenter[sum].classList.add('products-center');
+        console.log( sum)
+        // $(this.parentElement.children[1]).css('color','#00c1de')
     }
 }
+
 // 鼠标移入字体变色
-$('.index-product-center-one-title>li>a').mouseover(function(){
-    $(this).css('color',"#00c1de");
-  })
-  $('.index-product-center-one-title>li>a').mouseout(function(){
-    $(this).css('color',"#373d41");
-  })
+// $('.index-product-center-one-title>li>a').mouseover(function(){
+//     $(this).css('color',"#00c1de");
+//   })
+//   $('.index-product-center-one-title>li>a').mouseout(function(){
+//     $(this).css('color',"#373d41");
+//   })
+
+
+
+

@@ -28,13 +28,27 @@
     margin-bottom: 32px;
     margin-top: 35px;
 }
-.col-main-container-slick{
+.col-main-container-list{
   position: relative;
   width: 100%;
-    overflow: hidden;
     height: 158px;
     margin: 0 auto;
-
+}
+.pret{
+  background-image: url(../../images/Syy/tu11.png);
+  width: 70px;
+    height: 70px;
+    background-size: 50%;
+    outline: none;
+    border: 0;
+    font-size: 0;
+    color: transparent;
+    position: absolute;
+    left: -60px;
+    top: 50%;
+    margin-top: -65px;
+    opacity: .8;
+    background-color: aqua;
 }
 .next{
   background-image: url(../../images/Syy/tu22.png);
@@ -51,6 +65,31 @@
     top: 50%;
     margin-top: -65px;
     opacity: 8;
+}
+.col-main-container-slick{
+  position: relative;
+  width: 1180px;
+  height: 158px;
+  margin: 0 auto;
+  overflow: hidden;
+}
+.col-main-container-slick ul{
+  position: absolute;
+  width: calc(6 * 281px);
+height: 131px;
+overflow: hidden;
+}
+.col-main-container-slick ul li{
+  float: left;
+  width: 281px;
+  height: 127px;
+  border: 1px solid black;
+  margin-left: 10px;
+  margin-left: 10px;
+}
+.col-main-container-slick img{
+  width: 281px;
+  height: 125px;
 }
 </style>
 <body>
@@ -1936,10 +1975,22 @@
 <div class="col-main"></div>
 <div class="col-main-container">
   <h3>核心合作伙伴</h3>
-  <div class="col-main-container-slick">
-    <a href="" class="pret"></a>
-    <a href="" class="next"></a>
+  <div class="col-main-container-list">
+      <a href="javascript:;" class="pret"></a>
+    <div class="col-main-container-slick">
+      <ul>
+        <li><img src="../../images/Syy/tu1.png" alt=""></li>
+        <li><img src="../../images/Syy/tu2.png" alt=""></li>
+        <li><img src="../../images/Syy/tu3.png" alt=""></li>
+        <li><img src="../../images/Syy/tu4.png" alt=""></li>
+        <li><img src="../../images/Syy/tu5.png" alt=""></li>
+        <li><img src="../../images/Syy/tu6.png" alt=""></li>
+      </ul>
+    </div>
+    <a href="javascript:;" class="next"></a>
   </div>
+  <script src="../../js/Syy/syy-j1.js"></script>
+  <script src="../../js/Syy/syy-j3.js"></script>
 </div>
 </body>
 <script src="../../js/Syy/syy-j2.js"></script>
