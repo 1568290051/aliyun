@@ -33,7 +33,6 @@
     position: relative;
     padding-right: 30px;
     background: url("../../images/Zbx/向下箭头.png") no-repeat 50px 0px;
-    background-color: #00c1de;
 }
 .zbx-rightzhu>span img{
     position: absolute;
@@ -46,7 +45,7 @@
     margin-left:35px; 
 }
 
-.zbx-china {
+.zbx-china{
     position: absolute;
     top:45px;
     left:-30px;
@@ -56,6 +55,7 @@
     color: #eaeaeb;
     box-shadow: 0px 0px 3px 0px;
    border:#eaeaeb;
+   z-index: 1000;
    display: none;
 }
 .zbx-china li {
