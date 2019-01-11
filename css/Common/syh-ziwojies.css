@@ -1,0 +1,151 @@
+.user-jiesao{
+  width: 20px;
+  height: 100px;
+  background-color: #272b2e;
+  position: fixed;
+  right:0px;
+  top: 100px;
+  cursor: pointer;
+  border-radius: 10px;
+  transition: right 1s 1.2s;
+  box-sizing: border-box;
+  padding-top: 34px;
+  z-index: 2000;
+}
+.user-jiesao>p{
+  width: 18px;
+  height: 8px;
+  border-radius: 5px;
+  background-color: #33cde5;
+  position: absolute;
+  bottom: 0px;
+  left: 1px;
+}
+.a1{
+  transition: background 0s 0.2s;
+  
+  bottom: 54px !important;
+}
+.a2{
+  transition: background 0s 0.4s;
+  bottom: 42px !important;
+}
+.a3{
+  transition: background 0s 0.6s;
+  bottom: 30px !important;
+}
+.a4{
+  transition: background 0s 0.8s;
+  bottom: 18px !important;
+}
+.a5{
+  transition: background 0s 1s;
+  bottom: 6px !important;
+}
+.user-jiesao:hover>p{
+  /* height: 0px; */
+  background: #cccccc;
+}
+.user-jiesao:hover{
+  right: -20px;
+}
+body{
+  height: 2000px;
+}
+.user-box{
+  position: absolute;
+  top: 0px ;
+  left: -650px;
+  width: 650px;
+  height: 0px;
+  background-color: #272b2e;
+  transition: height 0.8s 1s;
+  box-sizing: border-box;
+}
+.user-jiesao:hover>.user-box{
+  height: 550px;
+  border: 1px solid #33cde5;
+  border-left: none;
+}
+.user-jiesao:hover>.user-box>.my-img{
+  width: 350px;
+  border: 1px solid #33cde5;
+  border-right: none;
+}
+.my-img{
+  position: absolute;
+  width: 0px;
+  height: 550px;
+  left: -350px;
+  top: -1px;
+  background-color: #272b2e;
+  transition: width 0.8s 0.8s;
+  box-sizing: border-box;
+  overflow: hidden;
+}
+.my-img>img{
+  width: 350px;
+}
+.mu-name{
+  height: 84px;
+  box-sizing: border-box;
+  background-color: #272b2e;
+  text-align: center;
+  line-height: 84px;
+  color: white;
+  font-size: 45px;
+  font-weight: bold;
+  font-family: '仿宋';
+}
+.my-cont{
+  transition: height 0.8s 1.2s;
+  color: white;
+  width: 740px;
+  margin: 20px;
+  height: 0px;
+  /* background-color: skyblue; */
+  overflow: hidden;
+}
+.user-jiesao:hover>.user-box>.my-cont{
+  height: 510px;
+}
+.aa-a,.aa-a>.my-img,.aa-a>.my-cont{
+  height: 0px !important;
+  transition: all 0s 0s !important;
+}
+.syh-title{
+  height: 84px;
+  box-sizing: border-box;
+  background-color: #272b2e;
+  text-align: center;
+  line-height: 84px;
+  color: white;
+  font-size: 45px;
+  font-weight: bold;
+  font-family: '仿宋';
+  margin: 0px;
+}
+.fuzherenwu{
+  height: 84px;
+  line-height: 84px;
+  padding-left: 30px;
+}
+.title-zgzz{
+  font-weight: bold;
+  font-family: '仿宋';
+  font-size: 30px;
+  padding-right: 30px;
+  float: left;
+}
+.jingdutiao{
+  float: left;
+  height: 20px;
+  width: 200px;
+  background: red;
+  margin-top: 35px;
+}
+.jingdutiao1{
+  height: 20px;
+  width: 150px;
+  background: orange;
+}
