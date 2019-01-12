@@ -238,9 +238,9 @@ margin-bottom: 12px;
         font: 12px/1.5 tahoma,arial,'Hiragino Sans GB',\5b8b\4f53,sans-serif;
 
     } */
-    .index-product-hide-center{
+    /* .index-product-hide-center{ */
         /* transition: all 1s; */
-    }
+    /* } */
 /* 清除浮动 */
 .clearfix::after{
     content: "";
