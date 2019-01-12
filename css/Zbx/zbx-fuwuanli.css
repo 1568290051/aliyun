@@ -83,6 +83,7 @@
 /* 最后 */
 .zbx-warp{
     clear: both;
+    height: 650px;
 }
 .zbx-come-list{
     padding: 205px 0;
@@ -128,6 +129,8 @@
     padding-bottom: 17px;
     padding-left: 20px;
     margin: 8px 0px 5px 15px;
+    font-family: '微软雅黑';
+    font-weight: normal;
 }
     
 .prd-clearfix{
@@ -194,6 +197,8 @@
 
 .zbx-list-right h4{
     margin-top: 20px;
+    font-family: '微软雅黑';
+    font-weight: normal;
 }
 
 
