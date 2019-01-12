@@ -44,3 +44,163 @@
     /* 扩充行距 */
     line-height: 25px;
    }
+
+   /* zbx一个无序列表 */
+   .zbx-onediv {
+    margin-left: 350px;
+   }
+.zbx-onediv ul>li{
+    padding: 18px 5px;
+    line-height: 16px;
+    color: #969696;
+    font-size: 16px;
+    float: left;
+    list-style: none;
+
+}
+.zbx-onediv ul>li .zbx-aa{
+    /* display: block; */
+    font-size: 16px;
+    color: #00c1de;
+    line-height: 16px;
+    text-decoration: none;
+}
+.zbx-onediv ul>li .zbx-aa:hover{
+    text-decoration: underline;
+}
+.zbx-onediv ul>li span{
+    /* adding: 0 10px; */
+    color: #969696;
+    font-size: 16px;
+}
+.zbx-onediv ul>li em{
+    font-style: normal;
+    color: #969696;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+/* 最后 */
+.zbx-warp{
+    clear: both;
+}
+.zbx-come-list{
+    padding: 205px 0;
+    box-shadow: 0 0 15px #ccc;
+    position: relative;
+}
+.zbx-list-left{
+    display: table;
+    float: left;
+    width: 270px;
+    position: relative;
+}
+
+.pic-box{
+    width: 100%;
+    height: auto;
+    display: table;
+    min-height: 150px;
+}
+
+
+.cell-box{
+    display: table-cell;
+    vertical-align: middle;
+}
+.pic{
+    /* display: block;
+    width: 100%;
+    height: auto;
+    max-width: 185px;
+    max-height: 185px; */
+    margin: 0 auto;
+    position: absolute;
+    top: -175px;
+    left: 25px;
+}
+.zbx-list-left-box h4{
+    font-size: 24px;
+    line-height: 24px;
+    color: #373d41;
+    /* padding-top: 16px; */
+    padding-top: 14px;
+    padding-bottom: 17px;
+    padding-left: 20px;
+    margin: 8px 0px 5px 15px;
+}
+    
+.prd-clearfix{
+    padding-left: 20px;
+}
+
+.prd-clearfix em{
+    font-size: 14px;
+    color: #373d41;
+    float: left;
+    line-height: 24px;
+    font-style: normal;
+    margin-left: 20px;
+}
+.prd-content-clearfix{
+    float: left;
+}
+
+.prd-list-clearfix{
+    float: left;
+    margin-left: 28px;
+    line-height: 24px;
+    max-width: 139px;
+}
+.clearfix{
+   margin-right: 16px;
+    float: left; 
+    color: #00b7d3;
+    background-color: transparent;
+}
+.clearfix span{
+    display: block;
+    margin-left: -50px;
+}
+.clearfix span:last-child p{
+    margin-left: -16px;
+}
+.go-home{
+    margin-left: -118px;
+    margin-right: 0;
+    margin-top: 68px;
+    display: inline-block;
+    padding-top: 17px;
+    font-size: 14px;
+    color: #373d41;
+    line-height: 16px;
+    text-decoration: none;
+}
+
+
+/* 右边实例 */
+.zbx-list-right{
+    width: 891px;
+    height: 345px;
+    border-left: #e2e2e2 solid 1px;
+    position: absolute;
+    top: 35px;
+    right: 35px;
+    padding-left: 38px;
+    font-size: 14px;
+    line-height: 24px;
+    color: #626262;
+}
+
+.zbx-list-right h4{
+    margin-top: 20px;
+}
+
+
+/* ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++ */
+*{
+    box-sizing: inherit;
+    margin: 0;
+    padding: 0;
+}
+/* +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++ */
