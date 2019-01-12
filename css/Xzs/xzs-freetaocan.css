@@ -1,0 +1,319 @@
+/* 清除浮动 */
+.clearfix::after{
+    content: "";
+    display: block;
+    clear: both;
+}
+/* 给body添加默认属性 */
+ body{
+    background: #f5f5f6;
+}
+/* 广告栏 */
+.inner{
+    width: 100%;
+    background: url(../../images/Xzs/TB1AXYKX_tYBeNjy1XdXXXXyVXa-2880-540.png);
+    background-size: 100% 100%;
+}
+/* 广告栏内容 */
+.inner-centent {
+width: 1200px;
+padding-right: 10px;
+padding-left: 10px;
+margin: 0 auto;
+box-sizing: border-box;
+}
+/* 广告栏内容中心 */
+.inner-center{
+    height: 270px;
+    padding-top: 88px;
+    position: relative;
+    box-sizing: border-box;
+}
+/* 主标题 */
+.inner-center h1{
+    height: 54px;
+    line-height: 54px;
+    font-size: 42px;
+    color: #41464a;
+    text-align: center;
+    overflow: hidden;
+    margin-bottom: 6px;
+    font-weight: 400;
+}
+/* 副标题 */
+.inner-center p{
+    height: 36px;
+    line-height: 36px;
+    text-align: center;
+    font-size: 16px;
+    color: #41464a;
+    overflow: hidden;
+    font-weight: 400;
+}
+/* 切换的两个按钮 */
+.inner-cut{
+    box-shadow: 0 2px 10px -4px #000;
+    position: absolute;
+    width: 100%;
+    bottom: 0;
+    height: 52px;
+    overflow: hidden;
+}
+/* 点击前属性 */
+.raw{
+    width: 50%;
+    cursor: pointer;
+    height: 52px;
+    float: left;
+    border-top: 2px solid #f2f2f2;
+    background: #f2f2f2;
+    overflow: hidden;
+    line-height: 52px;
+    text-align: center;
+    font-size: 14px;
+    color: #73777a;
+}
+/* 点击后属性 */
+.later{
+    position: relative;
+    z-index: 3;
+    border-top: 2px solid #00c1de;
+    background: #fff;
+    overflow: hidden;
+    color: #00c1de;
+}
+/* 版心💗 */
+.common{
+    width: 1200px;
+    margin: 0 auto;
+}
+.qy-top{
+    background: white;
+}
+.gr-top{
+    background: white;
+}
+
+/* 活动部分 */
+.activity{
+    width: 100%;
+    position: relative;
+    top: -1px;
+    /* background: white; */
+    background: #f5f5f6;
+    height: 160px;
+    z-index: 1;
+}
+/* 活动左部分 */
+.activity-left{
+    width: 50%;
+    float: left;
+    overflow: hidden;
+    padding-left: 24px;
+    padding-top: 37px;
+    box-sizing: border-box;
+}
+/* 活动右部分 */
+.activity-right{
+    width: 50%; 
+    float: left;
+    overflow: hidden;
+    padding-left: 10px;
+    padding-top: 28px;
+    box-sizing: border-box;
+}
+/* 设置左边每个div的属性 */
+.activity-left-li{
+    width: 102px;
+    float: left;
+    margin-right: 24px;
+}
+/* 设置左边每个div内的p标签的值 */
+.activity-left-li-pO{
+    height: 22px;
+    line-height: 22px;
+    font-size: 14px;
+    color: #373d41;
+    overflow: hidden;
+    margin-bottom: 40px;
+}
+/* 设置左边每个div中的span的值 */
+.activity-left-li span{
+    font-size: 36px;
+    margin-right: 7px;
+}
+/* 设置左边每个div中第二个p标签的值 */
+.activity-left-li-pt{
+    line-height: 18px;
+    font-size: 12px;
+    color: #373d41;
+}
+/* 设置活动对象的值 */
+.name{
+    height: 18px;
+    line-height: 18px;
+    font-size: 16px;
+    color: #373d41;
+    overflow: hidden;
+    margin-bottom: 10px;
+}
+/* 设置右边详细内容的属性 */
+.exp{
+    width: 472px;
+    height: 48px;
+    line-height: 24px;
+    font-size: 14px;
+    color: #9b9ea0;
+    overflow: hidden;
+    margin-bottom: 4px;
+}
+/* 设置查看详细规则的值 */
+.rule{
+    display: inline-block;
+    height: 24px;
+    line-height: 24px;
+    font-size: 14px;
+    color: #00c1de;
+    overflow: hidden;
+    cursor: pointer;
+}
+.rule:hover{
+    color: #33cde5;
+    transition: all .3s;
+    text-decoration: underline
+}
+/* 给第一部分添加默认属性 */
+.activity-hide1{
+    display: block;
+}
+/* 给第二部分添加默认属性 */
+.activity-hide{
+    display: none;
+}
+#qy{
+    background: #f5f5f6;
+}
+#gr{
+    background: #f5f5f6;
+}
+.product{
+    overflow: hidden;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+.product-h1{
+    height: 36px;
+    line-height: 36px;
+    text-align: center;
+    font-size: 24px;
+    color: #373D41;
+    overflow: hidden;
+    margin-bottom: 10px;
+}
+.product-p{
+    height: 24px;
+    line-height: 24px;
+    font-size: 14px;
+    text-align: center;
+    overflow: hidden;
+    margin-bottom: 30px;
+}
+.product-p-a{
+    color: #00b7d3;
+}
+.product-p-a:hover{
+    color: #00afc9;
+}
+.con{
+    background: #fff;
+    padding: 30px 24px;
+    position: relative;
+    /* min-height: 248px; */
+}
+.con-left{
+    width: 752px;
+    float: left;
+}
+.con-right{
+    width: 350px;
+    position: absolute;
+    top: 30px;
+    bottom: 30px;
+    right: 24px;
+}
+.con-left-o{
+    height: 24px;
+    line-height: 24px;
+    font-size: 20px;
+    color: #373D41;
+    overflow: hidden;
+    margin-bottom: 4px;
+}
+.con-left-t{
+    height: 24px;
+    line-height: 24px;
+    font-size: 14px;
+    color: #9B9EA0;
+    overflow: hidden;
+    margin-bottom: 16px;
+}
+.con-left-box-center{
+    cursor: pointer;
+    width: 237px;
+    height: 140px;
+    border: 1px solid #D7D8D9;
+    float: left;
+    margin-right: 20px;
+    position: relative;
+    box-sizing: border-box;
+}
+.con-left-box-center-icon{
+    position: absolute;
+    right: 0px;
+    top: 0;
+    background: #00C1DE;
+    display: none;
+    width: 20px;
+    height: 20px;
+    line-height: 20px;
+    text-align: center;
+    font-size: 12px;
+    color: #fff;
+}
+.con-left-box-center-pone{
+    margin-top: 12px;
+    margin-left: 16px;
+    height: 22px;
+    line-height: 22px;
+    font-size: 12px;
+    color: #373D41;
+    overflow: hidden;
+    margin-bottom: 16px;
+}
+.con-left-box-center-ptwe{
+    margin-left: 16px;
+    line-height: 18px;
+    font-size: 14px;
+    color: #373D41;
+    margin-bottom: 4px;
+}
+.con-left-box-center-pthree{
+    margin-left: 16px;
+    height: 18px;
+    line-height: 18px;
+    font-size: 12px;
+    color: #9B9EA0;
+    overflow: hidden;
+}
+.con-left-box-center-pfour{
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 36px;
+    line-height: 36px;
+    padding-left: 16px;
+    font-size: 12px;
+    color: #373D41;
+    border-top: 1px dashed rgba(0, 0, 0, 0.19);
+    box-sizing: border-box;
+}
