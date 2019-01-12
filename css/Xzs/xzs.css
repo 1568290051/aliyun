@@ -239,7 +239,7 @@ margin-bottom: 12px;
 
     } */
     .index-product-hide-center{
-        transition: all 1s;
+        /* transition: all 1s; */
     }
 /* 清除浮动 */
 .clearfix::after{
@@ -559,39 +559,39 @@ color: #373d41;
     background-size: contain;
       box-sizing: border-box;
 }
-/* 第四行第一个 */
-.index-product-center-four-title-one .products{
+/* 第一行第一个 */
+.index-product-center-one-title-one .products{
     width: 80px;
     height: 80px;
     margin: auto;
-    background-image: url(../../images/Xzs/TB1gWanQVXXXXcEXXXXXXXXXXXX-160-160.png);
+    background-image: url(../../images/Xzs/TB1XhNOQVXXXXXcaXXXXXXXXXXX-160-160.png);
     background-repeat: no-repeat;
     background-size: contain;
 }
-/* 第四行第二个 */
- .index-product-center-four-title-two .products{
+/* 第一行第二个 */
+ .index-product-center-one-title-two .products{
     width: 80px;
     height: 80px;
     margin: auto;
-    background-image: url(../../images/Xzs/TB1GkFHQVXXXXaTaXXXXXXXXXXX-160-160.png);
+    background-image: url(../../images/Xzs/TB1s_xUQVXXXXXiXVXXXXXXXXXX-160-160.png);
     background-repeat: no-repeat;
     background-size: contain;
 }
-/* 第四行第三个 */
- .index-product-center-four-title-three .products{
+/* 第一行第三个 */
+ .index-product-center-one-title-three .products{
     width: 80px;
     height: 80px;
     margin: auto;
-    background-image: url(../../images/Xzs/TB1JcU4SFXXXXbCapXXXXXXXXXX-160-160.png);
+    background-image: url(../../images/Xzs/TB1AO1pQVXXXXX6XXXXXXXXXXXX-160-160.png);
     background-repeat: no-repeat;
     background-size: contain;
 }
-/* 第四行第四个 */
- .index-product-center-four-title-four .products{
+/* 第一行第四个 */
+ .index-product-center-one-title-four .products{
     width: 80px;
     height: 80px;
     margin: auto;
-    background-image: url(../../images/Xzs/TB18XOXQVXXXXbzXFXXXXXXXXXX-160-160.png);
+    background-image: url(../../images/Xzs/TB1hCRYQVXXXXa7XFXXXXXXXXXX-160-160.png);
     background-repeat: no-repeat;
     background-size: contain;
  }
@@ -696,6 +696,41 @@ color: #373d41;
     background-repeat: no-repeat;
     background-size: contain;
  }
+ .index-product-center-four-title-one .products{
+    width: 80px;
+    height: 80px;
+    margin: auto;
+    background-image: url(../../images/Xzs/TB1gWanQVXXXXcEXXXXXXXXXXXX-160-160.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+/* 第一行第二个 */
+ .index-product-center-four-title-two .products{
+    width: 80px;
+    height: 80px;
+    margin: auto;
+    background-image: url(../../images/Xzs/TB1GkFHQVXXXXaTaXXXXXXXXXXX-160-160.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+/* 第一行第三个 */
+ .index-product-center-four-title-three .products{
+    width: 80px;
+    height: 80px;
+    margin: auto;
+    background-image: url(../../images/Xzs/TB1JcU4SFXXXXbCapXXXXXXXXXX-160-160.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+/* 第一行第四个 */
+ .index-product-center-four-title-four .products{
+    width: 80px;
+    height: 80px;
+    margin: auto;
+    background-image: url(../../images/Xzs/TB18XOXQVXXXXbzXFXXXXXXXXXX-160-160.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+ }
  .product-hot-item{
     width: 350px;
     margin-bottom: 42px;
@@ -733,18 +768,18 @@ color: #373d41;
     /* display: none; */
     /* padding-top: 20px; */
     overflow: hidden;
-    transition: all 1s;
+    /* transition: all 1s; */
 }
 .product-center::before{
     content: "";
     height: 20px;
     display: block
 }
-.products-center::before{
+/* .products-center::before{
     content: "";
     height: 20px;
     display: block
-}
+} */
 .product-center:after {
     content: "";
     height: 20px;
@@ -752,26 +787,26 @@ color: #373d41;
     float: left;
     width: 100%;
 }
-.products-center:after {
+/* .products-center:after {
     content: "";
     height: 20px;
     display: block;
     float: left;
     width: 100%;
-}
+} */
 /* 第一行第二个 */
 
 /* 点击图标所对应的隐藏div的点击后属性 */
 /* 第一行第一个 */
-.products-center{
+/* .products-center{
     /* background: #f5f5f6; */
-    width: 1200px;
-    margin: 0 auto;
-    height: auto;
+    /* width: 1200px; */
+    /* margin: 0 auto; */
+    /* height: auto; */
     /* display: block; */
     /* padding-top: 20px; */
-    transition: all 1s;
-}
+    /* transition: all 1s; */
+ /* }  */
 /* 第一行第二个 */
 
 /* 隐藏div内的第一部分顶部的属性设置 */
@@ -880,4 +915,26 @@ color: #373d41;
         transition: all .3s ;
         font-weight: 100;
         color: #373d41;
+    }
+
+.product-show-more{
+    width: 120px;
+    height: 36px;
+    line-height: 36px;
+    margin: 35px auto 40px;
+    text-align: center;
+    font-size: 14px;
+    color: #373d41;
+    border: 1px solid #373d41;
+    cursor: pointer;
+    }
+    .product-hide-more{
+        display: none;
+        /* height: 0px; */
+        /* transition: all 1s; */
+        overflow: hidden;
+    }
+    .product-show-more:hover{
+        color: #00c1de;
+        border: 1px solid #00c1de
     }
