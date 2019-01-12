@@ -1,0 +1,310 @@
+.syh-pai-top{
+  padding-top: 100px;
+  overflow: hidden;
+  background: #09012d url("../../images/syh/syh-shujuzineng-pai/syh-top-img.png") no-repeat bottom;
+  background-size: 1920px 401px;
+}
+.top-cont{
+  overflow: hidden;
+  height: 401px;
+}
+/* 公共盒子 */
+.common{
+  max-width: 1200px;
+  min-width: 1200px;
+  padding: 0px 10px;
+  margin: 0px auto;
+  box-sizing: border-box;
+}
+.syh-pai-top .banner{
+  overflow: hidden;
+  height: 401px;
+  padding-top: 196px;
+}
+.banner .exe{
+  line-height: 32px;
+  font-size: 22px;
+  color: #fff;
+  text-align: center;
+  overflow: hidden;
+}
+.btnarea{
+  margin-top: 40px;
+  overflow: hidden;
+  text-align: center;
+  font-size: 0;
+}
+.btnarea>a{
+  display: inline-block;
+  width: 198px;
+  height: 48px;
+  line-height: 48px;
+  font-size: 18px;
+  color: #fff;
+  text-decoration: none;
+  background: #00c1de;
+  margin: 0 50px;
+}
+.btnarea>.moretext{
+  width: 168px;
+}
+/* 类似区块 */
+.syh-leis-center{
+  overflow: hidden;
+  padding-top: 60px;
+  padding-bottom: 20px;
+}
+.syh-leis-title{
+  border-left: 4px solid #034bff;
+  display: inline-block;
+  height: 56px;
+  line-height: 56px;
+  color: #fff;
+  font-size: 32px;
+  padding-left: 14px;
+  position: relative;
+  margin-bottom: 14px;
+}
+.syh-leis-exp{
+  line-height: 24px;
+  font-size: 14px;
+  color: #fff;
+  overflow: hidden;
+  margin-bottom: 25px;
+}
+.cot-pd{
+  margin: 0px -10px;
+}
+.cot-pd>div{
+  width: 50%;
+  float: left;
+  /* padding: 0px -10px; */
+  padding: 0px 10px;
+  box-sizing: border-box;
+}
+.cot-pd>div>div{
+  height: 172px;
+  border: 1px solid #0e3791;
+  margin-bottom: 40px;
+  position: relative;
+  padding-left: 30%;
+  position: relative;
+}
+.cot-pd>div>div>img{
+  position: absolute;
+  left: 9%;
+  top: 50px;
+  display: block;
+  width: 80px;
+  height: 80px;
+  overflow: hidden;
+}
+.clearfix::after{
+  content: '';
+  display: block;
+  clear: both;
+}
+.leis-r>div{
+  margin-right: 10px;
+}
+.leis-l>div{
+  margin-left: 10px;
+}
+.border-left{
+  position: absolute;
+  overflow: hidden;
+  right: -26px;
+  top: 62px;
+  width: 26px;
+  height: 49px;
+  background: url("../../images/syh/syh-shujuzineng-pai/syh-border-left.png") no-repeat top;
+  background-size: 100% 100%;
+  background-color: #010238;
+}
+.border-bottom{
+  position: absolute;
+  overflow: hidden;
+  left: 50%;
+  margin-left: -25px;
+  bottom: -26px;
+  width: 49px;
+  height: 26px;
+  background: url("../../images/syh/syh-shujuzineng-pai/syh-border-bottom.png") no-repeat top;
+  background-size: 100% 100%;
+  background-color: #010238;
+}
+.border-right{
+  position: absolute;
+  overflow: hidden;
+  left: -26px;
+    top: 62px;
+    width: 26px;
+    height: 49px;
+    background: url("../../images/syh/syh-shujuzineng-pai/syh-border-right.png") no-repeat top;
+    background-size: 100% 100%;
+  background-color: #010238;
+}
+/* ======================== */
+.border-left1{
+  position: absolute;
+  overflow: hidden;
+  left: -1px;
+    top: 62px;
+    width: 26px;
+    height: 49px;
+    background: url("../../images/syh/syh-shujuzineng-pai/syh-border-left.png") no-repeat top;
+    background-size: 100% 100%;
+  background-color: #010238;
+}
+.border-bottom1{
+  position: absolute;
+  overflow: hidden;
+  left: 50%;
+  margin-left: -25px;
+  top: -1px;
+  width: 49px;
+  height: 26px;
+  background: url("../../images/syh/syh-shujuzineng-pai/syh-border-bottom.png") no-repeat top;
+  background-size: 100% 100%;
+  background-color: #010238;
+}
+.border-right1{
+  position: absolute;
+  overflow: hidden;
+  right: -1px;
+  top: 62px;
+  width: 26px;
+  height: 49px;
+  background: url("../../images/syh/syh-shujuzineng-pai/syh-border-right.png") no-repeat top;
+  background-size: 100% 100%;
+  background-color: #010238;
+}
+.syh-leis-p.p1{
+  margin-top: 35px;
+  width: 114px;
+  height: 46px;
+  line-height: 46px;
+  text-align: center;
+  font-size: 24px;
+  color: #fff;
+  background: url("../../images/syh/syh-shujuzineng-pai/syh-p-bg.jpg") no-repeat top;
+  background-size: 100% 100%;
+  overflow: hidden;
+  margin-bottom: 16px;
+}
+.syh-leis-p.p2{
+  line-height: 26px;
+  font-size: 18px;
+  color: #fff;
+  overflow: hidden;
+  width: 86%;
+}
+/* 到算第二个 */
+.syh-leis-center .center{
+  overflow: hidden;
+  position: relative;
+}
+.syh-leis-center .center>.bgTop{
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 62px;
+  background: url("../../images/syh/syh-shujuzineng-pai/syh-weibu-top-img.jpg") no-repeat top;
+  background-size: 100% 100%;
+}
+.syh-leis-center:nth-child(2n-1) div[class*="border"]{
+  background-color: #08002f !important;
+}
+.ioCont{
+  background: url("../../images/syh/syh-shujuzineng-pai/pingpu.jpg") repeat-y top;
+  background-size: 100% auto;
+  overflow: hidden;
+  padding-top: 30px;
+}
+.ioCont>ul{
+  overflow: hidden;
+  position: relative;
+  z-index: 2;
+}
+.ioCont>ul>li{
+  float: left;
+  width: 33.33333%;
+  padding: 0px 10px;
+  box-sizing: border-box;
+}
+.ioCont>ul>li>div{
+  height: 210px;
+  overflow: hidden;
+  margin-bottom: 30px;
+}
+.ioCont>ul>li>div>img{
+  display: block;
+  width: 96px;
+  height: 96px;
+  overflow: hidden;
+  margin: 0 auto;
+  margin-bottom: 14px;
+}
+.ioCont>ul>li>div>.p1{
+  height: 30px;
+  line-height: 30px;
+  text-align: center;
+  font-size: 24px;
+  color: #fff;
+  overflow: hidden;
+  margin-bottom: 14px;
+}
+.ioCont>ul>li>div>.p2{
+  line-height: 24px;
+  font-size: 14px;
+  text-align: center;
+  overflow: hidden;
+  color: #fff;
+}
+.syh-leis-center .bottom{
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  height: 60px;
+  background: url("../../images/syh/syh-shujuzineng-pai/bottom.jpg") no-repeat top;
+  background-size: 100% 100%;
+}
+/* 结束部分 */
+.syh-out-bottom{
+  overflow: hidden;
+  padding-top: 60px;
+  padding-bottom: 40px;
+}
+.list{
+  overflow: hidden;
+  padding: 0 40px;
+}
+.list>li{
+  float: left;
+  width: 25%;
+  box-sizing: border-box;
+  padding: 0px 10px;
+}
+.list-div{
+  margin-bottom: 20px;
+  height: 40px;
+  overflow: hidden;
+}
+.list-div span{
+  display: inline-block;
+  height: 40px;
+  line-height: 40px;
+  font-size: 14px;
+  color: #fff;
+  overflow: hidden;
+  vertical-align: top;
+}
+.list-div img{
+  display: inline-block;
+  height: 40px;
+  overflow: hidden;
+  margin-right: 10px;
+  vertical-align: top;
+}
