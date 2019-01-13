@@ -15,9 +15,8 @@
 width: 100%;
 }
 .column-dn{
-  width: 1045px;
+  width: 1180px;
   margin: 0 auto;
-  margin-left:143px; 
 }
 .column-dn h2{
   color: #373d41;
@@ -29,13 +28,12 @@ width: 100%;
     text-align: center;
 }
 .column-dn-main{
-  width: 1045px;
+  width: 1180px;
   height: 440px;
-  /* background-color: aqua; */
 }
 .column-dn-main-left{
   float: left;
-  width: 340px;
+  width: 380px;
   height: 440px;
   background-image: url(../../images/Syy/zi-1.jpg);
   padding-top:40px;
@@ -44,8 +42,8 @@ width: 100%;
 }
 .column-dn-main-right{
   float: left;
-  width: 705px;
-  height: 378px;
+  width: 785px;
+  height: 440px;
   border: 1px solid #cacaca;
   box-sizing: border-box;
 }
@@ -83,8 +81,51 @@ width: 100%;
     position: relative;
 }
 .column-dn-main-right img{
-  width: 100%;
+  height: 100px;
+  margin-top: 15px;
 }
+.lines{
+  position: absolute;
+    left: 20px;
+    right: 20px;
+    bottom: -39px;
+    height: 4px;
+    background: #00c1de;
+}
+.lines:first-child{
+  display: none;
+}
+.table1{
+  margin-top: 30px;
+  margin-left: 34px;
+  position: absolute;
+ display: none;
+}
+.table1 p{
+  color: #73777a;
+    font-size: 18px;
+    line-height: 1;
+    margin-bottom: 16px;
+}
+.table1>span{
+  display: inline-block;
+  width: 640px;
+  line-height:20px;
+  margin-top: 5px;
+  color: #73777a;
+}
+.table1>a{
+  display: inline-block;
+  margin-top: 28px;
+  color: #fff;
+  width: 117px;
+  height: 32px;
+    font-size: 12px;
+    line-height: 30px;
+    background-color: #00c1de;
+    text-align: center;
+}
+
 </style>
 <body>
   <div class="beijing">
@@ -1670,25 +1711,41 @@ width: 100%;
       <h5>政府行业合作伙伴</h5>
       <p>能够基于阿里云提供的各类基础云产品或服务，为最终用户提供各类数据或应用的开发，管理，部署，运行维护等相关服务。</p>
        </div>
-       <h6>优质政府行业合作伙伴</h6>
        <div class="column-dn-main-right">
+          <h6>优质政府行业合作伙伴</h6>
         <ul>
-          <li>
-            <div></div>
+          <li class="active">
             <div class="box03">
-              <div class="line"></div>
+              <div class="lines border1" style=" display: block;"></div>
               <img src="../../images/Syy/zi-1-1.jpg" alt="">
             </div>
           </li>
           <li>
-              <div class="line"></div>
-            <img src="../../images/Syy/zi-1-2.jpg" alt="">
+            <div class="box03 ">
+              <div class="lines border2"></div>
+              <img src="../../images/Syy/zi-1-2.jpg" alt="">
+            </div>
           </li>
         </ul>
-        <div></div>
+        <div class="table1 title1" style=" display: block;">
+          <p>北京华云慧通科技有限公司</p>
+          <span>北京华云慧通科技有限公司是在云计算大数据时代下应运而生的一家专注于云服务和数据服务的新型高科技企业。
+             公司以数据上云和数据智能为主线，迅速培育起咨询规划、业务上云、数据采集、数据治理、数据智能五大核心能力，
+            致力于为政府、行业和企业提供大数据公共云、专有云服务、业务上云等整体解决方案。</span><br>
+          <a href="">查看公司官网</a>
+        </div>
+        <div class="table1 title2">
+          <p>朗新科技股份有限公司</p>
+          <span>朗新科技是一家专注于电力、燃气等公共事业行业从事信息技术研发、技术咨询服务与系统运营管理的大型股份制有限公司。
+            公司致力于为公共事业企业提供领先高效的IT解决方案与服务，帮助企业应对市场变革与竞争挑战。
+            朗新科技目前已为超过1.7亿的电力用户提供服务，
+            是中国最大的公共事业行业关键业务解决方案和服务提供商之一。</span><br>
+          <a href="">查看公司官网</a>
+        </div>
        </div>
      </div>
    </div>
   </div>
 </body>
+<script src="../../js/Syy/syy-js4.js"></script>
 </html>
