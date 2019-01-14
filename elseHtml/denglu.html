@@ -32,6 +32,7 @@
         color: white;
         text-align: left;
         line-height: 24px;
+        position: relative;
       }
 
       .denlu-box:hover {
@@ -63,7 +64,7 @@
         top: 50px;
         right: 0px;
         width: 240px;
-        height: 345px;
+        height: 365px;
         box-sizing: border-box;
         background-color: #202529;
       }
@@ -91,16 +92,68 @@
       }
       .common-gg{
         padding: 0 16px;
-    margin: 12px 0;
+        padding-left: 40px;
+        margin: 12px 0;
+        text-decoration: none;
       }
       .blue-sm{
         margin: 12px 0px;
         color: #00c1de !important;
+        text-decoration: none;
       }
       .right-white{
         float: right;
         color: white !important;
+        position: relative;
       }
+      .zhang{
+        text-decoration: none;
+      }
+
+      .abg{
+        font-size: 10px;
+        background-color: #ff5029;
+        color: #fff;
+        border-radius: 13px;
+        right: 12px;
+        top: 8px;
+        height: 16px;
+        padding: 0 4px;
+        line-height: 16px;
+        text-align: center;
+      }
+      .zz{
+        width: 210px;
+        height: 1px;
+        background-color: #373d41;
+        margin: 0px auto;
+      }
+      a>img{
+         width: 15px;
+         height: 15px;
+         position: absolute;
+         top:6px;
+         left: 18px;
+      }
+      /* 最后的 */
+      .zbx-gondanguanli{
+        width: 243px;
+        height: 50px;
+      }
+      .kuang{
+        border:2px solid #373d41;
+        width: 70px;
+        height: 30px;
+        text-align: center;
+        line-height: 30px;
+      }
+      .zise{ 
+        color: #565a5d !important;
+      }
+      .zise>span{
+        color: #565a5d !important;
+      }
+
     </style>
     <img src="../images/common/touxiang-img.png" alt="" class="toux-img">
     <div class="number">
@@ -110,25 +163,29 @@
     <div class="tanckuang">
       <!-- 第一部分 -->
       <div class="userName-zbx">
-        <a href="javasxript:;">zhan****ngxve<span class="lo">L0</span></a>
+        <a href="javascript:;" class="zhang">zhan****ngxve<span class="lo">L0</span></a>
         <a href="javascript:;" class="blue-sm">实名认证</a>
       </div>
+      
       <!-- 第二部分 -->
       <div class="zbx-money">
-          <a href="javascript:;" class="common-gg">实名认证 <span class="right-white">￥0.00</span></a>
-          <a href="javascript:;" class="common-gg">实名认证</a>
-
+          <a href="javascript:;" class="common-gg"> <img src="../images/Common/yuebao.png" alt="">  余额 <span class="right-white">￥0.00</span></a>
+          <a href="javascript:;" class="common-gg"> <img src="../images/Common/jifen.png" alt=""> 积分 <span class="right-white">0</span></a>
       </div>
+      <div class="zz"></div>
       <!-- 第三部分 -->
       <div class="zbx-xfjl">
-          <a href="javascript:;" class="common-gg">实名认证</a>
-          <a href="javascript:;" class="common-gg">实名认证</a>
-          <a href="javascript:;" class="common-gg">实名认证</a>
-          <a href="javascript:;" class="common-gg">实名认证</a>
+          <a href="javascript:;" class="common-gg"> <img src="../images/Common/xiaoxijilu.png" alt=""> 消息记录</a>
+          <a href="javascript:;" class="common-gg"> <img src="../images/Common/chanpinxuei.png" alt=""> 产品续费</a>
+          <a href="javascript:;" class="common-gg"> <img src="../images/Common/weiduxiaoxi.png" alt=""> 未读消息 <span class="right-white"><div class="abg">
+              2
+            </div></span></a>
+          <a href="javascript:;" class="common-gg"> <img src="../images/Common/weizhifudingdan.png" alt=""> 未支付订单</a>
 
       </div>
       <!-- 工单管理 -->
-      <div class="zbx-gondanguanli"></div>
+      <div class="zbx-gondanguanli">
+          <a href="javascript:;" class="common-gg zise">工单管理 <span class="right-white  kuang">退出</span></a>
     </div>
     <!-- js -->
     <script>
