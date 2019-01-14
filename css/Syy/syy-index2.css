@@ -907,3 +907,625 @@ a{
     background-color: #00c1de;
     text-align: center;
 }
+.column{
+  width: 100%;
+  }
+  .column-dn{
+    width: 1180px;
+    margin: 0 auto;
+  }
+  .column-dn h2{
+    color: #373d41;
+      font-size: 30px;
+      line-height: 1;
+      margin-bottom: 10px;
+      font-weight: 400;
+      padding: 50px 0;
+      text-align: center;
+  }
+  .column-dn-main{
+    width: 1180px;
+    height: 440px;
+    margin-bottom: 20px;
+  }
+  .column-dn-main-left{
+    float: left;
+    width: 380px;
+    height: 440px;
+    background-image: url(../../images/Syy/zi-1.jpg);
+    padding-top:40px;
+    padding-left: 30px; 
+    box-sizing: border-box;
+  }
+  .column-dn-main-right{
+    float: left;
+    width: 785px;
+    height: 440px;
+    border: 1px solid #cacaca;
+    box-sizing: border-box;
+  }
+  .column-dn-main-left h5{
+    color: #fefefe;
+      font-size: 26px;
+      line-height: 1;
+      margin-bottom: 35px;
+      font-weight: 600;
+  }
+  .column-dn-main-left>p{
+    color: #fefefe;
+      font-size: 16px;
+      line-height: 26px;
+      font-weight: 400;
+  }
+  .column-dn-main h6{
+    color: #373d41;
+      font-size: 18px;
+      line-height: 36px;
+      text-align: center;
+      font-weight: 300;
+      padding-top: 26px;
+  }
+  .column-dn-main-right ul{
+    border-bottom: 4px solid #e4e4e4;
+      height: 155px;
+      text-align: center;
+  }
+  .column-dn-main-right li{
+    width: 25%;
+      height: 120px;
+      display: inline-block;
+      cursor: pointer;
+      position: relative;
+  }
+  .column-dn-main-right img{
+    height: 100px;
+    margin-top: 15px;
+  }
+  .lines{
+    position: absolute;
+      left: 20px;
+      right: 20px;
+      bottom: -39px;
+      height: 4px;
+      background: #00c1de;
+  }
+  .lines:first-child{
+    display: none;
+  }
+  .table1{
+    margin-top: 30px;
+    margin-left: 34px;
+    position: absolute;
+   display: none;
+  }
+  .table1 p{
+    color: #73777a;
+      font-size: 18px;
+      line-height: 1;
+      margin-bottom: 16px;
+  }
+  .table1>span{
+    display: inline-block;
+    width: 640px;
+    line-height:20px;
+    margin-top: 5px;
+    color: #73777a;
+  }
+  .table1>a{
+    display: inline-block;
+    margin-top: 28px;
+    color: #fff;
+    width: 117px;
+    height: 32px;
+      font-size: 12px;
+      line-height: 30px;
+      background-color: #00c1de;
+      text-align: center;
+  }
+  .column-dn-main1{
+    width: 1180px;
+    height: 440px;
+    margin-bottom: 20px;
+  }
+  .column-dn-main1-left{
+    float: left;
+    width: 380px;
+    height: 440px;
+    background-image: url(../../images/Syy/zi-2.jpg);
+    padding-top:40px;
+    padding-left: 30px; 
+    box-sizing: border-box;
+  }
+  .column-dn-main1-right{
+    float: left;
+    width: 785px;
+    height: 440px;
+    border: 1px solid #cacaca;
+    box-sizing: border-box;
+  }
+  .column-dn-main1-left h5{
+    color: #fefefe;
+      font-size: 26px;
+      line-height: 1;
+      margin-bottom: 35px;
+      font-weight: 600;
+  }
+  .column-dn-main1-left>p{
+    color: #fefefe;
+      font-size: 16px;
+      line-height: 26px;
+      font-weight: 400;
+  }
+  .column-dn-main1 h6{
+    color: #373d41;
+      font-size: 18px;
+      line-height: 36px;
+      text-align: center;
+      font-weight: 300;
+      padding-top: 26px;
+  }
+  .column-dn-main1-right ul{
+    border-bottom: 4px solid #e4e4e4;
+      height: 155px;
+      text-align: center;
+  }
+  .column-dn-main1-right li{
+    width: 25%;
+      height: 120px;
+      display: inline-block;
+      cursor: pointer;
+      position: relative;
+  }
+  .column-dn-main1-right img{
+    height: 100px;
+    margin-top: 15px;
+  }
+  .lines1{
+    position: absolute;
+      left: 20px;
+      right: 20px;
+      bottom: -39px;
+      height: 4px;
+      background: #00c1de;
+  }
+  .lines1:first-child{
+    display: none;
+  }
+  .table2{
+    margin-top: 30px;
+    margin-left: 34px;
+    position: absolute;
+   display: none;
+  }
+  .table2 p{
+    color: #73777a;
+      font-size: 18px;
+      line-height: 1;
+      margin-bottom: 16px;
+  }
+  .table2>span{
+    display: inline-block;
+    width: 640px;
+    line-height:20px;
+    margin-top: 5px;
+    color: #73777a;
+  }
+  .table2>a{
+    display: inline-block;
+    margin-top: 28px;
+    color: #fff;
+    width: 117px;
+    height: 32px;
+      font-size: 12px;
+      line-height: 30px;
+      background-color: #00c1de;
+      text-align: center;
+  }
+  .column-dn-main2{
+    width: 1180px;
+    height: 440px;
+    margin-bottom: 20px;
+  }
+  .column-dn-main2-left{
+    float: left;
+    width: 380px;
+    height: 440px;
+    background-image: url(../../images/Syy/zi-3.jpg);
+    padding-top:40px;
+    padding-left: 30px; 
+    box-sizing: border-box;
+  }
+  .column-dn-main2-right{
+    float: left;
+    width: 785px;
+    height: 440px;
+    border: 1px solid #cacaca;
+    box-sizing: border-box;
+  }
+  .column-dn-main2-left h5{
+    color: #fefefe;
+      font-size: 26px;
+      line-height: 1;
+      margin-bottom: 35px;
+      font-weight: 600;
+  }
+  .column-dn-main2-left>p{
+    color: #fefefe;
+      font-size: 16px;
+      line-height: 26px;
+      font-weight: 400;
+  }
+  .column-dn-main2 h6{
+    color: #373d41;
+      font-size: 18px;
+      line-height: 36px;
+      text-align: center;
+      font-weight: 300;
+      padding-top: 26px;
+  }
+  .column-dn-main2-right ul{
+    border-bottom: 4px solid #e4e4e4;
+      height: 155px;
+      text-align: center;
+  }
+  .column-dn-main2-right li{
+    width: 25%;
+      height: 120px;
+      display: inline-block;
+      cursor: pointer;
+      position: relative;
+  }
+  .column-dn-main2-right img{
+    height: 100px;
+    margin-top: 15px;
+  }
+  .lines1{
+    position: absolute;
+      left: 20px;
+      right: 20px;
+      bottom: -39px;
+      height: 4px;
+      background: #00c1de;
+  }
+  .lines1:first-child{
+    display: none;
+  }
+  .table2{
+    margin-top: 30px;
+    margin-left: 34px;
+    position: absolute;
+   display: none;
+  }
+  .table2 p{
+    color: #73777a;
+      font-size: 18px;
+      line-height: 1;
+      margin-bottom: 16px;
+  }
+  .table2>span{
+    display: inline-block;
+    width: 640px;
+    line-height:20px;
+    margin-top: 5px;
+    color: #73777a;
+  }
+  .table2>a{
+    display: inline-block;
+    margin-top: 28px;
+    color: #fff;
+    width: 117px;
+    height: 32px;
+      font-size: 12px;
+      line-height: 30px;
+      background-color: #00c1de;
+      text-align: center;
+  }
+  .h2{
+    color: #373d41;
+      font-size: 30px;
+      line-height: 1;
+      margin-bottom: 10px;
+      font-weight: 500;
+      padding: 50px 0;
+      text-align: center;
+  }
+  .column-dn-main3{
+    width: 1180px;
+    height: 440px;
+    margin-bottom: 20px;
+  }
+  .column-dn-main3-left{
+    float: left;
+    width: 380px;
+    height: 440px;
+    background-image: url(../../images/Syy/ling-1.jpg);
+    padding-top:40px;
+    padding-left: 30px; 
+    box-sizing: border-box;
+  }
+  .column-dn-main3-right{
+    float: left;
+    width: 785px;
+    height: 440px;
+    border: 1px solid #cacaca;
+    box-sizing: border-box;
+  }
+  .column-dn-main3-left h5{
+    color: #fefefe;
+      font-size: 26px;
+      line-height: 1;
+      margin-bottom: 35px;
+      font-weight: 600;
+  }
+  .column-dn-main3-left>p{
+    color: #fefefe;
+      font-size: 16px;
+      line-height: 26px;
+      font-weight: 400;
+  }
+  .column-dn-main3 h6{
+    color: #373d41;
+      font-size: 18px;
+      line-height: 36px;
+      text-align: center;
+      font-weight: 300;
+      padding-top: 26px;
+  }
+  .column-dn-main3-right ul{
+    border-bottom: 4px solid #e4e4e4;
+      height: 155px;
+      text-align: center;
+  }
+  .column-dn-main3-right li{
+    width: 25%;
+      height: 120px;
+      display: inline-block;
+      cursor: pointer;
+      position: relative;
+  }
+  .column-dn-main3-right img{
+    height: 100px;
+    margin-top: 15px;
+  }
+  .lines2{
+    position: absolute;
+      left: 20px;
+      right: 20px;
+      bottom: -39px;
+      height: 4px;
+      background: #00c1de;
+  }
+  .lines2:first-child{
+    display: none;
+  }
+  .table3{
+    margin-top: 30px;
+    margin-left: 34px;
+    position: absolute;
+   display: none;
+  }
+  .table3 p{
+    color: #73777a;
+      font-size: 18px;
+      line-height: 1;
+      margin-bottom: 16px;
+  }
+  .table3>span{
+    display: inline-block;
+    width: 640px;
+    line-height:20px;
+    margin-top: 5px;
+    color: #73777a;
+  }
+  .table3>a{
+    display: inline-block;
+    margin-top: 28px;
+    color: #fff;
+    width: 117px;
+    height: 32px;
+      font-size: 12px;
+      line-height: 30px;
+      background-color: #00c1de;
+      text-align: center;
+  }
+  .column-dn-main4{
+    width: 1180px;
+    height: 440px;
+    margin-bottom: 20px;
+  }
+  .column-dn-main4-left{
+    float: left;
+    width: 380px;
+    height: 440px;
+    background-image: url(../../images/Syy/ling-2.jpg);
+    padding-top:40px;
+    padding-left: 30px; 
+    box-sizing: border-box;
+  }
+  .column-dn-main4-right{
+    float: left;
+    width: 785px;
+    height: 440px;
+    border: 1px solid #cacaca;
+    box-sizing: border-box;
+  }
+  .column-dn-main4-left h5{
+    color: #fefefe;
+      font-size: 26px;
+      line-height: 1;
+      margin-bottom: 35px;
+      font-weight: 600;
+  }
+  .column-dn-main4-left>p{
+    color: #fefefe;
+      font-size: 16px;
+      line-height: 26px;
+      font-weight: 400;
+  }
+  .column-dn-main4 h6{
+    color: #373d41;
+      font-size: 18px;
+      line-height: 36px;
+      text-align: center;
+      font-weight: 300;
+      padding-top: 26px;
+  }
+  .column-dn-main4-right ul{
+    border-bottom: 4px solid #e4e4e4;
+      height: 155px;
+      text-align: center;
+  }
+  .column-dn-main4-right li{
+    width: 25%;
+      height: 120px;
+      display: inline-block;
+      cursor: pointer;
+      position: relative;
+  }
+  .column-dn-main4-right img{
+    height: 100px;
+    margin-top: 15px;
+    width: 140px
+  }
+  .lines2{
+    position: absolute;
+      left: 20px;
+      right: 20px;
+      bottom: -39px;
+      height: 4px;
+      background: #00c1de;
+  }
+  .lines2:first-child{
+    display: none;
+  }
+  .table4{
+    margin-top: 30px;
+    margin-left: 34px;
+    position: absolute;
+   display: none;
+  }
+  .table4 p{
+    color: #73777a;
+      font-size: 18px;
+      line-height: 1;
+      margin-bottom: 16px;
+  }
+  .table4>span{
+    display: inline-block;
+    width: 640px;
+    line-height:20px;
+    margin-top: 5px;
+    color: #73777a;
+  }
+  .table4>a{
+    display: inline-block;
+    margin-top: 28px;
+    color: #fff;
+    width: 117px;
+    height: 32px;
+      font-size: 12px;
+      line-height: 30px;
+      background-color: #00c1de;
+      text-align: center;
+  }
+  .column-dn-main5{
+    width: 1180px;
+    height: 440px;
+    margin-bottom: 20px;
+  }
+  .column-dn-main5-left{
+    float: left;
+    width: 380px;
+    height: 440px;
+    background-image: url(../../images/Syy/ling-3.jpg);
+    padding-top:40px;
+    padding-left: 30px; 
+    box-sizing: border-box;
+  }
+  .column-dn-main5-right{
+    float: left;
+    width: 785px;
+    height: 440px;
+    border: 1px solid #cacaca;
+    box-sizing: border-box;
+  }
+  .column-dn-main5-left h5{
+    color: #fefefe;
+      font-size: 26px;
+      line-height: 1;
+      margin-bottom: 35px;
+      font-weight: 600;
+  }
+  .column-dn-main5-left>p{
+    color: #fefefe;
+      font-size: 16px;
+      line-height: 26px;
+      font-weight: 400;
+  }
+  .column-dn-main5 h6{
+    color: #373d41;
+      font-size: 18px;
+      line-height: 36px;
+      text-align: center;
+      font-weight: 300;
+      padding-top: 26px;
+  }
+  .column-dn-main5-right ul{
+    border-bottom: 4px solid #e4e4e4;
+      height: 155px;
+      text-align: center;
+  }
+  .column-dn-main5-right li{
+    width: 25%;
+      height: 120px;
+      display: inline-block;
+      cursor: pointer;
+      position: relative;
+  }
+  .column-dn-main5-right img{
+    height: 100px;
+    margin-top: 15px;
+    width: 140px;
+  }
+  .lines2{
+    position: absolute;
+      left: 20px;
+      right: 20px;
+      bottom: -39px;
+      height: 4px;
+      background: #00c1de;
+  }
+  .lines2:first-child{
+    display: none;
+  }
+  .table5{
+    margin-top: 30px;
+    margin-left: 34px;
+    position: absolute;
+   display: none;
+  }
+  .table5 p{
+    color: #73777a;
+      font-size: 18px;
+      line-height: 1;
+      margin-bottom: 16px;
+  }
+  .table5>span{
+    display: inline-block;
+    width: 640px;
+    line-height:20px;
+    margin-top: 5px;
+    color: #73777a;
+  }
+  .table5>a{
+    display: inline-block;
+    margin-top: 28px;
+    color: #fff;
+    width: 117px;
+    height: 32px;
+      font-size: 12px;
+      line-height: 30px;
+      background-color: #00c1de;
+      text-align: center;
+  }
+  
