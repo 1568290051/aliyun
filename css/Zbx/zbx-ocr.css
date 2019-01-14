@@ -1,0 +1,282 @@
+/* 顶部页面 */
+.zbx-nav{
+    width: 100%;
+    height: 450px;
+    background: url(../../images/Zbx/zbx-beijingaaa.jpg) no-repeat 0px 0px;
+    background-size: 100% 100%;
+    background-color: #373d41;
+    position: relative;
+   
+}
+/* 公共部分 */
+.common{
+    margin: 0px auto;
+    width: 1200px;
+    font-family: '微软雅黑';
+    font-weight: normal;
+    /* overflow: hidden; */
+}
+
+.common{
+    margin: 0px auto;
+    width: 1200px;
+    font-family: '微软雅黑';
+    font-weight: normal;
+    /* overflow: hidden; */
+}
+
+.common::after{
+    content: '';
+    display: block;
+    clear: both;
+}
+
+.zbx-nav .left{
+    width: 700px;
+    height: 202px;
+    float: left;
+    margin: 140px 0px 0px 256px;
+}
+
+.zbx-nav .left h3{
+ margin:0px auto;
+ font-size: 62px;
+ color: #fff;
+ font-family: '微软雅黑';
+ font-weight: normal;
+}
+.zbx-nav .left p{
+    width: 690px;
+    height: 50px;
+    font-size: 25px;
+    color: #fff;
+    margin: -74px 310px;
+    line-height: 83px;
+    /* 扩充间距 */
+    /* letter-spacing: 4px; */
+    /* 扩充行距 */
+   }
+/* 图片上的文字 */
+   .zbx-tutu{
+    position: absolute;
+    top: 230px;
+    left: 385px;
+   }
+
+   /* 我们的优势 */
+   .zbx-youshi{
+       margin-top:65px; 
+       font-size: 35px;
+       text-align: center;
+       font-family: '微软雅黑';
+       font-weight: normal;
+   }
+   .zbx-beijing11{
+       margin: 50px auto;
+       position: relative;
+   }
+   .zbx-tuzi{
+    height: 100px;
+    position: absolute;
+    top: 40px;
+    padding-top: 8px;
+    /* left: 145px; */
+    padding-left: 145px;
+    background: url("../../images/Zbx/zbx-zbxlittle1.jpg") no-repeat 83px -8px;
+   }
+   .zbx-11{
+    font-size: 18px;
+    margin-top:-20px;
+   }
+   .zbx-22{
+       font-size: 15px;
+       margin-top:10px;
+       color: #838282;
+       line-height: 22px;
+   }
+
+   /* 复制粘贴 */
+   .zbx-tuzi1{
+    height: 100px;
+    position: absolute;
+    top: 30px;
+    padding-top: 8px;
+    /* left: 145px; */
+    right: 70px;
+    padding-left: 145px;
+    background: url(../../images/Zbx/zbx-zbxlittle2.jpg) no-repeat 90px 0px;
+   }
+
+   /* 复制 */
+   .zbx-tuzi2{
+    height: 100px;
+    position: absolute;
+    /* top: 319px; */
+    bottom: -5px;
+    padding-top: 8px;
+    /* left: 145px; */
+    padding-left: 132px;
+    background: url(../../images/Zbx/zbx-zbxlittle3.jpg) no-repeat 76px 10px;
+   }
+
+      /* 复制粘贴 */
+    .zbx-tuzi3{
+        height: 100px;
+        position: absolute;
+        /* top: 40px; */
+        padding-top: 8px;
+        /* left: 145px; */
+        right: 64px;
+        bottom: -25px;
+        padding-left: 145px;
+        background: url(../../images/Zbx/zbx-zbxlittle4.jpg) no-repeat 95px 5px;
+    }
+    
+
+    /* 新功能啊啊啊啊 */
+.zbx-xi{
+    width: 100%;
+    height: 832px;
+    /* background: #838282; */
+}
+
+    .zbx-boxone{
+        width: 272px;
+        height: 305px;
+        border: #2d97ff 1px solid;
+        float: left;
+        margin-right: 25px;
+        margin-bottom: 25px;
+    }
+    .zbx-h1{
+        font-size: 35px;
+        height: 76px;
+        line-height: 76px;
+        color: #000;
+        text-align: center;
+        margin-bottom: 55px;
+        /* margin-top: 25px; */
+        padding-top: 25px;
+        font-family: '微软雅黑';
+        font-weight: normal;
+
+    }
+    .zbx-topaa{
+        font-size: 18px;
+        height: 65px;
+        line-height: 65px;
+        color: #fff;
+        text-align: center;
+         background-color: #2d97ff;
+        
+    }
+    .zbx-imageaa{
+        height: 211px;
+        padding: 20px 26px 0;
+        background-color: #fff;
+        /* background: url("../../images/Zbx/zbx-xiaotuA.jpg") no-repeat 75px 25px; */
+        position: relative;
+    }
+    .zbx-imageaa>img{
+        position: absolute;
+        top: 20px;
+        left: 95px;
+
+    }
+
+    .zbx-boxone p{
+        margin-top: 105px;
+        font-size: 14px;
+        line-height: 24px;
+        color: #333;
+        text-align: center;
+    }
+    /* 复制块
+    .zbx-boxone1{
+        width: 272px;
+        height: 305px;
+        border: #2d97ff 1px solid;
+        float: left;
+        margin-right: 25px;
+        margin-bottom: 25px;
+    } */
+
+    /* .zbx-xi1{
+        width: 100%;
+        height: 832px;
+        background-color: #838282;
+    } */
+
+    .zbx-xi1{
+        width: 100%;
+        height: 500px; 
+        /* text-align: center;  */
+            /* margin-left: 100px; */
+    }
+    .zbx-xi2{
+        width: 100%;
+        height: 325px; 
+        /* text-align: center;  */
+            padding-left: 345px;
+            box-sizing: border-box;
+    }
+    .zbx-xi3{
+        width: 100%;
+        height: 325px; 
+        /* text-align: center;  */
+            padding-left: 666px;
+            box-sizing: border-box;
+    }
+    .zbx-zcontent{
+        width: 1200px;
+        margin: 0 auto;
+    }
+    .buy-btn{
+    display: block;
+    margin: 54px auto;
+    width: 246px;
+    height: 45px;
+    line-height: 45px;
+    font-size: 18px;
+    color: #fff;
+    text-align: center;
+    text-decoration: none;
+    background-color: #00a7de;
+    }
+
+
+
+
+    /* .zbx-boxone11{
+        width: 272px;
+        height: 305px;
+        border: #2d97ff 1px solid;
+        float: left;
+        margin-right: 25px;
+        margin-bottom: 25px;
+    } */
+
+    .zbx-wanle{
+         width: 100%;
+        height: 140px;
+        background-color: #00c1de;
+        
+    }
+
+    .zbx-nice{
+        position: relative;
+        z-index: 2;
+        border: none;
+        color: #00c1de;
+        background-color: #fff;
+        padding: 8px 28px;
+        margin-top: 40px;
+        margin-left: 850px;
+        height: 36px;
+        display: inline-block;
+        font-size: 16px;
+        /* text-align: center; */
+        line-height: 35px;
+        /* transition: all .3s; */
+        }
+    }
