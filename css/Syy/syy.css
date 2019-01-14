@@ -1091,38 +1091,7 @@ margin-left: 95px;
     height: 158px;
     margin: 0 auto;
 }
-.pret{
-  background-image: url(../../images/Syy/tu11.png);
-  width: 70px;
-    height: 70px;
-    background-size: 50%;
-    outline: none;
-    border: 0;
-    font-size: 0;
-    color: transparent;
-    position: absolute;
-    left: -60px;
-    top: 50%;
-    margin-top: -65px;
-    opacity: .8;
-    background-color: aqua;
-}
-.next{
-  background-image: url(../../images/Syy/tu22.png);
-  width: 70px;
-    height: 70px;
-    background-size: 50%;
-    outline: none;
-    border: 0;
-    font-size: 0;
-    background-color: aqua;
-    color: transparent;
-    position: absolute;
-    right: -60px;
-    top: 50%;
-    margin-top: -65px;
-    opacity: 8;
-}
+
 .col-main-container-slick{
   position: relative;
   width: 1180px;
