@@ -492,9 +492,6 @@ a{
 }
 .join-step-wrap{
   position: relative;
-    left: 80px;
-    bottom: 43px;
-    z-index: 10;
     width: 1180px;
     height: 80px;
     box-sizing: border-box;
@@ -502,6 +499,8 @@ a{
     background: #00c1de;
     box-shadow: 0 2px 15px 0 rgba(0,0,0,.15);
     z-index: 0;
+    margin: 0 auto;
+    margin-top: -50px;
 }
 .join-step-wrap ul{
   float: left;
