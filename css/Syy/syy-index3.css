@@ -491,9 +491,9 @@ a{
   color: black;
 }
 .join-step-wrap{
-  position: absolute;
+  position: relative;
     left: 80px;
-    bottom: 90px;
+    bottom: 43px;
     z-index: 10;
     width: 1180px;
     height: 80px;
@@ -542,7 +542,6 @@ a{
 
 /* 样式问题----------------------------------------------------------------------------- */
 .schemaData{
-  width: 100px;
   background-color: white;
 }
 .content{
