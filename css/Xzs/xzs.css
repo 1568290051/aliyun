@@ -938,3 +938,48 @@ color: #373d41;
         color: #00c1de;
         border: 1px solid #00c1de
     }
+
+
+
+
+
+
+/* =========================华丽的分割线========================= */
+.lunbo-box{
+    width: 100%;
+    height: 420px;
+    background-color: #373d41;
+}
+.box-btn{
+    position: relative;
+    width: 1440px;
+    height: 420px;
+    margin: 0px auto;
+}
+.lunbo-box>.box-btn>button{
+    position: absolute;
+    top: 0px;
+    height: 420px;
+    width: 50px;
+    background: transparent;
+    border: none;
+    font-size: 50px;
+    font-weight: bold;
+    z-index: 10;
+    /* opacity: 0; */
+    transition: background 0.5s;
+    opacity: 0.2;
+}
+.lunbo-box>.box-btn:hover>button{
+    /* opacity: 0.7; */
+    background: #0b0f12;
+}
+.lunbo-left{
+    left: 0px;
+}
+.lunbo-right{
+    right: 0px;
+}
+.lunbo-img{
+    
+}
