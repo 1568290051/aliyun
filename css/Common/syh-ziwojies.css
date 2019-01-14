@@ -61,15 +61,16 @@ body{
   background-color: #272b2e;
   transition: height 0.8s 1s;
   box-sizing: border-box;
+  opacity: 0.9;
 }
 .user-jiesao:hover>.user-box{
   height: 550px;
-  border: 1px solid #33cde5;
+  /* border: 1px solid #33cde5; */
   border-left: none;
 }
 .user-jiesao:hover>.user-box>.my-img{
   width: 350px;
-  border: 1px solid #33cde5;
+  /* border: 1px solid #33cde5; */
   border-right: none;
 }
 .my-img{
@@ -143,9 +144,19 @@ body{
   width: 200px;
   background: red;
   margin-top: 35px;
+  border-radius: 15px;
 }
 .jingdutiao1{
   height: 20px;
   width: 150px;
-  background: orange;
+  background: yellowgreen;
+  position: relative;
+  border-radius: 15px;
+}
+.cont-wenz{
+  color: skyblue;
+  font-size: 25px;
+  position: absolute;
+  bottom: 0px;
+  right: -156px;
 }
