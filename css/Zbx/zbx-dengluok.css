@@ -322,3 +322,98 @@ position: relative;
 
 
 /* =============================================== */
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* 底部 */
+.syh-bottom-bottom{
+    height: 164px;
+    background: #373d41;
+    padding-bottom: 30px !important;
+    padding-top: 30px;
+    margin-top: 125px;
+  }
+  .syh-bottom-bottom a{
+      color: #9b9ea0;
+  }
+  .syh-bottom-center .syh-bottom-center-ul1>li>h3{
+    display: inline-block;
+    margin-left: -85px;
+    margin-top: 0px;
+  }
+  .syh-bottom-center .syh-bottom-center-ul1>li{
+    padding-left: 90px;
+    position: relative;
+    height: 26px;
+    line-height: 26px;
+  }
+  .syh-bottom-center .syh-bottom-center-ul1>li li{
+    width: 120px;
+    float: left;
+  }
+  .syh-bottom-center .syh-bottom-center-ul1 ul{
+    overflow: hidden;
+    margin-top: -27px;
+  }
+  .syh-bottom-bottom-p1 a{
+    margin-right: 35px;
+    font-size: 16px;
+  }
+  .syh-bottom-bottom-p2{
+    padding-top: 32px;
+  }
+  .syh-bottom-bottom-p2 a{
+    display: inline-block;
+    font-size: 14px;
+    margin-top: 10px;
+    margin-right: 10px;
+    line-height: 17px;
+    color: #73777a;
+  }
+  .syh-bottom-bottom-p2 a:hover{
+    color: #00c1de;
+  }
+  .syh-p.a{
+    margin-top: 10px;
+  }
+  .syh-p{
+    height: 25px;
+    line-height: 25px;
+    color: #73777a !important;
+  }
+  .syh-jc1,.syh-jc2{
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    background-size: 20px 20px;
+    background-repeat: no-repeat;
+  }
+  .syh-jc1{
+    background-image: url("../../images/Common/syh-jc1.gif");
+  }
+  .syh-jc2{
+    background-image: url("../../images/Common/syh-jc2.png");
+    margin-left: 6px;
+    margin-right: 6px;
+  }
+  
+  
+  
+  
+  /* 版心 */
+  .syh-bottom-out-common{
+    width: 1200px;
+    overflow: hidden;
+    margin: 0px auto;
+    border-bottom: 1px solid #4b5054;
+  }

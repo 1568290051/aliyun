@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Document</title>
+    <title>阿里云-免费注册</title>
     <link rel="stylesheet" href="../css/Common/reset.css">
     <link rel="stylesheet" href="../css/Zbx/zbx-zhuce.css">
     <link rel="shortcut icon" href="../images/Common/ali.ico" type="image/x-icon">
@@ -30,7 +30,7 @@
                         <li><a href="javascript:;">Intermational</a></li>
                         <li><a href="javascript:;">日本サイト</a></li>
                     </ul>
-                </div> 
+                </div>
             </span>
             <a href="javascript:;">首页</a>
         </div>
@@ -64,19 +64,156 @@
                     <!-- 手机号码 -->
                     <span class="zbx-aashouji">+86</span>
                     <span class="zbx-phone">
-                        <input type="text" value maxlength="11"   placeholder="请输入你的手机号码"></span>
+                        <input type="text" value maxlength="11" placeholder="请输入你的手机号码"></span>
                 </div>
-                <!-- 滑块-->
-                    <div class="drag-out">
-                        <span class="zbx-zi">请按住滑块，拖到最右边</span>  <div class="drag-aeea">》</div>
-                        <div class="drag-code"></div>
+
+                <!-- ========================================== -->
+                <!-- 滑块 -->
+                <div class="huakuai">
+                    <!-- 蓝色地 -->
+                    <div class="blue-bottom" id="blue-bg"></div>
+                    <!-- 文字中 -->
+                    <div class="wenzi-center">
+                        <!-- 白色遮罩 -->
+                        <span id="huakuai">按住滑块，拖动到最右边
+                            <i id="white-zz"></i>
+                        </span>
                     </div>
-                    <!-- 同意 -->
-                    <button type="submit" id="login">登录</button>
+                    <!-- 滑动按钮顶 -->
+                    <div class="huadong-btn">》</div>
+                </div>
+                <!-- ===================================== -->
+                <!-- 同意按钮 -->
+                <div class="tongyi">
+                        <input type="submit" value="同意并注册">
                 </div>
             </form>
         </div>
     </div>
+    </div>
+    <div class="syh-bottom-bottom">
+            <!-- 公共部分 -->
+            <div class="syh-bottom-out-common" style="border-bottom:none;">
+              <p class="syh-bottom-bottom-p1">
+                <a href="javascript:;">关于我们</a>
+                <a href="javascript:;">法律声明及隐私权政策</a>
+                <a href="javascript:;">廉正举报</a>
+                <a href="javascript:;">联系我们</a>
+                <a href="javascript:;">加入阿里云</a>
+              </p>
+              <p class="syh-bottom-bottom-p2">
+                <a href="javascript:;">阿里巴巴集团</a>
+                <a href="javascript:;">淘宝网</a>
+                <a href="javascript:;">天猫</a>
+                <a href="javascript:;">聚划算</a>
+                <a href="javascript:;">全球速卖通</a>
+                <a href="javascript:;">阿里巴巴国际交易市场</a>
+                <a href="javascript:;">1688</a>
+                <a href="javascript:;">阿里妈妈</a>
+                <a href="javascript:;">飞猪</a>
+                <a href="javascript:;">阿里云计算</a>
+                <a href="javascript:;">AliOS</a>
+                <a href="javascript:;">阿里通信</a>
+                <a href="javascript:;">万网</a>
+                <a href="javascript:;">高德</a>
+                <a href="javascript:;">UC</a>
+                <a href="javascript:;">友盟</a>
+                <a href="javascript:;">虾米</a>
+                <a href="javascript:;">阿里星球</a>
+                <a href="javascript:;">钉钉</a>
+                <a href="javascript:;">支付宝</a>
+                <a href="javascript:;">达摩院</a>
+              </p>
+              <p class="syh-p a">© 2009-2019 Aliyun.com 版权所有 ICP证：浙B2-20080101</p>
+              <p class="syh-p"><span class="syh-jc1"></span><span class="syh-jc2"></span>浙公网安备 33010002000099号</p>
+            </div>
+          </div>
+    <script>
+        // 获取元素
+        const white = document.querySelector('#white-zz');
+        // 获得元素距离左边的距离
+        var start = -30;
+        var stop = 180;
+        setInterval(function () {
+            // 白色遮罩滚动
+            function whiteGd() {
+                start += 2;
+                white.style.left = start + 'px';
+                // 判断一下
+                if (start >= stop) {
+                    start = -16;
+                    // 清除定时器
+                    clearInterval(timer1);
+                }
+            }
+            var timer1 = setInterval(whiteGd, 8);
+        }, 4000)
+        // 滑块
+            // 获取元素
+             const huakuai = document.querySelector('.huadong-btn');
+             const blueBg = document.querySelector('#blue-bg');
+             const kuang = document.querySelector('.huakuai');
+             const wenz = document.querySelector('#huakuai');
+            var num;
+            //  给滑动的框添加鼠标按下事件
+            huakuai.onmousedown = function(){
+               //  给窗口添加鼠标移动事件
+               kuang.onmousemove = function(e){
+               num = e.clientX-796;
+                huakuai.style.left = num +'px';
+                blueBg.style.width = num +'px';
+                if(num >= 270){
+                    huakuai.style.left = 270 +'px';
+                    wenz.innerHTML = '通过验证<i id="white-zz"></i>';
+                    document.querySelector('.wenzi-center').style.color = 'white';
+                    huakuai.innerText = '✔';
+                    huakuai.style.color = 'green';
+                    huakuai.style.fontSize = '16px';
+                    huakuai.onmousedown = null;
+                    num = 290;
+                }
+               }
+            }
+            huakuai.onmouseup = aa;
+            function aa() {
+                kuang.onmousemove = null;
+                if(num < 270){
+                    var timer2 = setInterval(function(){
+                        num -= 1;
+                        blueBg.style.width = num +'px';
+                        huakuai.style.left = num +'px';
+                        if(num <= 0){
+                            num = 0;
+                            huakuai.style.left = 0 +'px';
+                            blueBg.style.width = 0 +'px';
+                            clearInterval(timer2);
+                            return;
+                        }
+                    },1)
+                }
+               
+            }
+            window.onmouseup = aa;
+            huakuai.onmouseleave = aa;
+
+
+            // 注册按钮
+            const zcBtn = document.querySelector('.tongyi');
+            zcBtn.onclick = function(){
+                
+                if(huakuai.innerText == '✔'){
+                    document.querySelector('.tongyi>input').value = '正在跳转';
+                    setInterval(function(){
+                        document.querySelector('.tongyi>input').value += '.';
+                    },800)
+                    setTimeout(function(){
+                        window.location = './zbx-dengluchenggong.html';
+                    },3000)
+                }
+
+                return false;
+            }
+    </script>
 </body>
 
 </html>
