@@ -449,6 +449,7 @@ a{
     margin-left: -480px;
     width: 960px;
     height: 48px;
+    z-index: 0;
 }
 .input-text{
   float: left;
