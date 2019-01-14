@@ -7,10 +7,11 @@ for(var i = 0; i < aLink.length; i++){
      aLink[j].style.position = 'relative';
      aLink[j].style. zIndex = '0';
      aLink[j].style.backgroundColor = '#373d41';
+     aLink[j].style.boxShadow = ' 0px 0px 0px 0px #d4d4d4';
     }
     this.style.transform = 'scale(1.07)'
     this.style.zIndex = '10';
-    this.style.boxShadow = ' 1px 1px 5px 5px #888888';
+    this.style.boxShadow = ' 3px 3px 8px 8px #d4d4d4';
     this.style.backgroundColor = 'aqua';
   }
 }
