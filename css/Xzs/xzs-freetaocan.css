@@ -190,17 +190,21 @@ box-sizing: border-box;
 .activity-hide{
     display: none;
 }
+/* 企业部分背景色设置 */
 #qy{
     background: #f5f5f6;
 }
+/* 个人部分背景色颜色 */
 #gr{
     background: #f5f5f6;
 }
+/* 产品展示 */
 .product{
     overflow: hidden;
     padding-top: 30px;
     padding-bottom: 30px;
 }
+/* 产品展示主标题 */
 .product-h1{
     height: 36px;
     line-height: 36px;
@@ -210,6 +214,7 @@ box-sizing: border-box;
     overflow: hidden;
     margin-bottom: 10px;
 }
+/* 产品展示副标题 */
 .product-p{
     height: 24px;
     line-height: 24px;
@@ -218,29 +223,36 @@ box-sizing: border-box;
     overflow: hidden;
     margin-bottom: 30px;
 }
+/* 副标题内a标签设置 */
 .product-p-a{
     color: #00b7d3;
 }
+/* 鼠标移入属性 */
 .product-p-a:hover{
     color: #00afc9;
 }
+/* 内容具体展示 */
 .con{
     background: #fff;
     padding: 30px 24px;
     position: relative;
     /* min-height: 248px; */
 }
+/* 左边部分 */
 .con-left{
     width: 752px;
     float: left;
 }
+/* 右边部分 */
 .con-right{
     width: 350px;
     position: absolute;
     top: 30px;
     bottom: 30px;
     right: 24px;
+    /* display: none; */
 }
+/* 第一个p标签 */
 .con-left-o{
     height: 24px;
     line-height: 24px;
@@ -249,6 +261,7 @@ box-sizing: border-box;
     overflow: hidden;
     margin-bottom: 4px;
 }
+/* 第二个标签 */
 .con-left-t{
     height: 24px;
     line-height: 24px;
@@ -257,6 +270,7 @@ box-sizing: border-box;
     overflow: hidden;
     margin-bottom: 16px;
 }
+/* 内容 */
 .con-left-box-center{
     cursor: pointer;
     width: 237px;
@@ -267,7 +281,16 @@ box-sizing: border-box;
     position: relative;
     box-sizing: border-box;
 }
+.con-left-box-active .active{
+    display: block;
+}
+.con-left-box-active{
+    box-shadow: 0 2px 13px 0 rgba(0, 0, 0, 0.06);
+    border: 2px solid #00C1DE
+}
+/* i标签对号 */
 .con-left-box-center-icon{
+    display: block;
     position: absolute;
     right: 0px;
     top: 0;
@@ -279,7 +302,9 @@ box-sizing: border-box;
     text-align: center;
     font-size: 12px;
     color: #fff;
+    font-style: normal;
 }
+/* 第一个p标签 */
 .con-left-box-center-pone{
     margin-top: 12px;
     margin-left: 16px;
@@ -290,6 +315,7 @@ box-sizing: border-box;
     overflow: hidden;
     margin-bottom: 16px;
 }
+/* 第二个p标签 */
 .con-left-box-center-ptwe{
     margin-left: 16px;
     line-height: 18px;
@@ -297,6 +323,7 @@ box-sizing: border-box;
     color: #373D41;
     margin-bottom: 4px;
 }
+/* 第三个p标签 */
 .con-left-box-center-pthree{
     margin-left: 16px;
     height: 18px;
@@ -305,6 +332,7 @@ box-sizing: border-box;
     color: #9B9EA0;
     overflow: hidden;
 }
+/* 第四个p标签 */
 .con-left-box-center-pfour{
     position: absolute;
     bottom: 0;
@@ -316,4 +344,1147 @@ box-sizing: border-box;
     color: #373D41;
     border-top: 1px dashed rgba(0, 0, 0, 0.19);
     box-sizing: border-box;
+}
+/* 矢量图设置 */
+@font-face {
+    font-family: 'iconfont';
+    src: url('../../js/Xzs/check/iconfont.eot');
+    src: url('../../js/Xzs/check/iconfont.eot') format('embedded-opentype'),
+        url('../../js/Xzs/check/iconfont.woff2') format('woff2'),
+        url('../../js/Xzs/check/iconfont.woff') format('woff'),
+        url('../../js/Xzs/check/iconfont.ttf') format('truetype'),
+        url('../../js/Xzs/check/iconfont.svg') format('svg');
+  }
+  .con-left-box-center>.iconfont {
+    font-family: "iconfont" !important;
+    font-size: 10px;
+    font-style: normal;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+  }
+ /* 右边部分标题 */
+  .con-right-tit{
+    height: 18px;
+    line-height: 18px;
+    font-size: 18px;
+    color: #373D41;
+    overflow: hidden;
+    margin-bottom: 20px;
+}
+/* 右边内容标题下解释 */
+  .con-right-list{
+    height: 61px;
+    overflow: hidden;
+    margin-bottom: 12px;
+    list-style: none;
+  }
+  /* 标题下注释的单行内容 */
+  .con-right-list-li{
+    padding-left: 17px;
+    position: relative;
+    margin-bottom: 2px;
+  }
+/* 青色空心圆 */
+  .circle{
+    position: absolute;
+    width: 8px;
+    height: 8px;
+    border: 1px #00ced1 solid;
+    border-radius: 50%;
+    left: 0;
+    top: 5px;
+  }
+  /* 给text添加基础属性 */
+  .con-right-text{
+    line-height: 18px;
+    font-size: 14px;
+    color: #9B9EA0;
+  }
+  /* 给右底部添加基础属性 */
+  .con-right-bottom{
+    width: 100%;
+    position: absolute;
+    bottom: 0;
+}
+/* 免费体验部分 */
+.con-right-bottom-price{
+    height: 22px;
+    line-height: 22px;
+    font-size: 16px;
+    color: #19001D;
+    overflow: hidden;
+    margin-bottom: 14px;
+}
+/* 免费体验部分 */
+.con-right-bottom-price>span{
+    color: #FF7800;
+    margin-right: 14px;
+}
+/* 立即领取部分 */
+.con-right-buybtn{
+    display: block;
+    height: 40px;
+    line-height: 40px;
+    text-align: center;
+    font-size: 16px;
+    color: #FFFFFF;
+    background: #00c1de;
+    overflow: hidden;
+    cursor: pointer;
+}
+/* 产品具体展示 */
+.cons{
+    background: #fff;
+    padding: 30px 24px;
+    position: relative;
+    min-height: 224px;
+
+}
+/* 左边部分标题 */
+.cons-left-tit{
+    height: 24px;
+    line-height: 24px;
+    font-size: 20px;
+    color: #373D41;
+    overflow: hidden;
+    margin-bottom: 4px;
+}
+/* 产品展示 */
+.con{
+   margin-bottom: 30px;
+}
+/* 标题注释 */
+.con-left-t-a{
+    color: #9B9EA0;
+    text-decoration: none;
+    margin-left: 15px;
+}
+/* tab切换导航 */
+.cons-left-tab-nav{
+    width: 100%
+}
+/* tqb切换导航的顶部 */
+.cons-left-tab-nav-top{
+  float: left;
+  cursor: pointer;
+  border: 1px solid #d7d8d9;
+}
+/* tab切换导航顶部的span标签 */
+.cons-left-tab-nav-top-span{
+    display: block;
+    margin: 0px 20px;
+    padding: 0px 10px;
+    font-size: 14px;
+    height: 36px;
+    line-height: 36px;
+}
+/* tab切换导航的底部 */
+.cons-left-tab-nav-bottom{
+    margin-top: 20px;
+    width: 752px;
+    height: 140px;
+    overflow: hidden;
+}
+/* tab切换内容 */
+.tab-nav-li{
+    cursor: pointer;
+    width: 237px;
+    height: 140px;
+    border: 1px solid #D7D8D9;
+    float: left;
+    margin-right: 20px;
+    position: relative;
+    box-sizing: border-box;
+}
+/* 标题 */
+.cons-pro-tit{
+    margin-top: 12px;
+    margin-left: 16px;
+    height: 22px;
+    line-height: 22px;
+    font-size: 12px;
+    color: #373D41;
+    overflow: hidden;
+    margin-bottom: 16px;
+}
+/* 内容 */
+.cons-info{
+    margin-left: 16px;
+    line-height: 18px;
+    font-size: 14px;
+    color: #373D41;
+    margin-bottom: 4px;
+}
+/* 次标题 */
+.cons-exp{
+    margin-left: 16px;
+    height: 18px;
+    line-height: 18px;
+    font-size: 12px;
+    color: #9B9EA0;
+    overflow: hidden;
+}
+/* 免费体验 */
+.cons-free{
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 36px;
+    line-height: 36px;
+    padding-left: 16px;
+    font-size: 12px;
+    color: #373D41;
+    border-top: 1px dashed rgba(0, 0, 0, 0.19);
+    overflow: hidden;
+    box-sizing: border-box;
+}
+/* 边框颜色 */
+.act{
+    background-color: #00c1de;
+    border-color: #00c1de;
+    color: #fff;
+}
+/* 点击后的颜色 */
+.nav-li-show{
+    border: 2px solid #00C1DE;
+}
+/* 小箭头 */
+.cons-left-box-center-icon{
+/* display: block; */
+position: absolute;
+right: 0px;
+top: 0;
+background: #00C1DE;
+display: none;
+width: 20px;
+height: 20px;
+line-height: 20px;
+text-align: center;
+font-size: 12px;
+color: #fff;
+font-style: normal;
+font-size: 13px !important;
+}
+/* 右边部分 */
+.cons-right{
+    width: 350px;
+    position: absolute;
+    top: 30px;
+    bottom: 30px;
+    right: 24px;
+}
+/* 标题 */
+.cons-right-tit{
+    height: 18px;
+    line-height: 18px;
+    font-size: 18px;
+    color: #373D41;
+    overflow: hidden;
+    margin-bottom: 20px;
+}
+/* 标题注释 */
+.cons-right-list{
+    height: 82px;
+    overflow: hidden;
+    margin-bottom: 12px;
+}
+/* 注释 */
+.cons-right-list-li{
+    padding-left: 17px;
+    position: relative;
+    margin-bottom: 2px;
+}
+/* 空心圆 */
+.circle{
+    position: absolute;
+    width: 8px;
+    height: 8px;
+    border: 1px #00ced1 solid;
+    border-radius: 50%;
+    left: 0;
+    top: 5px;
+}
+/* 注释内容 */
+.cons-right-text{
+    line-height: 18px;
+    font-size: 14px;
+    color: #9B9EA0;
+}
+/* 第二个 */
+.cons-right-text2{
+    line-height: 18px;
+    font-size: 14px;
+    color: #9B9EA0;
+}
+/* 第二个 */
+.con-right-text2{
+    line-height: 18px;
+    font-size: 14px;
+    color: #9B9EA0;
+}
+/* 右边底部 */
+.cons-right-bottom{
+    width: 100%;
+    position: absolute;
+    bottom: 0;
+}
+/* 右边底部的免费体验部分 */
+.cons-right-bottom-price{
+    height: 22px;
+    line-height: 22px;
+    font-size: 16px;
+    color: #19001D;
+    overflow: hidden;
+    margin-bottom: 14px;
+}
+/* 免费体验 */
+.cons-right-bottom-price>span{
+    color: #FF7800;
+    margin-right: 14px;
+}
+/* 立即领取部分 */
+.cons-right-bottom-buybtn{
+    display: block;
+    height: 40px;
+    line-height: 40px;
+    text-align: center;
+    font-size: 16px;
+    color: #FFFFFF;
+    background: #00c1de;
+    overflow: hidden;
+    cursor: pointer;
+}
+/* 左边底部属性设置 */
+.cons-left-tab-nav-botton-one{
+    display: none;
+}
+/* 将含有show类名的属性使其出现 */
+.show{
+    display: block;
+}
+/* 具体展示部分的内容 */
+.pro-list{
+    padding-bottom: 40px;
+}
+/* 产品单个具体展示 */
+.pro-list-li{
+    background: #fff;
+    box-shadow: 0 2px 10px 0 rgba(0,0,0,.1);
+    width: 372px;
+    height: 388px;
+    float: left;
+    margin-right: 32px;
+    margin-bottom: 30px;
+    position: relative;
+}
+/* 顶部 */
+.pro-top{
+    padding: 20px 24px 0;
+    height: 116px;
+    box-sizing: border-box;
+}
+/* 内容的顶部 */
+.pro-center-top{
+    height: 45px;
+    margin-bottom: 19px;
+    box-sizing: border-box;
+}
+/* 内容的底部 */
+.pro-center-bottom{
+    padding: 0 24px;
+    height: 82px;
+    border-bottom: 1px solid #ebecec;
+    box-sizing: border-box;
+}
+/* 底部 */
+.pro-bottom{
+    height: 60px;
+    padding: 23px 24px 0;
+    overflow: hidden;
+    box-sizing: border-box;
+    
+}
+/* 免费领取 */
+.pro-buybtn{
+    display: block;
+    cursor: pointer;
+    background: #00c1de;
+    overflow: hidden;
+    margin: 0 auto;
+    width: 324px;
+    height: 40px;
+    line-height: 40px;
+    font-size: 16px;
+    color: #fff;
+    text-align: center;
+    box-sizing: border-box;
+}
+/* 主标题 */
+.pro-tit{
+    height: 28px;
+    line-height: 28px;
+    font-size: 20px;
+    color: #373d41;
+    overflow: hidden;
+    margin-bottom: 4px;
+}
+/* 次标题 */
+.pro-exp{
+    height: 44px;
+    line-height: 22px;
+    font-size: 14px;
+    color: #9b9ea0;
+    overflow: hidden;
+    margin-bottom: 20px;
+}
+/* 查看详情 */
+.pro-exp-a{
+    text-decoration: none;
+    margin-left: 20px;
+    color: #9b9ea0;
+}
+/* tab切换部分 */
+.pro-center-top-center{
+    position: relative;
+    line-height: 45px;
+    height: 45px;
+    border-right: none;
+    border-left: none;
+    font-size: 14px;
+    box-sizing: border-box;
+    display: block;
+    background-color: #fff;
+    border: 1px solid #d9d9d9;
+    transition: all .3s cubic-bezier(.645,.045,.355,1);
+    padding: 0 7px;
+}
+/* tab切换左边部分 */
+.pro-center-top-center-left{
+    float: left;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    max-width: 100%;
+    padding-right: 14px;
+}
+/* tab切换左边部分内容 */
+.pro-center-left-center{
+    line-height: 43px;
+    padding: 0 24px!important;
+    box-sizing: border-box;
+}
+.pro-center-left-centr-p{
+    display: inline-block;
+    font-size: 14px;
+    line-height: 43px;
+}
+/* 字体内容 */
+.bandwidth{
+    display: inline-block;
+    font-size: 18px;
+    color: #373d41;
+    margin-right: 5px;
+    margin-top: -3px;
+}
+/* tab切换右边部分 */
+.pro-center-right-center{
+    font-style: normal;
+    vertical-align: baseline;
+    text-align: center;
+    text-transform: none;
+    text-rendering: optimizeLegibility;
+    position: absolute;
+    top: 50%;
+    right: 8px;
+    line-height: 1;
+    margin-top: -6px;
+    display: inline-block;
+    font-size: 12px;
+    zoom: 1;
+     font-size: 12px !important;
+     /* transform:  rotate(-180deg); */
+     transition:  all 0.2s;
+     cursor: pointer;
+ }
+/* 矢量图引入 */
+@font-face {
+    font-family: 'iconfont';
+    src: url('../../js/Xzs/font_npuk2dv29y/iconfont.eot');
+    src: url('../../js/Xzs/font_npuk2dv29y/iconfont.eot') format('embedded-opentype'),
+        url('../../js/Xzs/font_npuk2dv29y/iconfont.woff2') format('woff2'),
+        url('../../js/Xzs/iconfont.woff') format('woff'),
+        url('../../js/Xzs/iconfont.ttf') format('truetype'),
+        url('../../js/Xzs/iconfont.svg') format('svg');
+  }
+
+  /* 矢量图引入 */
+  .iconfont {
+    font-family: "iconfont" !important;
+    font-size: 16px;
+    font-style: normal;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+  }
+  /* 产品优点 */
+  .pro-center-bottom-p{
+    height: 18px;
+    line-height: 18px;
+    font-size: 14px;
+    color: #9b9ea0;
+    margin-bottom: 4px;
+    padding-left: 16px;
+    position: relative;
+  }
+  /*空心圆 */
+  .circles{
+    position: absolute;
+    display: inline-block;
+    border-radius: 50%;
+    left: 0;
+    top: 5px;
+    width: 8px;
+    height: 8px;
+    border: 1px solid #00c1de;
+    overflow: hidden;
+    box-sizing: border-box;
+  }
+  /* 免费试用部分 */
+  .pro-bottom-p{
+    height: 22px;
+    line-height: 22px;
+    font-size: 16px;
+    color: #373d41;
+    overflow: hidden;
+  }
+  /* 免费试用 */
+  .pro-bottom-p>span{
+    color: #ff7800;
+    margin-right: 10px;
+  }
+  /* 隐藏div */
+  .pro-hide{
+      position: absolute;
+      bottom: 273px;
+      width:100%;
+      display: none;
+      background: #ffffff ;
+      transition:  all 1s;
+      box-shadow: 0 2px 10px 0 rgba(0,0,0,.1);
+  }
+  /* 隐藏div内各行*/
+.pro-hide-ul-li{
+    /* background-color: #f7f7f7; */
+    /* font-weight: 700; */
+    color: rgba(0,0,0,.65);
+}
+/* 各行内div的属性 */
+.pro-hide-ul-li-center{
+    padding: 0 8px;
+}
+.pro-hide-ul-li-centers{
+    padding: 0 24px!important;
+    line-height: 43px;
+    box-sizing: border-box;
+}
+/* 输入字体部分的内容 */
+.pro-hide-ul-li-center-p{
+    margin-right: 0;
+    display: inline-block;
+    font-size: 14px;
+    line-height: 43px;
+}
+  /* 数据类型部分 */
+.flow{
+    display: inline-block;
+    font-size: 18px;
+    color: #373d41;
+    margin-right: 5px;
+    margin-top: -3px;
+}
+/* 内容顶部的内容 */
+.pro-center-top-center{
+    box-shadow: 0 0 8px 0 rgba(33,36,38,.2);
+    border-right: none;
+    border-left: none;
+    /* border-color: #00c1de; */
+}
+/* 点击变成灰色 */
+.gray{
+    background-color: #f7f7f7;
+}
+/* 广告 */
+.gg{
+    background: #FFFFFF;
+}
+/* 广告 */
+.gg-a{
+    width: 1510px;
+    height: 260px;
+    display: block;
+    margin: 0 auto;
+}
+/* 以下产品部分 */
+.try-now{
+    padding-bottom: 60px;
+    background-color: #fff;
+}
+/* 主标题 */
+.try-now-title{
+    font-size: 24px;
+    color: #373d41;
+    line-height: 36px;
+    text-align: center;
+    padding-top: 80px;
+    font-weight: inherit;
+}
+/* 副标题 */
+.try-now-title-deputy{
+    text-align: center;
+    font-size: 14px;
+    color: #73777a;
+    letter-spacing: -.1px;
+    line-height: 24px;
+    margin-top: 10px;
+    margin-bottom: 50px;
+    box-sizing: border-box;
+}
+/* tab切换部分 */
+.promotion-tab{
+    /* width: 1200px;
+    margin: 0 auto; */
+    margin-bottom: 40px;
+    overflow-x: hidden;
+    border-bottom: 1px solid #ebecec;
+    padding-bottom: 8px;
+    box-sizing: border-box;
+}
+/* 标题部分 */
+.promotion-tab-ul{
+    width: 1503px;
+}
+/* 标题部分单个的属性 */
+.promotion-tab-li{
+    font-size: 14px;
+    line-height: 14px;
+    float: left;
+    padding: 0 15px;
+    cursor: pointer;
+    border-right: 1px solid #d7d8d9;
+    color: #373d41;
+    box-sizing: border-box;
+}
+/* tab切换内容 */
+.promotion-tab-center{
+    box-sizing: border-box;
+}
+/* tab切换内容中的ul */
+.promotion-tab-center-ul{
+    width: 100%;
+    overflow: hidden;
+}
+/* li属性 */
+.promotion-tab-center-li{
+    width: 50%;
+    margin-bottom: 30px;
+    /* overflow: hidden; */
+    float: left;
+}
+/* 给li内的盒子添加属性 */
+.tab-center-li-box{
+    height: 168px;
+    margin-right: 0;
+    margin-left: 15px;
+    overflow: hidden;
+    border: 1px solid #d7d8d9;
+    position: relative;
+    /* background-color: hsla(0,0%,100%,.5); */
+    transition: all .3s ease-in-out;
+    /* background-color: hsla(0,0%,100%,.5); */
+    /* box-shadow: 0 2px 15px rgba(0,0,0,.1); */
+}
+/* 给li内的a标签添加属性 */
+.tab-center-li-a{
+    display: block;
+    width: 100%;
+    height: 100%;
+    text-decoration: none;
+    color: #333;
+    overflow: inherit;
+    box-sizing: border-box;
+    padding: 24px 24px 0;
+}
+/* 给li内的第二个box添加属性 */
+.tab-center-li-boxtwo{
+    position: absolute;
+    width: 120px;
+    height: 100px;
+    z-index: 1;
+    bottom: -20px;
+    right: -20px;
+    text-align: center;
+    color: #32cee5;
+    background-size: cover;
+    /* overflow: hidden; */
+    opacity: 0.2;
+    box-sizing: border-box;
+    /* overflow: hidden; */
+}
+/* 给盒子内的img添加属性 */
+.tab-center-li-boxtwo>img{
+    position: absolute;
+    right: 0px;
+    bottom: 0px;
+    height: 100px;
+    margin-top: 34px;
+    box-sizing: border-box;
+}
+/* 给标题设置属性 */
+.tab-center-title{
+    font-size: 16px;
+    font-weight: 700;
+    margin-bottom: 12px;
+    color: #373d41;
+}
+/* 给文本添加属性 */
+.tab-center-text{
+    font-size: 14px;
+    line-height: 24px;
+    color: #73777a;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    max-width: 430px;
+}
+/* 给tab切换内的limit添加属性 */
+.tab-center-limit{
+    font-size: 14px;
+    line-height: 24px;
+    color: #73777a;
+    max-width: 430px;
+}
+/* 给tab切换limit内的span添加属性 */
+.tab-center-limit>span{
+    font-weight: bolder;
+    color: #73777A;
+}
+/* 给盒子内的i标签添加属性 */
+.li-boxtwo-i{
+    margin-top: 15%;
+    position: relative;
+    display: block;
+    right: -33px;
+    bottom: 10px;
+    display: block;
+    width: 108px;
+    height: 108px;
+    background-image: url(../../images/Xzs/TB1yaEvNpXXXXXHXpXXXXXXXXXX-1316-1152.png);
+    background-position: -119px -1029px;
+    background-repeat: no-repeat;
+}
+/* 添加图片属性 */
+.tab-center-li-boxtwo .num{
+    background-position: -128px -1041px;
+}
+/* 给盒子设置基础属性 */
+.tab-center-li-boxthree{
+    position: absolute;
+    width: 108px;
+    height: 129px;
+    z-index: 1;
+    bottom: 0;
+    right: 0;
+    text-align: center;
+    color: #32cee5;
+    background-size: cover;
+    overflow: hidden;
+    opacity: .2;
+}
+/* 给盒子内的i标签添加属性 */
+.tab-center-li-boxthree>i{
+    margin-top: 15%;
+    position: relative;
+    right: -20px;
+    display: block;
+    bottom: -20px;
+    width: 108px;
+    height: 108px;
+    background-image: url(../../images/Xzs/TB1yaEvNpXXXXXHXpXXXXXXXXXX-1316-1152.png);
+    background-position: -119px -1029px;
+    background-repeat: no-repeat;
+}
+/* 每个盒子的图片进行调整 */
+.li-one{
+    background-position: -5px -371px !important;
+    right: -15px !important;
+    bottom: -38px !important;
+}
+.li-three{
+    background-position: -631px -841px !important;
+}
+.li-four{
+    background-position: -259px -243px !important;
+    right: 2px !important;
+    bottom: 6px !important;
+}
+.li-five{
+    background-position: -469px -5px !important;
+    right: -1px !important;
+    bottom: 30px !important;
+}
+.li-six{
+    background-position: -621px -721px !important;
+    right: -13px !important;
+    bottom: 25px !important;
+}
+.li-seven{
+    background-position: -839px -365px !important;
+    right: -10px !important;
+    bottom: 23px !important;
+}
+.li-eight{
+    background-position: -135px -841px !important;
+    right: -23px !important;
+    bottom: 25px !important;
+}
+.li-nine{
+    background-position: -469px -129px !important;
+    right: -6px !important;
+    bottom: 40px !important;
+}
+.li-ten{
+    background-position: -5px -471px !important;
+    right: -5px !important;
+    bottom: 28px !important;
+}
+.li-eleven{
+    background-position: -967px -471px !important;
+    right: -33px !important;
+    bottom: 28px !important;
+}
+.li-twelve{
+background-position: -631px -1029px !important;
+right: 2px !important;
+bottom: 13px !important;
+}
+.li-thirteen{
+    background-position: -243px -5px !important;
+    right: -18px !important;
+    bottom: 37px !important;
+}
+
+.li-fourteen{
+    background-position: -1017px -791px !important;
+    right: -18px !important;
+    bottom: 37px !important;
+}
+.li-fifteen{
+    background-position: -957px -5px !important;
+    right: -18px !important;
+    bottom: 37px !important;
+}
+.li-sixteen{
+    background-position: -1151px -693px;
+    right: 7px !important;
+    bottom: 7px !important;
+}
+.li-seventeen{
+    background-position: -131px -365px !important;
+    right: -11px !important;
+    bottom: 31px !important;
+}
+/* 鼠标移出添加class */
+ .none{
+    box-shadow: none !important;
+    background-color: none !important;
+}
+/* 点击按钮 */
+.tab-btn{
+    text-align: center;
+    padding: 29px 0;
+    bottom: 0;
+    width: 1200px;
+    box-sizing: border-box;
+}
+/* tab切换的内容 */
+.tab-btn-center{
+    font-size: 14px;
+    line-height: 36px;
+    height: 36px;
+    padding: 0 36px;
+    border-color: #00c1de;
+    color: #00c1de;
+    background: transparent;
+    display: inline-block;
+    min-width: 140px;
+    border: 1px solid #00a2ca;
+    text-align: center;
+}
+/* 鼠标移入事件 */
+.tab-btn-center:hover{
+    color: white;
+    background:  #00c1de;
+}
+/* 标题 */
+.con-tit{
+    height: 24px;
+    line-height: 24px;
+    font-size: 20px;
+    color: #373D41;
+    overflow: hidden;
+    margin-bottom: 4px;
+}
+/* 内容 */
+.con-exp{
+    height: 24px;
+    line-height: 24px;
+    font-size: 14px;
+    color: #9B9EA0;
+    overflow: hidden;
+    margin-bottom: 16px;
+}
+/* 个人部分个人部分个人部分个人部分个人部分个人部分个人部分个人部分个人部分个人部分个人部分个人部分个人部分个人部分个人部分 */
+/* 个人部分个人部分个人部分个人部分个人部分个人部分个人部分个人部分个人部分个人部分个人部分个人部分个人部分个人部分个人部分个人部分 */
+/* 个人部分个人部分个人部分个人部分个人部分个人部分个人部分个人部分个人部分个人部分个人部分个人部分个人部分个人部分个人部分个人部分个人部分个人部分个人部分个人部分 */
+/* 个人部分div */
+.gr-con-inner{
+    background: #FAFAFA;
+    border: 1px solid #D7D8D9;
+    overflow: hidden;
+    height: 120px;
+}
+/* div内的各个div属性设置 */
+.gr-con-inner-li{
+    width: 33.33%;
+    padding-left: 15px;
+    float: left;
+    height: 64px;
+    border-right: 1px solid rgba(0, 0, 0, 0.19);
+    margin-top: 26px;
+    box-sizing: border-box;
+}
+/* 标题属性 */
+.gr-inner-li-tit{
+    margin-top: 3px;
+    line-height: 24px;
+    color: #373D41;
+    margin-bottom: 4px;
+    font-size: 24px;
+}
+/* 文本属性的设置 */
+.gr-inner-li-exp{
+    height: 18px;
+    font-size: 12px;
+    color: #9B9EA0;
+    line-height: 18px;
+    overflow: hidden;
+}
+.gr-inner-li-exp2{
+    height: 18px;
+    font-size: 12px;
+    color: #9B9EA0;
+    line-height: 18px;
+    overflow: hidden;
+}
+/* tab切换顶部 */
+.gr-con-tab{
+    width: 100%;
+    height: 36px;
+}
+.gr-con-tab-li{
+    border: 1px solid #d7d8d9;
+    /* border-right: none; */
+    float: left;
+    height: 36px;
+    line-height: 36px;
+    cursor: pointer;
+}
+/* 文本内容 */
+.gr-con-tab-li-span{
+    margin: 0 20px;
+    padding: 0 10px;
+    font-size: 14px;
+    display: block;
+}
+/* tab切换内容 */
+.gr-con-tab-center{
+    margin-top: 20px;
+}
+/* tab切换内容第二部分 */
+.gr-con-tab-centent{
+    background: #FAFAFA;
+    border: 1px solid #D7D8D9;
+    overflow: hidden;
+    height: 120px
+}
+/* 内容中的各个分块 */
+.gr-con-tab-center-li{
+    width: 33.33%;
+    padding-left: 15px;
+    float: left;
+    height: 64px;
+    border-right: 1px solid rgba(0, 0, 0, 0.19);
+    margin-top: 26px;
+    box-sizing: border-box;
+}
+/* 标题 */
+.gr-inner-li-title{
+    margin-top: 3px;
+    line-height: 24px;
+    font-size: 18px;
+    color: #373D41;
+    margin-bottom: 4px;
+}
+.gr-inner-li-title2{
+    margin-top: 3px;
+    line-height: 24px;
+    font-size: 18px;
+    color: #373D41;
+    margin-bottom: 4px;
+}
+/* 右边详情部分 */
+.con1-right{
+    width: 350px;
+    position: absolute;
+    top: 30px;
+    bottom: 30px;
+    right: 24px;
+}
+/* 标题 */
+.con1-right-tit{
+    height: 18px;
+    line-height: 18px;
+    font-size: 18px;
+    color: #373D41;
+    overflow: hidden;
+    margin-bottom: 20px;
+}
+/* 中间属性的设置 */
+.con1-right-lest{
+    height: 61px;
+    overflow: hidden;
+    margin-bottom: 12px;
+}
+/* 各个部分 */
+.con1-right-list-li{
+    padding-left: 17px;
+    position: relative;
+    margin-bottom: 2px
+}
+/* 文本1 */
+.con1-right-text{
+    line-height: 18px;
+    font-size: 14px;
+    color: #9B9EA0;
+}
+/* 文本2 */
+.con1-right-text2{
+    line-height: 18px;
+    font-size: 14px;
+    color: #9B9EA0;
+}
+/* 底部 */
+.con1-right-bottom{
+    width: 100%;
+    position: absolute;
+    bottom: 0;
+}
+/* 免费体验部分 */
+.con1-right-bottom-price{
+    height: 22px;
+    line-height: 22px;
+    font-size: 16px;
+    color: #19001D;
+    overflow: hidden;
+    margin-bottom: 14px;
+}
+/* 免费体验内span标签具体属性 */
+.con1-right-bottom-price>span{
+    color: #FF7800;
+    margin-right: 14px;
+}
+/* 免费领取部分 */
+.con1-right-buybtn{
+    display: block;
+    height: 40px;
+    line-height: 40px;
+    text-align: center;
+    font-size: 16px;
+    color: #FFFFFF;
+    background: #00c1de;
+    overflow: hidden;
+    cursor: pointer;
+}
+
+/* 右边详情部分 */
+.con2-right{
+    width: 350px;
+    position: absolute;
+    top: 30px;
+    bottom: 30px;
+    right: 24px;
+}
+/* 标题 */
+.con2-right-tit{
+    height: 18px;
+    line-height: 18px;
+    font-size: 18px;
+    color: #373D41;
+    overflow: hidden;
+    margin-bottom: 20px;
+}
+/* 中间属性的设置 */
+.con2-right-lest{
+    height: 61px;
+    overflow: hidden;
+    margin-bottom: 12px;
+}
+/* 各个部分 */
+.con2-right-list-li{
+    padding-left: 17px;
+    position: relative;
+    margin-bottom: 2px
+}
+/* 文本1 */
+.con2-right-text{
+    line-height: 18px;
+    font-size: 14px;
+    color: #9B9EA0;
+}
+/* 文本2 */
+.con2-right-text2{
+    line-height: 18px;
+    font-size: 14px;
+    color: #9B9EA0;
+}
+/* 底部 */
+.con2-right-bottom{
+    width: 100%;
+    position: absolute;
+    bottom: 0;
+}
+/* 免费体验部分 */
+.con2-right-bottom-price{
+    height: 22px;
+    line-height: 22px;
+    font-size: 16px;
+    color: #19001D;
+    overflow: hidden;
+    margin-bottom: 14px;
+}
+/* 免费体验内span标签具体属性 */
+.con2-right-bottom-price>span{
+    color: #FF7800;
+    margin-right: 14px;
+}
+/* 免费领取部分 */
+.con2-right-buybtn{
+    display: block;
+    height: 40px;
+    line-height: 40px;
+    text-align: center;
+    font-size: 16px;
+    color: #FFFFFF;
+    background: #00c1de;
+    overflow: hidden;
+    cursor: pointer;
 }
