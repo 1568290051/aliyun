@@ -1111,12 +1111,12 @@ overflow: hidden;
 .col-main-container-slick ul li{
   float: left;
   width: 281px;
-  height: 127px;
-  border: 1px solid black;
+  height: 129px;
+  border: 1px solid #d7d8d9;
   margin-left: 10px;
   margin-left: 10px;
 }
 .col-main-container-slick img{
   width: 281px;
-  height: 125px;
+  height: 129px;
 }
