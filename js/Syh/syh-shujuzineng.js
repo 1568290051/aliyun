@@ -44,9 +44,9 @@ function lunbotu() {
       jiada = aa - dianj;
       oyidong.style.left = oLeft + jiada +'px';
     }
-    chuangkou.onmouseup = function(){
+    window.onmouseup = function(){
     // 给鼠标移动解绑
-    this.onmousemove = null;
+    chuangkou.onmousemove = null;
     // 判断加大的值的绝对值大于500吗
     if(Math.abs(jiada) > 500){
       if(jiada < 0){
