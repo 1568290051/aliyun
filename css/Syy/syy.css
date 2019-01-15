@@ -1095,7 +1095,7 @@ margin-left: 95px;
     margin: 0 auto;
 }
 
-.col-main-container-slick{
+/* .col-main-container-slick{
   position: relative;
   width: 1180px;
   height: 158px;
@@ -1120,3 +1120,31 @@ overflow: hidden;
   width: 281px;
   height: 129px;
 }
+.pret{
+  background-image: url(../../images/Syy/tu11.png);
+  width: 70px;
+    height: 70px;
+    background-size: 50%;
+    color: transparent;
+    position: absolute;
+    left: -60px;
+    top: 59%;
+    margin-top: -65px;
+    opacity: .8;
+    background-repeat: no-repeat;
+    background-position: 25px 19px;
+}
+.next{
+  background-image: url(../../images/Syy/tu22.png);
+  width: 70px;
+    height: 70px;
+    background-size: 50%;
+    color: transparent;
+    position: absolute;
+    right: -60px;
+    top: 59%;
+    margin-top: -65px;
+    opacity: 8;
+    background-repeat: no-repeat;
+    background-position: 6px 19px;
+} */

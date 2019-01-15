@@ -12,21 +12,27 @@
   <script src="../../js/common/syh-common.js"></script>
   <link rel="shortcut icon" href="../../images/common/ali.ico" type="image/x-icon">
   <link rel="stylesheet" href="../../css/common/syh-common.css">
+  <script src="../../js/Syy/animate.js"></script>
 </head>
 <style>
-.pret{
-  background-image: url(../../images/Syy/tu11.png);
-  width: 70px;
-    height: 70px;
-    background-size: 50%;
-    color: transparent;
-    position: absolute;
-    left: -60px;
-    top: 59%;
-    margin-top: -65px;
-    opacity: .8;
-    background-repeat: no-repeat;
-    background-position: 25px 19px;
+.main1{
+  width: 100%;
+  background-color: #ffffff;
+  position: relative;
+}
+.main1 h3{
+  font-size: 24px;
+    color: #373d41;
+    text-align: center;
+    line-height: 32px;
+    margin-bottom: 32px;
+    margin-top: 35px;
+}
+.main1-cenner{
+  width: 1180px;
+  height: 158px;
+  margin: 0 auto;
+  overflow: hidden;
 }
 .next{
   background-image: url(../../images/Syy/tu22.png);
@@ -35,16 +41,41 @@
     background-size: 50%;
     color: transparent;
     position: absolute;
-    right: -60px;
-    top: 59%;
-    margin-top: -65px;
     opacity: 8;
     background-repeat: no-repeat;
     background-position: 6px 19px;
+    top: 95px;
+    right: 20px;
 }
+.slick1{
+  float: left;
+  width: 1180px;
+  height: 158px;
+}
+.slick1 img{
+  float: left;
+  width: 281px;
+  height: 129px;
+  border: 1px solid #d7d8d9;
+  margin-left: 10px;
+  margin-left: 10px;
+}
+.pret{
+  background-image: url(../../images/Syy/tu11.png);
+  width: 70px;
+    height: 70px;
+    background-size: 50%;
+    color: transparent;
+    position:absolute;
+    opacity: .8;
+    background-repeat: no-repeat;
+    background-position: 25px 19px;
+    top: 95px;
+    left: 25px;
+}
+
 </style>
 <body>
-  
   <!-- 顶部 -->
   <div class="syh-top-nav">
     <!-- 导航栏顶部 -->
@@ -1617,9 +1648,7 @@
             </div>
       </div>
     </div>
-  </div>
- 
-  
+  </div> 
   <!-- 右侧的回归顶部 -->
   <div class="syh-maoDian">
   </div>
@@ -2114,8 +2143,7 @@
   </div>
  </div>
 </div>
-<div class="col-main"></div>
-<div class="col-main-container">
+<!-- <div class="col-main-container">
   <h3>核心合作伙伴</h3>
   <div class="col-main-container-list">
       <a href="javascript:;" class="pret"></a>
@@ -2125,14 +2153,34 @@
         <li><img src="../../images/Syy/tu2.png" alt=""></li>
         <li><img src="../../images/Syy/tu3.png" alt=""></li>
         <li><img src="../../images/Syy/tu4.png" alt=""></li>
-        <li><img src="../../images/Syy/tu5.png" alt=""></li>
-        <li><img src="../../images/Syy/tu6.png" alt=""></li>
       </ul>
     </div>
     <a href="javascript:;" class="next"></a>
   </div>
-  <script src="../../js/Syy/syy-j1.js"></script>
-  <script src="../../js/Syy/syy-j3.js"></script>
+</div> -->
+<div class="main1">
+    <h3>核心合作伙伴</h3>
+    <a href="javascript:;" class="pret"></a>
+  <div class="main1-cenner">
+    <div class="slick1">
+        <ul>
+            <li><img src="../../images/Syy/tu1.png" alt=""></li>
+            <li><img src="../../images/Syy/tu2.png" alt=""></li>
+            <li><img src="../../images/Syy/tu3.png" alt=""></li>
+            <li><a href=""><img src="../../images/Syy/tu4.png" alt=""></a></li>
+          </ul>
+    </div>
+    <div class="slick1">
+        <ul>
+          <a href=""></a>
+            <li><a href=""><img src="../../images/Syy/tu5.png" alt=""></a></li>
+            <li><a href=""><img src="../../images/Syy/tu6.png" alt=""></a></li>
+            <li><a href=""><img src="../../images/Syy/tu3.png" alt=""></a></li>
+            <li><a href=""><img src="../../images/Syy/tu4.png" alt=""></a></li>
+          </ul>
+    </div>
+  </div>
+  <a href="" class="next"></a>
 </div>
 <div class="syh-bottom-out">
   <div class="syh-bottom-top">
@@ -2324,6 +2372,8 @@
     </div>
   </div>
 </div>
+<script src="../../js/Syy/syy-j3.js"></script>
 </body>
+<script src="../../js/Syy/syy-j1.js"></script>
 <script src="../../js/Syy/syy-j2.js"></script>
 </html>
