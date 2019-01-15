@@ -891,6 +891,9 @@ margin-left: 95px;
     transition: all .3s ease;
     margin-right: 20px;
 }
+.plan-cenner-box1:hover{
+  box-shadow: #e6e6e6 1px 1px 3px 3px;
+}
 .plan-cenner-box1 h5{
   margin-bottom: 8px;
     font-size: 18px;
