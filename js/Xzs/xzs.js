@@ -438,70 +438,131 @@ $('.product-show-more').on('click',function(){
       $('.product-hide-more').slideDown()
       $(this).text('收起')
     }
-    
-  // console.log($(".product-show-more").offsetHeight)
-  // console.log($('.product-hide-more'))
   })
   
-  var  indexProduct = document.querySelectorAll('.product');
-  console.log(indexProduct)
-  var productCenter = document.querySelectorAll('.product-center')
-  console.log(productCenter)
-  var hideCcenter = document.querySelectorAll('.index-product-hide-center')
-  console.log(hideCcenter)
-  indexProduct[4].setAttribute('data-number',256);
-  indexProduct[5].setAttribute('data-number',400);
-  indexProduct[6].setAttribute('data-number',256);
-  indexProduct[7].setAttribute('data-number',328);
-  indexProduct[8].setAttribute('data-number',184);
-  indexProduct[9].setAttribute('data-number',184);
-  indexProduct[10].setAttribute('data-number',184);
-  indexProduct[11].setAttribute('data-number',256);
-  indexProduct[12].setAttribute('data-number',544);
-  indexProduct[13].setAttribute('data-number',256);
-  indexProduct[14].setAttribute('data-number',112);
-  indexProduct[15].setAttribute('data-number',184);
-  indexProduct[16].setAttribute('data-number',256);
-  indexProduct[17].setAttribute('data-number',112);
-  indexProduct[18].setAttribute('data-number',112);
-  for(var v=0;v<4;v++){
-      indexProduct[v].setAttribute('data-number',400);
-  }
-  for(var e = 0;e<indexProduct.length;e++){
-      indexProduct[e].setAttribute('data-index',e)
-      indexProduct[e].onclick = function(){
-        var num = this.getAttribute('data-number')
-          for(var j = 0; j < indexProduct.length; j++){
-              indexProduct[j].classList.remove('products');
-              $(productCenter[j].parentElement).css('display',"none");
-              // $(productCenter[j].parentElement).animate({"height":0});
-             if(productCenter[j].getAttribute('data-number') != num){
-              //  console.log(num)
-              //  console.log(productCenter[j])
-              //  console.log('if')
-              
-              $(productCenter[j]).fadeOut();
-             
-             } else{
-              // console.log(num);
-              // console.log('else')
-              $(productCenter[j]).css('display','none')
-              $( productCenter[j].parentElement).animate({'height':0}).css('display',"none")
-              console.log(productCenter[j].parentElement)
-              // productCenter[j].parentElement.style.height = num;
-             }
-              // $(indexProduct[j].parentElement.children[1]).css('color','#373d41');
-          }
-          var sum = this.getAttribute('data-index')
-          this.classList.add('products');
-          $(productCenter[sum]).animate({'height':num}).fadeIn();
-          $(productCenter[sum].parentElement).animate({"height":num}).css("display","block");
-          // $(productCenter[sum].parentElement.parentElement.siblings).animate({'height':0});
-          // console.log(productCenter[sum].parentElement)
-          // console.log(productCenter[sum].parentElement.parentElemen.siblings)
-          // $(this.parentElement.children[1]).css('color','#00c1de')
-      }
-  }
+//   ============================================================================================
+
+
+
+// 获取元素
+    // 每一行
+    const oRow = document.querySelectorAll('.index-product-center>div');
+    // 获得需要显示的盒子
+    const oBoxHide = document.querySelectorAll('.index-product-center>div>div');
+    // 获得所有需要隐藏的
+    const hideBoxs = document.querySelectorAll('.product-center');
+    // 获得所有需要点击项
+    const clickBoxs = document.querySelectorAll('.product ');
+    // 让所有的隐藏
+    $(oBoxHide).stop().slideUp();
+    $(hideBoxs).stop().slideUp();
+    console.log(oRow);
+    // 添加自定义属性
+    for(var syhI = 0; syhI < clickBoxs.length; syhI++){
+        clickBoxs[syhI].setAttribute('syh-indexs',syhI);
+    }
+    // 设置一个锁
+    var flage = null;
+    // 添加点击事件
+    $(oRow).click(function(){
+        if(this.getAttribute('a') != flage){
+            flage = this.getAttribute('a');
+        // 让所有的隐藏
+        $(oBoxHide).stop().slideUp();
+        // 让点击的哪一个显示
+        $(this.children[1]).stop().slideDown();
+        console.log('不是同一个');
+        }
+    })
+    // 给点击项添加事件
+    $(clickBoxs).click(function(){
+        // 获得元素自定义属性
+        var syhIndex = this.getAttribute('syh-indexs');
+        // console.log(syhIndex);
+        // 让所有的隐藏
+        $(hideBoxs).stop().slideUp();
+        // 让对应的显示
+        $(hideBoxs[syhIndex]).stop().slideDown();
+    })
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+// ===============================================================================================
+
+
+
+
+
+
 
 // 鼠标移入字体变色
 // $('.index-product-center-one-title>li>a').mouseover(function(){
