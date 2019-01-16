@@ -76,6 +76,75 @@
 
 </style>
 <body>
+  <!-- 自我介绍 -->
+ <div class="user-jiesao">
+    <!-- 引入css注意路径 -->
+    <link rel="stylesheet" href="../../css/common/syh-ziwojies.css">
+    <!-- 引入js注意路径 -->
+    <script>
+      const oReady = document.querySelector('.user-jiesao');
+      oReady.onmouseleave = function () {
+        var myYm = document.querySelector('.user-box')
+        myYm.classList.add('aa-a');
+      }
+      oReady.onmouseenter = function () {
+        var myYm = document.querySelector('.user-box')
+        myYm.classList.remove('aa-a');
+      }
+    </script>
+    <!-- 自我介绍主页面 -->
+    <div class="user-box">
+      <!-- 内容 -->
+      <div class="my-cont">
+        <!-- 标题 -->
+        <p class="syh-title">中国制造</p>
+        <!-- 负责页面 -->
+        <div class="fuzherenwu" style="margin-top:-20px;">
+          <span class="title-zgzz">负责页面：</span>
+          合作伙伴 &nbsp; &nbsp;
+          分销合作伙伴  &nbsp; &nbsp;
+          查看合作伙伴子页面 &nbsp; &nbsp;  
+        </div>
+        <!-- 各项能力指标 -->
+
+        <div class="fuzherenwu">
+          <span class="title-zgzz">还原度：</span>
+          <div class="jingdutiao">
+              <div class="jingdutiao1" style="width:125px;"></div>
+          </div>
+        </div>
+        <div class="fuzherenwu">
+          <span class="title-zgzz">代码量：</span>
+          <div class="jingdutiao">
+              <div class="jingdutiao1"><span class="cont-wenz">2300行</span></div>
+          </div>
+        </div>
+        <div class="fuzherenwu">
+          <span class="title-zgzz">每日完成情况：</span>
+          <div class="jingdutiao">
+              <div class="jingdutiao1" style="width:160px;"></div>
+          </div>
+        </div>
+        <div style="font-size:18px;">个性签名：</div>
+        <div><br><br>
+          &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+          不要像角马一样落后，要像野狗一样战斗！！！<br><br>
+          做比马云帅的男人~~~
+        </div>
+      </div>
+      <!-- 本人照片区域 -->
+      <div class="my-img">
+        <div class="mu-name">施云岩</div>
+        <img src="../../images/common/syh-ziwojies/syh-img2.jpg" alt="">
+      </div>
+    </div>
+    <p class="a1"></p>
+    <p class="a2"></p>
+    <p class="a3"></p>
+    <p class="a4"></p>
+    <p class="a5"></p>
+  </div>
+
   <!-- 顶部 -->
   <div class="syh-top-nav">
     <!-- 导航栏顶部 -->
