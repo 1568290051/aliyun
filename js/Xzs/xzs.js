@@ -231,12 +231,12 @@ var lunboA = document.querySelectorAll('.toptidong')
 // sum++
 // },4000)
 // 每隔一分钟运行函数自动播放
-var sum = 1;
+var suma = 1;
 var timerL = setInterval(function () {
-    lunboLi[sum].onclick();
-    sum++
-    if (sum > 4) {
-        sum = 0;
+    lunboLi[suma].onclick();
+    suma++
+    if (suma > 4) {
+        suma = 0;
     }
     $('.zhezhao').fadeIn('1', function () {
         $('.zhezhao').fadeOut('1');
@@ -254,7 +254,7 @@ for (var i = 0; i < lunboLi.length; i++) {
         setTimeout(function () {
             lunboDiv[index].style.top = "0px";
         }, 500)
-        sum = index;
+        suma = index;
     }
 }
 // 灰色遮盖
@@ -464,6 +464,7 @@ for (var syhI = 0; syhI < clickBoxs.length; syhI++) {
 }
 // 给点击项添加事件
 $(clickBoxs).click(function () {
+    $('.product').removeClass('products');
     // 获得元素自定义属性
     var syhIndex = this.getAttribute('syh-indexs');
     // console.log(syhIndex);
@@ -471,6 +472,7 @@ $(clickBoxs).click(function () {
     $(hideBoxs).stop().slideUp();
     // 让对应的显示
     $(hideBoxs[syhIndex]).stop().slideDown();
+    $(this).children('div').addClass('products');
 })
 // 设置一个锁
 var flage = null;
@@ -516,6 +518,56 @@ $(oRow).click(function () {
 
 
 
+
+
+
+// 精灵图部分
+function jltYd(){
+    // 获得元素
+    var oJlt = document.querySelectorAll('.jingling-center a');
+    // 循环遍历给每个元素添加事件
+    for(var i = 0; i < oJlt.length; i++){
+      // 给元素添加一个索引值
+      oJlt[i].setAttribute('data-index',i);
+      // 给每个元素添加鼠标移入事件
+      oJlt[i].onmouseenter = function(e){
+        // 获得本元素子第一个子元素
+        var firstEle = this.children[0];
+        // 调用基础动画
+        lbtPositionY(-4425,firstEle);
+        this.children[1].classList.add('bulue');
+      }
+      // 给每个元素添加鼠标移出事件
+      oJlt[i].onmouseleave = function(){
+        // 获得本元素子第一个子元素
+        var firstEle = this.children[0];
+        // 调用基础动画
+        lbtPositionY(0,firstEle);
+        this.children[1].classList.remove('bulue');
+      }
+    }
+    // 基础位置切换函数
+    function lbtPositionY(positionVal,ele){
+      clearInterval(ele.timer);
+      var oVal = parseInt(window.getComputedStyle(ele,null)['backgroundPositionY']);
+      // 步进值
+      var step = positionVal < 0 ? -75 : 75 ;
+      ele.timer = setInterval(function(){
+        var aa = oVal += step ;
+        if(aa >= 0){
+          aa = 0;
+        }else if(aa <= -4425){
+          aa = -4425;
+        }
+        ele.style.backgroundPositionY = aa +'px';
+        // 判断是否到达目标值
+        if(parseInt(aa) == positionVal){
+          // 清除清除定时器
+          clearInterval(ele.timer);
+        }
+      },20);
+    }
+  }jltYd();
 
 
 

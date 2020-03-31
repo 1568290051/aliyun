@@ -606,3 +606,14 @@ p.gdhy-wenzi-title{
   line-height: 24px;
   text-align: center;
 }
+.zuixingzhixun-box li a:first-child{
+  overflow: hidden;
+  height: 240px;
+  display: block;
+}
+.zuixingzhixun-box li:hover>a>img{
+  transform: scale(1.2);
+}
+.zuixingzhixun-box li:hover>a>img{
+  transition: 0.9s;
+}

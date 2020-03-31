@@ -200,15 +200,34 @@
        position: relative;
    }
    .zbx-zhuanjiafuwu .zbx-box1 .zbx-image .design{
-       width: 264px;
+       width:100%;
        height: 40px;
        background-color: #070809;
        color:white;
        position: absolute;
        bottom: 0px;
-       left: 11px;
+       left: 0px;
        opacity: 0.5;
     }
+
+.zbx-box1 .zbx-image{
+    overflow: hidden;
+}
+    .zbx-box1 a>img{
+        width: 100% !important;
+        transition: 0.8s;
+        margin: 0px !important;
+    }
+
+.zbx-box1:hover a>img{
+    transform: scale(1.1);
+}
+
+
+
+
+
+    
 
        .zbx-zhuanjiafuwu .zbx-box1 .zbx-image .design span{
            display: block;
